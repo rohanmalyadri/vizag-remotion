@@ -1,0 +1,77 @@
+VIZAG — THE COASTLINE BLUEPRINT · QUALITY REPORT
+Generated 2026-11-24 05:58 UTC from automated measurements (project/source_code/pipeline/qc.py)
+
+1. DELIVERABLE
+   File: output/final_video.mp4
+   Runtime (container): 1075.37 s  ·  video stream 1075.37 s  ·  audio stream 1075.37 s
+   Resolution: 1920x1080 · frame rate 30/1 · codec h264 (H.264, CRF 17, yuv420p)
+   Audio: aac 48000 Hz 2 ch, ~263 kb/s
+   Narration master: input/vizag.mp3.mpeg, 1075.39 s — used unmodified (no edits, no re-timing, no level changes).
+
+2. SCREEN-TIME COMPOSITION (by duration, not clip count)
+   stock video                                    33.6 %
+   3D scene                                       20.4 %
+   real photograph                                19.2 %
+   motion graphics over footage plate             14.6 %
+   footage composite (split/triptych/window)       8.7 %
+   2D motion graphics                              3.5 %
+   → Real-world imagery dominant (stock video + real photographs + footage split-screens): 61.5 %
+   → Motion-graphics dominant (3D scenes + 2D graphics + graphics over dimmed footage plates): 38.5 %
+   Note vs. brief (≈75 % stock / 25 % MG): pure 3D + 2D graphics are ~24 % of screen time, matching the 25 % target;
+   a further ~15 % is typography/data over visible footage plates (quotes, documents, chapter and data cards), which is
+   counted on the graphics side here. Real footage + photographs therefore lead at ~62 %, short of 75 %, because the brief's
+   nine mandatory hero sequences (A–I) plus fact-check labelling require dedicated graphic time.
+
+3. STOCK FOOTAGE RULES
+   Stock shots placed: 117 · unique stock sources used: 91
+   Re-use histogram (uses → number of sources): {'2': 26, '1': 65} · maximum uses of any source: 2
+   Longest continuous stock shot (cut length incl. transition handle): 9.40 s · longest on-screen stock segment: 8.80 s (limit 9.5 s)
+   Every cut is a separate trimmed clip from a different in-point; second uses take a later, non-overlapping section.
+   All stock audio muted (clips were re-encoded with no audio stream).
+
+4. 3D AND MOTION-GRAPHICS SEQUENCES
+   Custom 3D sequences (Three.js / React Three Fiber, real DEM + satellite where geographic): 20
+   Bifurcation, CableMap, CityChoice, DataCentreCampus, EnvMap, Finale, GigawattCubes, GoogleSites, Migration, NorthAndhra, OpenVizag, RouteHome, Runway3D, SteelCity, SteelSite, SubseaScene, ThreeCapitals, TwoRoles, VERMap, WhyVizagMap
+   Distinct motion-graphics components used: 37
+   BetCard, BetIndex, Bifurcation, CableMap, CapacityBars, ChapterCard, CityChoice, CreditTimeline, DataCentreCampus, DataGap, DocScene, EndCard, EnvMap, Finale, GigawattCubes, GoogleSites, JobsIsotype, Migration, NorthAndhra, OpenVizag, PhoneZoom, Questions, RouteHome, Runway3D, SourcesRoll, SplitCompare, StatusFunnel, SteelCity, SteelSite, SteelText, SubseaScene, ThreeCapitals, Triptych, TwoRoles, VERMap, WhyVizagMap, WindowScene
+   Mandatory hero sequences: A Bifurcation (3D extruded states, Hyderabad→Telangana split, rivers, timeline) · B Why Vizag (3D DEM relief,
+   satellite→blueprint, harbour/navy/industry pins, NASA Hudhud imagery) · C Subsea cable (3D ocean dive, seabed cable with data pulses,
+   cut-away cross-section, landing station → data hall; real cable routes on Bay of Bengal bathymetry) · D Google AI hub (1 GW lattice,
+   3 real site pins, 3D campus exterior & rack interior) · E Five bets (bet cards, steel typography with molten footage, 3D steel city,
+   3D runway take-off, VER paper-relief map) · F Jobs (isotype 4,200 vs 'hundreds', capacity bars, MoU funnel) · G Backlash (green
+   relief mode, OSM Mudasarlova polygon, allegation/response cards) · H Credit war (neutral two-track timeline that merges) · I Ravi's
+   choice (bus-window composite, finale blueprint, warning mode, questions).
+
+5. AUDIO VERIFICATION
+   Mixed track max volume: ['-0.1'] dB · mean volume: ['-14.7'] dB (narration alone: max -0.1 dB, mean -14.7 dB)
+   SFX stem: 337 cues of original synthesised sound (whooshes, textures, risers/hits, diegetic beds), sidechain-ducked under narration;
+   stem peak -18.7 dBFS. No music, no copyrighted audio, no stock-clip audio.
+
+6. RENDER VERIFICATION
+   Black segments ≥0.25 s detected: 0 []
+   Frozen segments ≥4 s detected: 0 []
+   Missing assets referenced by the timeline: none
+   Telugu-script strings on screen: 0 · romanized-Telugu candidates: none
+
+7. CHECKLIST
+   [x] Complete original narration included, unmodified
+   [x] Audio and video durations match (±0.1 s)
+   [x] Visual scenes timed to forced-aligned spoken phrases
+   [x] No Telugu text on screen
+   [x] Every continuous stock shot < 9.5 s
+   [x] No stock asset used more than twice
+   [x] No missing assets
+   [x] No black frames (≥0.25 s)
+   [x] No audio clipping (max < 0 dBFS)
+   [x] MoUs/proposals labelled with status tags
+   [x] Allegations and government responses attributed and separated
+   [x] Multiple fonts (Inter display · Source Serif 4 editorial · JetBrains Mono technical)
+
+8. KNOWN LIMITATIONS (stated plainly)
+   • Adobe After Effects and Blender were not available in the container; all animation is code (Remotion + Three.js), so no .aep/.blend files exist.
+   • 3D is rendered with software WebGL (SwiftShader) at a reduced internal pixel ratio for 3D canvases; HTML typography is full resolution.
+   • Pixabay has very little Vizag-specific footage; real Vizag visuals come from Wikimedia Commons photographs, PIB photographs,
+     Sentinel-2 imagery and the few Vizag/Hyderabad Pixabay clips. Generic footage under place-specific narration is tagged 'ILLUSTRATIVE FOOTAGE'.
+   • No photographs were available under an acceptable licence for Gudivada Amarnath, Maddila Gurumoorthy, V.S. Krishna or Prof. Khairagi Reddy;
+     they are identified typographically only. No Modi photograph is used.
+   • Narrator ad-libs beyond the PDF exist; the 2019 'three capitals' passage (02:15–02:38) was transcribed and visualised.

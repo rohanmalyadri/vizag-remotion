@@ -209,7 +209,9 @@ time_s,sound,gain_db,note
 576.67,amb_ocean (bed),-33,diegetic 182082 until 581.10
 580.46,whoosh_3,-27,wipe into s121
 580.93,click_soft,-26,place
+584.20,amb_industrial (bed),-31,diegetic 10447 until 589.70
 584.65,tick,-27,tag
+584.35,tick,-27,tag
 589.90,paper_slide,-24,document
 590.80,paper_place,-27,
 595.00,whoosh_4,-27,wipe into s124
@@ -294,8 +296,10 @@ time_s,sound,gain_db,note
 862.88,tick,-27,tag
 870.43,amb_ocean (bed),-33,diegetic 336240 until 878.20
 870.88,tick,-27,tag
+878.20,amb_city (bed),-35,diegetic 2860 until 884.20
 878.40,paper_place,-28,quote
-889.58,whoosh_3,-27,wipe into s172
+884.65,tick,-27,tag
+889.58,whoosh_3,-27,wipe into s173
 889.73,amb_ocean (bed),-33,diegetic 154195 until 898.17
 889.87,paper_place,-28,quote
 903.47,paper_slide,-24,document
@@ -305,21 +309,21 @@ time_s,sound,gain_db,note
 909.75,tick,-27,tag
 910.05,tick,-27,tag
 918.75,tick,-27,tag
-922.90,whoosh_4,-27,wipe into s177
+922.90,whoosh_4,-27,wipe into s178
 923.83,amb_city (bed),-35,diegetic 198901 until 932.47
 923.98,tick,-27,tag
 924.13,paper_slide,-24,document
 925.03,paper_place,-27,
-931.61,whoosh_5,-27,iris into s178
+931.61,whoosh_5,-27,iris into s179
 932.06,swish,-28,panel reveal
-941.36,whoosh_1,-27,wipe into s179
+941.36,whoosh_1,-27,wipe into s180
 941.79,swish,-28,panel reveal
 959.57,amb_wind (bed),-36,diegetic 139178 until 965.57
 959.72,tick,-27,tag
-970.57,whoosh_2,-27,wipe into s184
+970.57,whoosh_2,-27,wipe into s185
 971.07,amb_city (bed),-35,diegetic 92373 until 976.00
 971.20,paper_place,-28,quote
-982.64,swish,-29,scan into s186
+982.64,swish,-29,scan into s187
 980.60,swell_reverse,-26,into chapter
 982.65,hit_main,-19,chapter hit
 986.47,amb_city (bed),-35,diegetic 120678 until 988.90
@@ -330,9 +334,9 @@ time_s,sound,gain_db,note
 1001.83,tick,-25,strike
 1006.57,amb_ocean (bed),-33,diegetic 1917 until 1008.53
 1007.19,whoosh_deep,-31,map camera move Finale
-1022.64,whoosh_4,-27,iris into s193
+1022.64,whoosh_4,-27,iris into s194
 1023.66,swish,-28,panel reveal
 1031.26,whoosh_deep,-31,map camera move Finale
 1032.30,boom_low,-22,warning
-1038.45,whoosh_5,-27,wipe into s195
+1038.45,whoosh_5,-27,wipe into s196
 1071.27,amb_ocean (bed),-33,diegetic 200479 until 1074.50

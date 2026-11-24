@@ -1,0 +1,122 @@
+{
+ "format": {
+  "duration": "1075.368000",
+  "bit_rate": "8100199"
+ },
+ "streams": [
+  {
+   "codec_name": "h264",
+   "codec_type": "video",
+   "width": 1920,
+   "height": 1080,
+   "r_frame_rate": "30/1",
+   "bit_rate": "7827822",
+   "nb_frames": "32261"
+  },
+  {
+   "codec_name": "aac",
+   "codec_type": "audio",
+   "sample_rate": "48000",
+   "channels": 2,
+   "r_frame_rate": "0/0",
+   "bit_rate": "263596",
+   "nb_frames": "50409"
+  }
+ ],
+ "video_duration": 1075.366667,
+ "audio_duration": 1075.368,
+ "black_segments": [],
+ "freeze_segments": [],
+ "max_volume_db": [
+  "-0.1"
+ ],
+ "mean_volume_db": [
+  "-14.7"
+ ],
+ "peak_levels_db": [
+  "-0.095604",
+  "-0.095604",
+  "-0.095604"
+ ],
+ "telugu_script_strings": [],
+ "romanized_telugu_candidates": [],
+ "missing_assets": [],
+ "stock_unique_sources": 91,
+ "stock_shots": 117,
+ "stock_max_uses": 2,
+ "stock_reuse_hist": {
+  "2": 26,
+  "1": 65
+ },
+ "stock_max_continuous_s": 9.4,
+ "stock_segment_max_onscreen_s": 8.8,
+ "screen_time_pct": {
+  "stock video": 33.6,
+  "3D scene": 20.4,
+  "footage composite (split/triptych/window)": 8.7,
+  "real photograph": 19.2,
+  "motion graphics over footage plate": 14.6,
+  "2D motion graphics": 3.5
+ },
+ "three_d_sequences": [
+  "Bifurcation",
+  "CableMap",
+  "CityChoice",
+  "DataCentreCampus",
+  "EnvMap",
+  "Finale",
+  "GigawattCubes",
+  "GoogleSites",
+  "Migration",
+  "NorthAndhra",
+  "OpenVizag",
+  "RouteHome",
+  "Runway3D",
+  "SteelCity",
+  "SteelSite",
+  "SubseaScene",
+  "ThreeCapitals",
+  "TwoRoles",
+  "VERMap",
+  "WhyVizagMap"
+ ],
+ "mg_components_used": [
+  "BetCard",
+  "BetIndex",
+  "Bifurcation",
+  "CableMap",
+  "CapacityBars",
+  "ChapterCard",
+  "CityChoice",
+  "CreditTimeline",
+  "DataCentreCampus",
+  "DataGap",
+  "DocScene",
+  "EndCard",
+  "EnvMap",
+  "Finale",
+  "GigawattCubes",
+  "GoogleSites",
+  "JobsIsotype",
+  "Migration",
+  "NorthAndhra",
+  "OpenVizag",
+  "PhoneZoom",
+  "Questions",
+  "RouteHome",
+  "Runway3D",
+  "SourcesRoll",
+  "SplitCompare",
+  "StatusFunnel",
+  "SteelCity",
+  "SteelSite",
+  "SteelText",
+  "SubseaScene",
+  "ThreeCapitals",
+  "Triptych",
+  "TwoRoles",
+  "VERMap",
+  "WhyVizagMap",
+  "WindowScene"
+ ]
+}

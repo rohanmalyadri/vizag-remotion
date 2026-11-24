@@ -1,15 +1,14 @@
 # large media and caches stay out of git
-Vizag_Documentary/assets/stock_videos/
-Vizag_Documentary/work/
-Vizag_Documentary/output/*.mp4
-Vizag_Documentary/output/bench/
-Vizag_Documentary/input/vizag.mp3.mpeg
-Vizag_Documentary/project/source_code/remotion/node_modules/
-Vizag_Documentary/project/source_code/remotion/public/stock/
-Vizag_Documentary/project/source_code/remotion/out/
-Vizag_Documentary/assets/maps/ne_10m_admin1.geojson
-Vizag_Documentary/assets/maps/ne_10m_admin0_ind.geojson
-Vizag_Documentary/assets/maps/ne_10m_rivers.geojson
 *.env
 .DS_Store
+Vizag_Documentary/assets/maps/ne_10m_admin0_ind.geojson
+Vizag_Documentary/assets/maps/ne_10m_admin1.geojson
+Vizag_Documentary/assets/maps/ne_10m_rivers.geojson
+Vizag_Documentary/assets/stock_videos/
+Vizag_Documentary/input/vizag.mp3.mpeg
+Vizag_Documentary/output/bench/
+Vizag_Documentary/project/source_code/remotion/node_modules/
+Vizag_Documentary/project/source_code/remotion/out/
+Vizag_Documentary/project/source_code/remotion/public/stock/
+Vizag_Documentary/work/
 __pycache__/
