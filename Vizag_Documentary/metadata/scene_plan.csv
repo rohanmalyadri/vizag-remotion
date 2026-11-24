@@ -1,0 +1,201 @@
+segment,start_s,end_s,duration_s,type,asset_or_component,transition_in,narration_beat_and_visual
+s000,0.00,5.08,5.08,stock,1021,cut,"Imagine… Ravi, 27, from Srikakulam (illustrative character)"
+s001,5.08,7.88,2.80,stock,200435,wipe,Gachibowli: IT software engineer — Hyderabad IT corridor (real Hyderabad footage)
+s002,7.88,10.18,2.30,stock,264270,slit,Every Sankranti (kites)
+s003,10.18,11.41,1.22,stock,44740,cut,… every Dasara (festival lamps)
+s004,11.41,14.81,3.40,stock,24544,cut,Hyderabad → home by bus at night
+s005,14.81,19.29,4.48,motion graphics,RouteHome,wipe,~14 hours by bus (3D map Hyderabad→Srikakulam)
+s006,19.29,22.05,2.77,stock,106980,fade,Rain on a bus window
+s007,22.05,24.70,2.64,stock,137059,cut,Amma asks: can't you find a job here?
+s008,24.70,26.10,1.40,stock,53958,cut,"Ravi laughs: what is here, amma?"
+s009,26.10,29.26,3.16,motion graphics,Triptych,cut,"Everyone goes to Hyderabad, Bangalore, America"
+s010,29.26,34.46,5.20,stock,43630,cut,"But this Sankranti, different talk at home"
+s011,34.46,35.34,0.88,stock,242599,flash,Rumour 1: Google is coming
+s012,35.34,36.48,1.14,stock,282244,flash,Rumour 2: a steel plant is coming
+s013,36.48,38.52,2.04,photo,v_bhogapuram_6,flash,Rumour 3: a new airport has opened (real Bhogapuram runway aerial)
+s014,38.52,42.27,3.74,stock,200434,flash,Rumour 4: Vizag will be the next Hyderabad (real Vizag Beach Road)
+s015,42.27,47.49,5.22,photo,v_beachroad_10,wipe,Same time: protests on Vizag Beach Road (real Beach Road from Kailasagiri)
+s016,47.49,48.75,1.26,stock,149810,cut,'They are cutting our hills'
+s017,48.75,51.75,3.00,stock,143788,cut,'Our water may disappear'
+s018,51.75,55.00,3.24,stock,12333,cut,So Ravi has a doubt
+s019,55.00,60.18,5.18,motion graphics,SplitCompare,iris,My future? Or a sacrifice for someone else's?
+s020,60.18,77.37,17.19,motion graphics,OpenVizag,fade,"Why such a big bet on Vizag? → TITLE (3D terrain, satellite → blueprint)"
+s021,77.37,83.09,5.72,motion graphics,ChapterCard,scan,Chapter 1 title
+s022,83.09,88.16,5.06,stock,74157,cut,"To understand the story, go back to 2014"
+s023,88.16,100.45,12.29,motion graphics,Bifurcation,fade,"June 2, 2014 — AP splits; Hyderabad goes to Telangana; AP keeps coast, Krishna & Godavari (3D)"
+s024,100.45,102.11,1.66,stock,3178,cut,Lakhs of talented youth
+s025,102.11,105.73,3.62,stock,177973,cut,But no capital. No IT hub. No Hyderabad.
+s026,105.73,112.85,7.12,photo,p_naidu_1,cut,Think about Chandrababu Naidu — CM of united AP 1995–2004
+s027,112.85,115.14,2.28,photo,h_hitec_6,wipe,HITEC City came in his time (Cyber Towers 2002 photo)
+s028,115.14,117.18,2.04,stock,200435,cut,'Cyberabad' — the name was born
+s029,117.18,120.40,3.22,stock,220941,cut,"Microsoft, IT companies came to Hyderabad"
+s030,120.40,123.46,3.06,photo,p_naidu_1,flash,He got the 'IT CM' brand
+s031,123.46,127.08,3.62,photo,h_hitec_2,wipe,The base city of that brand is now in another state
+s032,127.08,132.39,5.30,photo,a_amaravati_1,wipe,2014: CBN CM again; Amaravati chosen as capital (Velagapudi aerial)
+s033,132.39,135.60,3.21,photo,a_amaravati_3,cut,"Oct 22, 2015 foundation stone (under-construction quarters)"
+s034,135.60,141.30,5.70,photo,v_kailasagiri_3,wipe,Ad-lib: 2019 YSRCP wins; Jagan brings three-capitals plan
+s035,141.30,146.00,4.70,motion graphics,ThreeCapitals,fade,"Amaravati legislative, Kurnool judicial, Vizag executive (proposed)"
+s036,146.00,152.00,6.00,motion graphics,SplitCompare,iris,CBN → Amaravati; Jagan → Vizag
+s037,152.00,156.60,4.60,photo,v_beachroad_9,fade,Different plans; neither ignored Vizag
+s038,156.60,163.23,6.63,stock,56730,wipe,2024: TDP–Janasena–BJP alliance; CBN CM again
+s039,163.23,170.81,7.59,motion graphics,TwoRoles,fade,Amaravati keeps capital; Vizag gets new role: economic engine (3D map)
+s040,170.81,173.33,2.52,stock,200434,wipe,Visible on the ground in Vizag
+s041,173.33,181.04,7.70,photo,v_kailasagiri_0,cut,"'Swarna Andhra' — Vizag financial nucleus, knowledge hub"
+s042,181.04,187.44,6.40,motion graphics,SplitCompare,wipe,"Amaravati runs the state, Vizag earns for it"
+s043,187.44,194.27,6.82,motion graphics,CityChoice,fade,"Among so many cities, why Vizag? (3D AP map)"
+s044,194.27,199.75,5.48,motion graphics,ChapterCard,scan,Chapter 2 title
+s045,199.75,203.89,4.14,photo,v_dolphin_5,cut,The name isn't accidental — solid reasons
+s046,203.89,211.74,7.84,motion graphics,WhyVizagMap,fade,"First: the sea — natural deep harbour ringed by hills (3D, satellite→blueprint)"
+s047,211.74,214.14,2.40,stock,216315,cut,"Ships, cargo, heavy industry — gold"
+s048,214.14,216.74,2.60,stock,24255,cut,Port at night
+s049,216.74,218.48,1.74,photo,v_submarine_0,cut,"Second: the Navy (INS Kursura museum, Vizag)"
+s050,218.48,222.68,4.20,motion graphics,WhyVizagMap,fade,Eastern Naval Command HQ (3D pin)
+s051,222.68,225.87,3.19,stock,183881,cut,Bay of Bengal — strategic
+s052,225.87,229.99,4.12,motion graphics,WhyVizagMap,scan,"Third: industrial base — steel, refinery, port, pharma"
+s053,229.99,231.99,2.00,photo,v_steel_1,cut,Vizag Steel Plant skyline panorama (real)
+s054,231.99,233.59,1.60,stock,330501,cut,Refinery
+s055,233.59,235.68,2.08,stock,81241,cut,Pharma
+s056,235.68,240.30,4.62,photo,v_kailasagiri_3,cut,"~25 lakh people, a ready-made city"
+s057,240.30,243.10,2.80,photo,v_beachroad_6,wipe,"Fourth: resilience — Cyclone Hudhud, 12 Oct 2014"
+s058,243.10,247.60,4.50,photo,v_hudhud_sat_6,cut,"Hudhud satellite image on landfall day (NASA, PD)"
+s059,247.60,252.17,4.57,photo,v_hudhud_sat_8,cut,Hudhud track (PD)
+s060,252.17,255.77,3.60,photo,v_beachroad_5,wipe,Comeback story matters to investors (rebuilt Beach Road 2019)
+s061,255.77,259.29,3.52,stock,22183,cut,But the real game changer?
+s062,259.29,263.81,4.52,motion graphics,SubseaScene,fade,"HERO part 1: 'wires under the sea' — dive into the Bay, seabed cable with light pulses (3D)"
+s063,263.81,265.81,2.00,stock,134872,cut,"Your phone: video, messages, AI"
+s064,265.81,268.41,2.60,motion graphics,PhoneZoom,cut,Zoom through the phone into the network
+s065,268.41,275.22,6.81,motion graphics,SubseaScene,flash,HERO part 2: cable cross-section → landing station → data centre (3D)
+s066,275.22,279.02,3.80,motion graphics,QuoteCard,wipe,Kurian: Vizag hub linked by subsea cables to Google's global network
+s067,279.02,286.21,7.19,motion graphics,CableMap,fade,HERO: real cable routes on Bay of Bengal seafloor; proposed Vizag gateway
+s068,286.21,298.82,12.61,motion graphics,DataGap,wipe,~20% of world's data vs ~3% of capacity
+s069,298.82,302.64,3.82,stock,2860,cut,"Demand huge, supply missing"
+s070,302.64,311.12,8.49,motion graphics,WhyVizagMap,scan,"Coast, cables, land, power (Vizag blueprint)"
+s071,311.12,314.12,3.00,stock,377885,cut,Big tech turns toward Vizag
+s072,314.12,317.07,2.94,stock,242599,cut,Server hall
+s073,317.07,323.23,6.16,motion graphics,ChapterCard,scan,Chapter 3 title
+s074,323.23,325.69,2.46,motion graphics,BetIndex,wipe,Five bets index
+s075,325.69,330.42,4.72,motion graphics,BetCard,wipe,Bet 1 — Google AI Hub
+s076,330.42,332.42,2.00,stock,206065,cut,"Oct 14, 2025 in New Delhi"
+s077,332.42,337.40,4.98,photo,pib_mou_group,wipe,"MoU between AP IT dept and Google (PIB photo: Koley, Vaishnaw, Sitharaman, Naidu, Lokesh, Kurian)"
+s078,337.40,341.40,4.00,motion graphics,DocScene,wipe,Google blog headline; $15B over 2026–2030
+s079,341.40,348.13,6.73,stock,316736,cut,$15B = ~₹1.3 lakh crore
+s080,348.13,352.83,4.70,stock,14906,cut,Largest Google AI investment outside the US
+s081,352.83,357.03,4.20,photo,pib_ground_shovels,wipe,"Apr 28, 2026 ground-breaking with Naidu & Vaishnaw (PIB)"
+s082,357.03,361.38,4.35,photo,pib_ground_stage,cut,Vaishnaw at the ceremony (PIB)
+s083,361.38,365.94,4.56,motion graphics,QuoteCard,wipe,'Visakhapatnam will be born as AI-Patnam'
+s084,365.94,368.96,3.02,motion graphics,GigawattCubes,fade,1 GW capacity (3D lattice)
+s085,368.96,376.15,7.19,motion graphics,GoogleSites,fade,"Tarluvada, Adavivaram, Rambilli — ~600 acres (3D map)"
+s086,376.15,384.31,8.16,motion graphics,DataCentreCampus,fade,"HERO part 1: anatomy of an AI data centre (3D exterior) — AdaniConneX, Airtel partners"
+s087,384.31,388.44,4.12,motion graphics,BetCard,wipe,Bet 2 — Data-centre city
+s088,388.44,393.64,5.20,stock,316854,cut,Reliance–Brookfield–Digital Realty JV: $11B AI data centre
+s089,393.64,398.82,5.19,stock,14907,cut,Network racks
+s090,398.82,407.21,8.39,motion graphics,CapacityBars,wipe,~9 GW claim vs published ~6–6.5 GW
+s091,407.21,409.31,2.10,motion graphics,SteelText,flash,Bet 3 — Steel City (molten steel inside type)
+s092,409.31,413.31,4.00,motion graphics,SteelSite,fade,"Mar 23, 2026 — Rajayyapeta, Nakkapalli, Anakapalli (3D map)"
+s093,413.31,417.62,4.31,stock,120734,cut,Blast furnace (illustrative)
+s094,417.62,428.46,10.85,motion graphics,SteelCity,fade,"₹1.36 lakh crore · 17.8 MTPA · 5,465 acres (3D beams)"
+s095,428.46,433.61,5.14,photo,p_naidu_1,cut,CBN: 'Not a steel plant — a steel city'
+s096,433.61,435.97,2.36,motion graphics,BetCard,wipe,Bet 4 — New airport
+s097,435.97,440.37,4.40,photo,v_bhogapuram_0,wipe,Bhogapuram ASR International Airport — aerial (construction phase photo)
+s098,440.37,447.89,7.53,motion graphics,Runway3D,fade,Inaugurated Aug 2026 by PM Modi; flights from Aug 17 (3D runway)
+s099,447.89,452.64,4.74,photo,v_bhogapuram_10,cut,Original deadline Dec 2026 — opened months early (terminal under construction May 2026)
+s100,452.64,457.14,4.50,photo,v_vizag_airport_4,cut,Old airport: civil enclave at INS Dega naval air station
+s101,457.14,461.16,4.03,stock,143853,cut,Now Vizag has its own international airport
+s102,461.16,463.73,2.56,motion graphics,BetCard,wipe,Bet 5 — Master plan
+s103,463.73,485.64,21.91,motion graphics,VERMap,fade,"VER Srikakulam→Konaseema, 2032 target, sectors, corridor (3D paper map)"
+s104,485.64,491.64,6.00,stock,1191,cut,"31st CII Partnership Summit, Nov 12–13, 58 countries, MoUs"
+s105,491.64,497.61,5.97,photo,p_lokesh_0,cut,Lokesh at an earlier CII summit (2025)
+s106,497.61,511.12,13.51,motion graphics,StatusFunnel,scan,Wait — MoUs are only promises; not every rupee reaches the ground
+s107,511.12,515.94,4.82,stock,1643,cut,What does the ordinary Andhra person get?
+s108,515.94,526.75,10.81,motion graphics,ChapterCard,scan,Chapter 4 title
+s109,526.75,531.33,4.58,motion graphics,NorthAndhra,fade,People like Ravi — lakhs across North Andhra (3D)
+s110,531.33,532.19,0.86,stock,116763,cut,Construction workers
+s111,532.19,533.59,1.40,stock,39892,cut,IT engineers
+s112,533.59,535.19,1.60,stock,143376,cut,Nurses
+s113,535.19,538.50,3.31,motion graphics,Migration,fade,"All go to Hyderabad, Bangalore, Chennai, Gulf (3D arcs)"
+s114,538.50,546.38,7.88,stock,3175,wipe,Govt pitch: your children needn't leave
+s115,546.38,555.07,8.69,stock,135849,cut,AM/NS: ~1 lakh direct+indirect jobs (company)
+s116,555.07,562.07,7.00,stock,14900,cut,Google: $688M local economic activity / year
+s117,562.07,569.08,7.01,motion graphics,JobsIsotype,wipe,"~4,200 construction jobs (dots) — permanent comes later"
+s118,569.08,574.08,5.00,stock,7517,cut,Cargo terminal → seafood exports
+s119,574.08,576.68,2.60,stock,57049,cut,Pharma exports
+s120,576.68,580.64,3.97,stock,182082,cut,Horticulture & seafood to the world
+s121,580.64,584.21,3.56,photo,v_steel_3,wipe,Emotional angle: Vizag Steel Plant (pylon at the plant)
+s122,584.21,589.71,5.50,stock,10447,cut,"'Visakha Ukku, Andhrula Hakku' — the slogan"
+s123,589.71,595.93,6.23,photo,v_steel_1,cut,Centre promised RINL support (Mar 2026)
+s124,595.93,603.90,7.97,photo,p_naidu_1,wipe,Political angle: CBN's brand rests on development
+s125,603.90,613.98,10.09,motion graphics,SplitCompare,iris,Legacy 1: HITEC City; Legacy 2: AI city?
+s126,613.98,618.91,4.92,stock,152728,cut,Or the MoUs stay headlines
+s127,618.91,620.89,1.98,stock,14907,flash,The twist
+s128,620.89,626.89,6.00,motion graphics,DocScene,wipe,Google statement: permanent specialist jobs only 'hundreds' after 2028
+s129,626.89,633.34,6.45,motion graphics,JobsIsotype,wipe,"Construction ~4,200 vs permanent 'hundreds' (isotype)"
+s130,633.34,637.86,4.52,motion graphics,SplitCompare,iris,$15 billion … for hundreds of jobs?
+s131,637.86,640.76,2.90,stock,8698,cut,Critics' first question
+s132,640.76,647.26,6.50,stock,116693,cut,"Activist: we need mass employment, labour-intensive industries"
+s133,647.26,655.11,7.85,motion graphics,DataCentreCampus,fade,"HERO part 2: inside the hall — racks, cooling; lots of land/power/water, few people (3D)"
+s134,655.11,657.55,2.44,motion graphics,EnvMap,fade,This is where the fight begins (blueprint turns green)
+s135,657.55,662.70,5.14,motion graphics,ChapterCard,scan,Chapter 5 title
+s136,662.70,667.20,4.50,motion graphics,EnvMap,fade,Tarluvada (2016 satellite = before)
+s137,667.20,670.30,3.10,stock,275593,cut,"Hills cleared, green → red earth"
+s138,670.30,673.74,3.45,stock,127958,cut,Excavators clearing land
+s139,673.74,679.71,5.96,motion graphics,SplitCompare,wipe,"Three fears: water, power, jobs"
+s140,679.71,684.31,4.60,stock,2151,cut,DCs pull water and power
+s141,684.31,689.21,4.91,stock,37758,cut,Power demand
+s142,689.21,693.36,4.14,photo,v_mudasarlova_3,wipe,First concern: water — Mudasarlova reservoir (real aerial)
+s143,693.36,701.12,7.77,motion graphics,EnvMap,fade,"Mudasarlova reservoir + Adavivaram site (3D, OSM polygon)"
+s144,701.12,708.85,7.73,motion graphics,QuoteCard,wipe,V.S. Krishna (HRF): DC 120 m from drinking-water reservoir?
+s145,708.85,721.36,12.51,motion graphics,SplitCompare,iris,Viral video: clean jar vs brown jar (allegation)
+s146,721.36,724.70,3.34,photo,v_simhachalam_10,wipe,Second concern: land — Simhachalam Devasthanam
+s147,724.70,738.49,13.79,motion graphics,QuoteCard,wipe,"Prof. Khairagi Reddy: 160 acres of temple land, no EIA/hearing"
+s148,738.49,742.69,4.20,motion graphics,EnvMap,fade,Kambalakonda sanctuary close to sites (3D)
+s149,742.69,744.65,1.96,photo,v_kambalakonda_10,cut,Third concern: clearances (Kambalakonda & Mudasarlova view)
+s150,744.65,753.80,9.15,motion graphics,DocScene,wipe,June 2026: SEIAA granted EC to Adavivaram–Mudasarlova project
+s151,753.80,760.04,6.24,motion graphics,QuoteCard,wipe,HRF: 'brazen injustice'; works before clearance
+s152,760.04,764.30,4.26,photo,v_hudhud_sat_3,cut,Cyclone-prone coast — Hudhud not forgotten
+s153,764.30,767.35,3.04,stock,230083,wipe,Fourth concern: silencing voices
+s154,767.35,779.81,12.47,motion graphics,DocScene,wipe,"July 27, 2026: Left leaders detained en route to Tarluvada"
+s155,779.81,785.06,5.24,photo,v_beachroad_2,cut,Beach Road awareness protests (Green Visakha)
+s156,785.06,787.00,1.94,motion graphics,BetCard,wipe,What does the government say?
+s157,787.00,797.88,10.89,photo,p_lokesh_0,cut,Lokesh defends: thermal plant uses far more water
+s158,797.88,805.87,7.99,stock,208788,cut,Water source named: Rural Water Supply dept
+s159,805.87,813.56,7.69,stock,39892,cut,'For Andhra's youth; every big project faces opposition'
+s160,813.56,820.24,6.68,stock,37758,cut,Worldwide fight over AI data centres
+s161,820.24,824.84,4.60,stock,335040,cut,Finland: Google sites halted pending mandatory EIA
+s162,824.84,829.19,4.35,stock,22378,cut,Finnish forest
+s163,829.19,835.45,6.26,motion graphics,EnvMap,fade,Where? How? At whose cost?
+s164,835.45,838.33,2.88,stock,152728,cut,Twist: politics
+s165,838.33,843.93,5.60,motion graphics,ChapterCard,scan,Chapter 6 title
+s166,843.93,851.02,7.09,stock,199297,cut,"In Andhra politics, the first fight is over credit"
+s167,851.02,854.24,3.22,stock,154195,cut,"First, YSRCP's argument"
+s168,854.24,862.44,8.20,motion graphics,CreditTimeline,wipe,Jagan calls CBN 'credit chor'; YSRCP timeline claims (neutral two-track)
+s169,862.44,870.44,8.00,stock,206694,cut,3 May 2023: Jagan lays foundation for Adani DC (verified)
+s170,870.44,878.20,7.76,stock,336240,cut,"Singapore–Vizag 3,900 km cable begun under YSRCP (claim)"
+s171,878.20,884.20,6.00,stock,2860,cut,Jagan: 'Google DC is just expansion of original Adani project'
+s172,884.20,889.75,5.55,photo,g_google_dc_1,cut,Jagan claim continued: Google takes over once built
+s173,889.75,897.67,7.93,motion graphics,QuoteCard,wipe,Amarnath: CBN hiding Adani deal behind Google's name
+s174,897.67,903.27,5.60,motion graphics,CreditTimeline,fade,TDP's argument: Adani DC began under TDP in 2019
+s175,903.27,909.60,6.33,stock,87146,cut,14 Feb 2019: Naidu laid foundation for Adani DC (verified)
+s176,909.60,918.40,8.80,stock,206692,cut,TDP: CBN attended ground-breaking; delayed under YSRCP (claim)
+s177,918.40,923.83,5.42,photo,pib_mou_group,cut,Google deal Oct 2025 under coalition government (PIB)
+s178,923.83,931.95,8.13,stock,198901,wipe,Twist: YSRCP MP Maddila Gurumoorthy files PIL in AP High Court
+s179,931.95,941.70,9.75,motion graphics,SplitCompare,iris,"Lokesh: 'anti-development' vs Jagan: budget, debt, corruption"
+s180,941.70,952.71,11.01,motion graphics,SplitCompare,wipe,One party: 'our project' while its MP goes to court; other: 'all our vision'
+s181,952.71,959.55,6.85,motion graphics,CreditTimeline,fade,Reality: 2019–2026 both governments shaped the project (tracks merge)
+s182,959.55,965.56,6.00,stock,139178,cut,Credit doesn't matter to the Tarluvada farmer who lost land
+s183,965.56,968.44,2.88,photo,v_mudasarlova_6,cut,Nor to the family drinking Mudasarlova water
+s184,968.44,971.06,2.62,stock,1021,cut,Nor to Ravi in Hyderabad
+s185,971.06,976.00,4.94,motion graphics,QuoteCard,wipe,Will it really happen?
+s186,976.00,982.61,6.60,stock,139232,cut,"If it does — what will it give, what will it take?"
+s187,982.61,986.47,3.86,motion graphics,ChapterCard,scan,Ending title
+s188,986.47,988.39,1.92,stock,120678,cut,Ravi boards the Hyderabad bus
+s189,988.39,997.22,8.83,motion graphics,WindowScene,fade,"Bus window: new airport, new roads, cut hills"
+s190,997.22,1001.22,4.00,stock,137059,cut,Amma's question again
+s191,1001.22,1006.56,5.34,stock,47831,cut,For the first time: not 'no' — 'not yet known'
+s192,1006.56,1008.02,1.46,stock,1917,cut,That's the real story
+s193,1008.02,1023.55,15.53,motion graphics,Finale,fade,The blueprint has evolved — every bet on one coastline (3D)
+s194,1023.55,1032.10,8.55,motion graphics,SplitCompare,iris,"If the bet wins: Hyderabad 2.0, jobs near home"
+s195,1032.10,1038.80,6.70,motion graphics,Finale,fade,"If it fails: hills gone, water down, MoUs headlines (warning 3D)"
+s196,1038.80,1061.12,22.31,motion graphics,Questions,wipe,Three questions
+s197,1061.12,1071.27,10.15,motion graphics,EndCard,fade,Comment & share
+s198,1071.27,1074.00,2.73,stock,200479,fade,"Thanks for watching, Jai Hind"
+s199,1074.00,1075.39,1.39,motion graphics,SourcesRoll,fade,Sources & credits roll (silent tail)

@@ -1,0 +1,1109 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+        .innner-page-main-about-us-content-right-part ul > li, .content-area ul > li {
+  /*list-style: none !important;*/
+}
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+$(function () {
+    $("[id*=printPDF]").click(function () {
+        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+    });
+});
+$(function () {
+    $("[id*=printPDFEvent]").click(function () {
+        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+    });
+});
+</script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="The first phase of the development of Bhogapuram International Greenfield Airport set in motion" /><meta property="og:url" content="https://pib.gov.in/PressReleasePage.aspx?PRID=1922036" /><meta property="og:description" content="The Chief Minister of Andhra Pradesh Shri Jagan Mohan Reddy laid the foundation stone for the development of Bhogapuram International Airport on 3rd May 2023.
+
+The project will be developed in three" /><meta property="og:image" content="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9780_20260902_18024501.png" /><meta property="og:type" content="article" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9780_20260902_18024501.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ubhwvdqxibyjq2yemk5a-f-651b2d9be-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":16,"ak.ipv":4,"ak.proto":"h2","ak.rid":"1ecb7eb9","ak.r":41993,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":49152,"ak.gh":"23.52.43.188","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1795449530","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==S+4U+h/frcVHTeqP/z9B44gPsqkFhjwFca5+3PvuvJTOFRpm0UDgHdQhMuzcv0tNVfWP2SMD8uaqXfl/K3c54JVppD6Ca71GPTDiZ4mtnMToLPJ+2UE5SKe03dtePVz2xR+y9MC1M8D0sk/PQXGjX+XrUvNUR1Ab2aS6duwZ11Y8RTUh7D3+OAp6Q3xR8UihzDCLQPuCJNfXzdnUBftnISPNbWvmvmN0IhJdGykSJs6P45g7lvp0xJxoI2HMapo6gr330KrbZIUz8zJd13U44XwXAZNfBhPvapIofEUrMfqwDqUZue9tFZTDhu/3yO7JBsYc6JRJ5iy6cDP6xkYmwEu+kf+/PYNr2iebaTXQOfpWCjQQB/nCD/mf8Ji0HGK4iMjWrqMb+btwPt1yOJEbGrzooPpuXgLaRkG/0juW/bo=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=1922036&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639191042600000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="LCmUN5antRHwKm85+2Ca5AZpaJ5y0FEhPK8qz4LsuLtsyVkrbS5FJbtL1oV6KssgD/sGwxAVmjb29hGOWCqT46TgQjvksFDCesgQHtyfdJY6wR5ESFzWSovCfumbQsj8+c1Fie2A/vz/29PT2dCNKRxky06avQm2aQ6UgKorZleN3bwaRrz34/xxU/xyWQ8pWMWFGjiHNL0sq6s41lyzcPPyY7+nLwzQD7vgICe0wCgZsK/Npm5Cc6YiSzarRhojUtCaRTfwc5Xtxp/RDQhUI4h1+HM=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="1922036" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Civil Aviation
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        The first phase of the development of Bhogapuram International Greenfield Airport set in motion
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>The Greenfield airport will be developed in three phases<br/><br/>The first phase to cost Rs. 4592 cr and it will create infrastructure that will serve 6 mn passengers per annum<br/><br/>The runway will be of 3800 meters and CAT I enabled<br/><br/>A Cargo Terminal will be developed in an area of 5000 sq meters</span>
+                    </h3>
+                    
+                    
+                </div>
+
+                
+                
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              04 MAY 2023 7:14PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The Chief Minister of Andhra Pradesh Shri Jagan Mohan Reddy laid the foundation stone for the development of Bhogapuram International Airport on 3<sup>rd</sup> May 2023.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The project will be developed in three phases:</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1st phase - Will be developed to serve 6 million passengers per annum (MPPA)</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2nd phase - The capacity will be increased up to 12 MPPA</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">3rd phase &ndash; The development will conclude with a total capacity of 18 MPPA</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">This airport will be developed as a Greenfield airport and has an estimated project cost of Rs. 4592 crore for phase 1. The total land area of the airport will be 2203.26 acres with CAT I enabled runaway spread across 3800 meters and a cargo terminal in 5000 sq meters.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">A Memorandum of Understanding (MoU) was signed between the Airports Authority of India (AAI) and the Government of Andhra Pradesh on 12.09.2022, wherein it was agreed that the State Govt. will mutate the entire Airport land in the name of AAI without charging any stamp duty or mutation charges or any other charges or fee within 06 months from the date of signing of MoU, and Civil Enclave at Visakhapatnam (INS Dega) would be closed for 30 years from the date of commencement of operations of Bhogapuram Airport. </span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The MoU between the Ministry of Civil Aviation and the Airport Developer i.e. GMR Visakhapatnam International Airport Limited (GVIAL) was exchanged on 10.03.2023 for reserved services at the airport and The Agreement between GVIAL and BCAS was exchanged on 06.04.2023.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The airport would become a growth engine for the development of the state and play a key role in the rise of tourism in the Northern Andhra region.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">****</span></strong></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>YB/DNS/PS</strong></span></span></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 1922036)</span>
+                <span id="lblViews">Visitor Counter : 11854</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1922073' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1922067' target="_blank">
+                            हिन्दी </a>
+                    
+                </div>
+
+                
+                
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1922036"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1922036"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1922036"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1922036"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d1922036"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Civil Aviation
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            The first phase of the development of Bhogapuram International Greenfield Airport set in motion
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>The Greenfield airport will be developed in three phases<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>The first phase to cost Rs. 4592 cr and it will create infrastructure that will serve 6 mn passengers per annum<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>The runway will be of 3800 meters and CAT I enabled<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>A Cargo Terminal will be developed in an area of 5000 sq meters
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          04 MAY 2023 7:14PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The Chief Minister of Andhra Pradesh Shri Jagan Mohan Reddy laid the foundation stone for the development of Bhogapuram International Airport on 3<sup>rd</sup> May 2023.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The project will be developed in three phases:</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1st phase - Will be developed to serve 6 million passengers per annum (MPPA)</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2nd phase - The capacity will be increased up to 12 MPPA</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">3rd phase &ndash; The development will conclude with a total capacity of 18 MPPA</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">This airport will be developed as a Greenfield airport and has an estimated project cost of Rs. 4592 crore for phase 1. The total land area of the airport will be 2203.26 acres with CAT I enabled runaway spread across 3800 meters and a cargo terminal in 5000 sq meters.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">A Memorandum of Understanding (MoU) was signed between the Airports Authority of India (AAI) and the Government of Andhra Pradesh on 12.09.2022, wherein it was agreed that the State Govt. will mutate the entire Airport land in the name of AAI without charging any stamp duty or mutation charges or any other charges or fee within 06 months from the date of signing of MoU, and Civil Enclave at Visakhapatnam (INS Dega) would be closed for 30 years from the date of commencement of operations of Bhogapuram Airport. </span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The MoU between the Ministry of Civil Aviation and the Airport Developer i.e. GMR Visakhapatnam International Airport Limited (GVIAL) was exchanged on 10.03.2023 for reserved services at the airport and The Agreement between GVIAL and BCAS was exchanged on 06.04.2023.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The airport would become a growth engine for the development of the state and play a key role in the rise of tourism in the Northern Andhra region.</span></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">****</span></strong></span></span></p>
+
+<p style="margin-left:0cm; margin-right:0cm"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>YB/DNS/PS</strong></span></span></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 1922036)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036&text=The first phase of the development of Bhogapuram International Greenfield Airport set in motion' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=The first phase of the development of Bhogapuram International Greenfield Airport set in motion&body=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036&title=The first phase of the development of Bhogapuram International Greenfield Airport set in motion&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036&text=The first phase of the development of Bhogapuram International Greenfield Airport set in motion' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=The first phase of the development of Bhogapuram International Greenfield Airport set in motion&body=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=1922036&title=The first phase of the development of Bhogapuram International Greenfield Airport set in motion&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="The first phase of the development of Bhogapuram International Greenfield Airport set in motion" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>The Greenfield airport will be developed in three phases&lt;br/>&lt;br/>The first phase to cost Rs. 4592 cr and it will create infrastructure that will serve 6 mn passengers per annum&lt;br/>&lt;br/>The runway will be of 3800 meters and CAT I enabled&lt;br/>&lt;br/>A Cargo Terminal will be developed in an area of 5000 sq meters" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>The Chief Minister of Andhra Pradesh Shri Jagan Mohan Reddy laid the foundation stone for the development of Bhogapuram International Airport on 3rd May 2023.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>The project will be developed in three phases:&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>1st phase - Will be developed to serve 6 million passengers per annum (MPPA)&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>2nd phase - The capacity will be increased up to 12 MPPA&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>3rd phase &amp;ndash; The development will conclude with a total capacity of 18 MPPA&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>This airport will be developed as a Greenfield airport and has an estimated project cost of Rs. 4592 crore for phase 1. The total land area of the airport will be 2203.26 acres with CAT I enabled runaway spread across 3800 meters and a cargo terminal in 5000 sq meters.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>A Memorandum of Understanding (MoU) was signed between the Airports Authority of India (AAI) and the Government of Andhra Pradesh on 12.09.2022, wherein it was agreed that the State Govt. will mutate the entire Airport land in the name of AAI without charging any stamp duty or mutation charges or any other charges or fee within 06 months from the date of signing of MoU, and Civil Enclave at Visakhapatnam (INS Dega) would be closed for 30 years from the date of commencement of operations of Bhogapuram Airport. &lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>The MoU between the Ministry of Civil Aviation and the Airport Developer i.e. GMR Visakhapatnam International Airport Limited (GVIAL) was exchanged on 10.03.2023 for reserved services at the airport and The Agreement between GVIAL and BCAS was exchanged on 06.04.2023.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>The airport would become a growth engine for the development of the state and play a key role in the rise of tourism in the Northern Andhra region.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm; text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>****&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-left:0cm; margin-right:0cm&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>YB/DNS/PS&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="7XGBUM99lEJq1lyL9rw7WoU6Aziuz257PoY-mbWPC3hU43CnPDBDB-Ze_eeXGokw5dybRMInLGKno6qG_cflXSjlr50OmzJuGNV4J8bb-QJ1pBtXqv6XEw=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+(function () {
+    try {
+        if (window.self === window.top) { return; }
+    } catch (e) { return; }
+    var s = document.createElement("style");
+    s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+    (document.head || document.documentElement).appendChild(s);
+}());
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+VIZAG — THE COASTLINE BLUEPRINT
+FACT-CHECK REPORT
+Prepared: 23 November 2026 · Narration: original Telugu voice-over (not altered) · Script: Vizag.pdf
+
+HOW TO READ THIS REPORT
+Every claim that became an on-screen graphic was checked against at least one published source.
+Status vocabulary used on screen and below:
+  CONFIRMED            – documented fact (date/event happened)
+  OFFICIAL ANNOUNCEMENT – government statement / press release
+  COMPANY COMMITMENT    – investment announced by a company (money not yet spent)
+  MoU                   – memorandum of understanding (a promise, not an investment)
+  PROPOSED / UNDER CONSTRUCTION / OPERATIONAL – physical status of a project
+  COMPANY ESTIMATE / PROJECTED – a forecast by the company or government
+  ALLEGATION            – claim by activists / civil-society groups, not independently verified
+  POLITICAL CLAIM       – statement by a political party or leader
+  GOVERNMENT RESPONSE   – the state's answer to criticism
+  UNVERIFIED / DISPUTED – no supporting source found, or sources conflict
+The narration was NOT rewritten. Where the narration differs from the record, the on-screen text
+shows the verified figure (or avoids the number) and the scene is flagged below with ⚑.
+
+──────────────────────────────────────────────────────────────────────────────
+CHAPTER 1 — THE HYDERABAD WOUND
+──────────────────────────────────────────────────────────────────────────────
+• 2 June 2014 bifurcation; Hyderabad to Telangana — CONFIRMED (AP Reorganisation Act, 2014).
+• N. Chandrababu Naidu CM of united AP 1995–2004; HITEC City (Cyber Towers opened 1998) — CONFIRMED.
+• Amaravati foundation stone 22 Oct 2015 — CONFIRMED.
+• 2024 TDP–Janasena–BJP alliance win; Naidu CM again — CONFIRMED.
+• Narrator ad-lib (00:02:15–00:02:38, not in the PDF; recovered by targeted re-transcription):
+  2019 YSRCP win; "three capitals" plan (Amaravati legislative, Kurnool judicial, Visakhapatnam executive).
+  — CONFIRMED as a proposal of the 2019–24 government; shown as "PROPOSED · NOT IMPLEMENTED".
+• "Swarna Andhra", Vizag as "financial nucleus / knowledge hub" — OFFICIAL VISION (state government).
+
+──────────────────────────────────────────────────────────────────────────────
+CHAPTER 2 — WHY VIZAG?
+──────────────────────────────────────────────────────────────────────────────
+• Natural harbour; Eastern Naval Command HQ in Visakhapatnam; steel plant, refinery, port, pharma — CONFIRMED.
+• "~25 lakh population" — APPROXIMATE. 2011 Census GVMC ≈ 17.3 lakh; current metro estimates vary.
+  On screen: "25 lakh people, roughly" tagged "APPROXIMATE · AS STATED".
+• Cyclone Hudhud landfall 12 Oct 2014 — CONFIRMED (IMD; NASA imagery used is public domain).
+  No historical cyclone footage was fabricated; only NASA satellite images + rebuilt-city photographs are used.
+• ⚑ Thomas Kurian / "12 countries": Kurian (14 Oct 2025) said the hub would be connected to subsea cables and Google's
+  global network; Google's blog says multiple international subsea cables will land in Vizag.
+  "12 countries" refers to Google's network of AI centres, NOT to the countries the cable reaches.
+  "Singapore, Malaysia, Australia" as cable destinations — NOT FOUND in Google's announcement → UNVERIFIED.
+  On screen: Kurian's statement is paraphrased and labelled; the Vizag–Singapore arc is labelled
+  "ANNOUNCED · ROUTE SHOWN IS ILLUSTRATIVE"; Singapore pin labelled "AS STATED IN NARRATION".
+  Existing cables drawn are real routes from TeleGeography's Submarine Cable Map (CC BY-SA 4.0).
+• "1 in 5 of the world's data from India; India ~3% of data-centre capacity" — INDUSTRY ESTIMATES.
+  Deloitte (~20% / ~3%), KPMG (2–3%), Takshashila (~1%). On screen tagged "ESTIMATES", range noted.
+
+──────────────────────────────────────────────────────────────────────────────
+CHAPTER 3 — THE BIG BETS
+──────────────────────────────────────────────────────────────────────────────
+BET 1 · Google AI hub
+• MoU signed 14 Oct 2025 in New Delhi (Bharat AI Shakti event) — CONFIRMED (PIB releases 2178852, 2179035).
+• ~US$15 bn over five years 2026–2030; largest Google investment in India; largest AI hub outside the US — COMPANY COMMITMENT
+  (Google India blog "Our first AI hub in India, powered by a $15 billion investment").
+• "≈ ₹1.3 lakh crore" — conversion approximately correct (PIB later cited ₹1.35 lakh crore).
+• Ground-breaking 28 Apr 2026 with CM Naidu and Union Minister Ashwini Vaishnaw — CONFIRMED (PIB 2256187).
+  PIB calls it a "Ground Breaking Ceremony"; narration says "foundation stone" — equivalent in substance.
+• Quote "Visakhapatnam will be born as AI-Patnam" — CONFIRMED (Business Today, 28 Apr 2026; PIB: "AI Patnam").
+• 1 GW; sites Tarluvada, Adavivaram, Rambilli; ~600 acres — CONFIRMED as allotments/plan (reports cite 601.4 acres).
+• Built with AdaniConneX (Adani × EdgeConneX JV) and Airtel (Nxtra) — CONFIRMED.
+  The 3D data-centre is an explanatory model ("PROPOSED · EXPLAINER, NOT THE ACTUAL DESIGN"), not Google's design.
+BET 2 · Data-centre city
+• Digital Connexion (Reliance–Brookfield–Digital Realty JV) US$11 bn, 1 GW, Visakhapatnam — MoU/ANNOUNCED (Nov 2025).
+• ⚑ "~9 GW of agreements" — NOT FOUND. State figures in 2026: ~6–6.5 GW (Nara Lokesh, Assembly; Aug 2026 reports).
+  On screen: 9 GW shown as a dashed "CLAIM" bar with a fact-check line giving the published 6–6.5 GW.
+BET 3 · Steel city
+• AM/NS India greenfield plant, Rajayyapeta (Nakkapalli mandal, Anakapalli district), foundation 23 Mar 2026 — CONFIRMED.
+• ₹1.36 lakh crore — reported widely (AIR/Swarajya); one outlet reported ₹70,000 crore for an earlier phase → labelled "COMPANY / STATE FIGURE".
+• 17.8 MTPA in two phases — CONFIRMED as plan (company release names 8.2 MTPA for phase 1) → shown with phase-1 note.
+• ⚑ 5,465 acres — exact figure NOT FOUND (reports: "more than 5,000 acres"; one earlier report 6,000). Labelled "AS STATED".
+• "Steel city, not steel plant" (Naidu) — CONFIRMED (Swarajya, 23 Mar 2026). Shown as translated statement.
+BET 4 · Bhogapuram airport
+• Inaugurated by PM Modi 1 Aug 2026; all Vizag flights moved 17 Aug 2026 — CONFIRMED (PIB 2292165; Business Standard; Swarajya).
+• ⚑ "Ready six months early vs a December 2026 deadline" — August vs December is ~4 months. On screen only the dates are shown
+  ("Target: December 2026. Opened: August 2026."), no "six months" claim.
+• Old airport = civil enclave at naval air station INS Dega — CONFIRMED.
+BET 5 · Visakhapatnam Economic Region (VER)
+• ⚑ "Srikakulam to Konaseema; ₹9.3 lakh crore investment target by 2032; 'Bay City'" — NOT FOUND as stated.
+  Published plan (NITI Aayog review, 6 Jun 2025): VER of eight districts (Visakhapatnam, Vizianagaram, Srikakulam, Anakapalli,
+  Kakinada, East Godavari, ASR, Manyam), regional-economy target US$120 bn by 2032 (a GDP target, not an investment target).
+  On screen: "TARGET · NOT AN ACHIEVEMENT — US$120 bn regional economy target, eight districts". Konaseema label follows narration geography only.
+• 31st CII Partnership Summit, 12–13 Nov 2026, ~58 countries — CONFIRMED (CII/Embassy brochure; Deccan Chronicle).
+  Day-1 figure (73 MoUs + 15 GOs, ₹5.84 lakh crore) reported by Yo Vizag/NewsBytes — shown as PROPOSED.
+• "MoUs are promises, not investment" — editorial point; visualised as MoU → Approved → Under construction → Operational funnel.
+
+──────────────────────────────────────────────────────────────────────────────
+CHAPTER 4 — WHAT'S IN IT FOR ANDHRA?
+──────────────────────────────────────────────────────────────────────────────
+• AM/NS "~1 lakh direct & indirect jobs" — COMPANY ESTIMATE (company/AIR reporting "more than 100,000").
+• Google "$688 million local economic activity per year" — COMPANY ESTIMATE (Business Standard; AFP).
+• "~4,200 construction jobs" — COMPANY ESTIMATE; Business Standard describes it as a typical data-centre build (3–5 years).
+• "Hundreds" of permanent specialist jobs once operational in 2028 — COMPANY ESTIMATE (AFP/Yahoo, Malay Mail, Oct 2026).
+  The isotype shows ~4,200 (42 dots × 100) vs "hundreds" (range drawn, exact number undisclosed). No multiplier invented.
+• AP government's 188,000 direct+indirect jobs projection exists but is NOT shown (not in narration).
+• Bhogapuram cargo terminal ~25,000 t/yr — PLANNED (most reports; one report says 20,000 t). Tagged "PLANNED".
+• "Visakha Ukku, Andhrula Hakku" slogan — shown only in English translation ("Visakha Steel is Andhra's right").
+• RINL support promised at the 23 Mar 2026 event — reported; shown as "A promise — not yet delivered".
+• Activist quote ("mass employment, labour-intensive industries…") — the speaker is not named in the script; shown as
+  "An activist · as quoted in narration" with tag CRITIC. Source of the exact quote not independently located → UNVERIFIED attribution.
+
+──────────────────────────────────────────────────────────────────────────────
+CHAPTER 5 — THE BACKLASH
+──────────────────────────────────────────────────────────────────────────────
+• ⚑ "September 2026 Tarluvada aerial photos": Reuters (6 Aug 2026) described a hillside stripped to red earth; activist galleries
+  hold Tarluvada images; a dated Sept-2026 Tarluvada aerial was NOT found. We do not show any Tarluvada aerial photograph
+  (no licence). The 3D map uses 2016 Sentinel-2 imagery labelled "IMAGE: SENTINEL-2, 2016 (BEFORE)"; cleared-earth footage
+  is generic stock labelled "ILLUSTRATIVE FOOTAGE".
+• Mudasarlova is a drinking-water reservoir for Vizag — CONFIRMED.
+• V.S. Krishna (HRF) "120 metres from a drinking-water reservoir" — ALLEGATION (HRF statements; distance not independently verified).
+  The 3D map uses the real OSM outline of Mudasarlova reservoir and the OSM location of Adavivaram village; the exact site
+  boundary was not available, so no measured distance is drawn — the 120 m figure appears only as an attributed allegation.
+• Viral video of a woman with clean vs brown water (May 2026) — ALLEGATION; the video itself is NOT shown (rights).
+  A labelled "RECONSTRUCTION" split screen with generic water footage is used instead.
+• Prof. Khairagi Reddy (Green Visakhapatnam): 160 acres of Simhachalam Devasthanam land allotted without EIA/public hearing —
+  ALLEGATION (Deccan Chronicle). A separate PIL (Bolisetty Satyanarayana) challenges the temple-land transfer.
+• Kambalakonda Wildlife Sanctuary near the sites — CONFIRMED proximity (sanctuary centre marked "APPROX. CENTRE").
+• SEIAA Environmental Clearance to Adavivaram–Mudasarlova park, June 2026 — CONFIRMED (date given as 10 June by HRF/NGT coverage;
+  SEIAA affidavit cites 5 June). Category B2 appraisal is under challenge at the NGT.
+• HRF "brazen injustice", works before clearance — ALLEGATION (HRF statement 13 Jun 2026, title wording).
+• 27 Jul 2026 Left leaders detained en route to Tarluvada — CONFIRMED as reported (The Hindu headline; Prajasakti: 37 detained).
+• ⚑ Nara Lokesh: "1 GW thermal plant uses 7× more water than a 1 GW data centre" — reported in Assembly coverage as ~10×.
+  On screen: "many times more water" with the role line "NARRATION SAYS 7×; ASSEMBLY REPORTS SAY ~10×". GOVERNMENT RESPONSE.
+• Water source "Rural Water Supply department" in clearances — GOVERNMENT RESPONSE (as stated; underlying clearance text not seen).
+  Related reported statements: water from Polavaram industrial allocation; no diversion of city drinking water; Google says air cooling.
+• Finland: authority (LVV) ordered Google's subsidiary to pause work at Muhos and Kajaani pending mandatory EIA (Oct 2026) — CONFIRMED
+  (Euronews, CNBC, Helsinki Times). Finnish forest footage is generic and labelled ILLUSTRATIVE.
+
+──────────────────────────────────────────────────────────────────────────────
+CHAPTER 6 — THE CREDIT WAR (both parties styled identically; no party colours)
+──────────────────────────────────────────────────────────────────────────────
+• Jagan's "credit chor" remark; claim that Adani is investing ₹87,000 cr and Google will take over — POLITICAL CLAIM (Hans India; Deccan Herald).
+• "Nov 2020 land allotted to Adani for 300 MW DC" — POLITICAL CLAIM; Jagan cabinet allotted 130 acres (date not confirmed in sources found).
+• 3 May 2023 Jagan laid foundation for Adani data centres (200 MW Madhurawada + 100 MW Kapuluppada, ₹21,844 cr) — CONFIRMED.
+• "Singapore–Vizag 3,900 km cable began under YSRCP" — POLITICAL CLAIM, NOT VERIFIED.
+• Gudivada Amarnath's allegation — POLITICAL CLAIM.
+• ⚑ TDP: "Adani MoU January 2019" — the documented event is the 14 Feb 2019 foundation by then-CM Naidu (IANS). Shown as
+  "VERIFIED (FOUNDATION)" with a note that the script's January MoU date is unconfirmed.
+• "Delayed under YSRCP" — POLITICAL CLAIM (TDP).
+• Google deal Oct 2025 under coalition government — CONFIRMED.
+• Maddila Gurumoorthy (YSRCP MP) PIL in AP High Court on land allotment for the Google hub — CONFIRMED (Mar 2026 reports);
+  he states the PIL does not seek cancellation — included on screen for balance.
+• Lokesh "anti-development" / Jagan counter on budget, debt, corruption — POLITICAL CLAIMS, shown side by side, same styling.
+
+──────────────────────────────────────────────────────────────────────────────
+VISUAL-EVIDENCE POLICY APPLIED
+──────────────────────────────────────────────────────────────────────────────
+• No fabricated news footage, speeches, protests, documents, photographs or quotations.
+• Document cards are typeset summaries clearly labelled with their source; they are not facsimiles of real documents.
+  The only verbatim document text used is a published headline (Google blog) and HRF's statement title wording.
+• Generic stock footage used where the narration names a specific place is labelled "ILLUSTRATIVE FOOTAGE".
+• Ravi is a composite/illustrative character (labelled on first appearance).
+• Real Vizag imagery: Pixabay clips tagged Vizag/Visakhapatnam/Hyderabad by their uploaders; Wikimedia Commons photographs
+  (licences recorded); PIB official photographs (GODL-India); Sentinel-2 satellite imagery (CC BY 4.0).
+
+KEY SOURCES (full list with URLs in metadata/source_references.csv)
+Google India blog (14 Oct 2025); PIB releases 2178852, 2179035, 2256187, 2292165; Business Today (28 Apr 2026);
+Business Standard (Google defends hub, Oct 2026); AFP via Yahoo/Malay Mail (Oct 2026); Deccan Herald (Adani DC 2023; credit row);
+The Hans India (Jagan claim; PIL; HRF); The News Minute (PIL; Google $15bn); Human Rights Forum statements (May–June 2026);
+Countercurrents; Deccan Chronicle (Green Visakhapatnam; Lokesh); Newsmeter/Domain-B (Lokesh 10× water claim);
+Euronews/CNBC/Helsinki Times (Finland); The South First / Swarajya / Deccan Herald (VER, $120 bn by 2032);
+Swarajya/AIR/ArcelorMittal (AM/NS foundation); Swarajya/Business Standard/GKToday (Bhogapuram); Deloitte/KPMG (data share);
+Yo Vizag/NewsBytes/Deccan Chronicle (CII Summit 2026); LiveLaw/ThePrint (allotment litigation).

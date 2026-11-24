@@ -1,0 +1,1353 @@
+[
+ {
+  "i": 0,
+  "start": 0.48,
+  "end": 1.661,
+  "text": "Okasari imagine cheskondi..",
+  "conf": -2.35
+ },
+ {
+  "i": 1,
+  "start": 2.081,
+  "end": 2.282,
+  "text": "Ravi.",
+  "conf": -0.73
+ },
+ {
+  "i": 2,
+  "start": 2.482,
+  "end": 3.282,
+  "text": "Srikakulam abbayi.",
+  "conf": -1.03
+ },
+ {
+  "i": 3,
+  "start": 3.282,
+  "end": 5.083,
+  "text": "Age 27.",
+  "conf": -4.04
+ },
+ {
+  "i": 4,
+  "start": 5.083,
+  "end": 7.745,
+  "text": "Gachibowli lo oka IT company lo software engineer.",
+  "conf": -2.01
+ },
+ {
+  "i": 5,
+  "start": 7.885,
+  "end": 22.035,
+  "text": "Prathi Sankranthi ki, prathi Dasara ki, Hyderabad nundi 14 gantalu bus lo intiki velthadu.",
+  "conf": -4.79
+ },
+ {
+  "i": 6,
+  "start": 22.055,
+  "end": 24.296,
+  "text": "Amma adugutundi — \"Ravi, ikkade edaina job dorakadha ra?\" Ravi navvuthadu.",
+  "conf": -5.81
+ },
+ {
+  "i": 7,
+  "start": 24.696,
+  "end": 25.477,
+  "text": "\"Ikkada emundhi amma?",
+  "conf": -3.58
+ },
+ {
+  "i": 8,
+  "start": 25.697,
+  "end": 33.922,
+  "text": "Andaru Hyderabad, Bangalore, America velthunnaru.\" Kaani ee Sankranthi ki inti daggara vere matalu vinipisthunnayi.",
+  "conf": -2.65
+ },
+ {
+  "i": 9,
+  "start": 34.463,
+  "end": 35.343,
+  "text": "Google vasthundhi anta.",
+  "conf": -5.25
+ },
+ {
+  "i": 10,
+  "start": 35.343,
+  "end": 36.484,
+  "text": "Steel plant vasthundhi anta.",
+  "conf": -5.03
+ },
+ {
+  "i": 11,
+  "start": 36.484,
+  "end": 38.245,
+  "text": "Kotha airport open aipoyindhi anta.",
+  "conf": -3.93
+ },
+ {
+  "i": 12,
+  "start": 38.525,
+  "end": 42.248,
+  "text": "Vizag next Hyderabad avuthundhi anta.",
+  "conf": -2.95
+ },
+ {
+  "i": 13,
+  "start": 42.268,
+  "end": 47.131,
+  "text": "Adhe time lo, Vizag Beach Road meedha placards pattukoni protest chesthunnaru.",
+  "conf": -2.45
+ },
+ {
+  "i": 14,
+  "start": 47.491,
+  "end": 48.752,
+  "text": "\"Maa kondalu kottesthunnaru.",
+  "conf": -1.53
+ },
+ {
+  "i": 15,
+  "start": 48.752,
+  "end": 54.936,
+  "text": "Maa neellu poyetattu unnayi.\" So Ravi ki oka doubt vasthundhi bro.",
+  "conf": -3.55
+ },
+ {
+  "i": 16,
+  "start": 54.996,
+  "end": 55.957,
+  "text": "Idi naa future aa?",
+  "conf": -2.22
+ },
+ {
+  "i": 17,
+  "start": 56.177,
+  "end": 59.879,
+  "text": "Leka evarido future kosam maa ooru chesthunna sacrifice aa?",
+  "conf": -2.5
+ },
+ {
+  "i": 18,
+  "start": 60.18,
+  "end": 64.262,
+  "text": "Asalu Chandrababu Naidu prabhutvam Vizag meedha intha pedda bet enduku vesthundhi?",
+  "conf": -2.09
+ },
+ {
+  "i": 19,
+  "start": 64.643,
+  "end": 66.344,
+  "text": "Lakshala kotla investments enduku ikkade?",
+  "conf": -1.95
+ },
+ {
+  "i": 20,
+  "start": 66.564,
+  "end": 69.606,
+  "text": "Andhra prajalaki nijamga labham entha?",
+  "conf": -1.67
+ },
+ {
+  "i": 21,
+  "start": 69.866,
+  "end": 70.967,
+  "text": "Nashtam entha?",
+  "conf": -2.05
+ },
+ {
+  "i": 22,
+  "start": 71.007,
+  "end": 72.668,
+  "text": "Ee video lo complete story chuddam.",
+  "conf": -2.95
+ },
+ {
+  "i": 23,
+  "start": 73.008,
+  "end": 73.608,
+  "text": "Facts tho.",
+  "conf": -4.25
+ },
+ {
+  "i": 24,
+  "start": 73.849,
+  "end": 75.19,
+  "text": "Rendu vaipula vaadanalu tho.",
+  "conf": -2.24
+ },
+ {
+  "i": 25,
+  "start": 75.23,
+  "end": 76.37,
+  "text": "Verdict meere ivvandi.",
+  "conf": -7.42
+ },
+ {
+  "i": 26,
+  "start": 76.41,
+  "end": 76.971,
+  "text": "Start chedham.",
+  "conf": -2.58
+ },
+ {
+  "i": 27,
+  "start": 77.371,
+  "end": 83.015,
+  "text": "Chapter 1: The",
+  "conf": -4.7
+ },
+ {
+  "i": 28,
+  "start": 83.095,
+  "end": 87.758,
+  "text": "Hyderabad Wound Story ardham avvalante, manam 2014 ki vellali.",
+  "conf": -2.4
+ },
+ {
+  "i": 29,
+  "start": 88.158,
+  "end": 90.359,
+  "text": "June 2, 2014.",
+  "conf": -1.04
+ },
+ {
+  "i": 30,
+  "start": 90.359,
+  "end": 92.181,
+  "text": "Andhra Pradesh rendu mukkalu aindhi.",
+  "conf": -2.24
+ },
+ {
+  "i": 31,
+  "start": 92.401,
+  "end": 93.762,
+  "text": "Telangana kotha state.",
+  "conf": -2.1
+ },
+ {
+  "i": 32,
+  "start": 94.182,
+  "end": 95.743,
+  "text": "Hyderabad Telangana ki vellipoyindhi.",
+  "conf": -3.14
+ },
+ {
+  "i": 33,
+  "start": 96.083,
+  "end": 97.264,
+  "text": "Andhra ki migilindi enti bro?",
+  "conf": -3.61
+ },
+ {
+  "i": 34,
+  "start": 97.544,
+  "end": 98.445,
+  "text": "Pedda coastline.",
+  "conf": -1.83
+ },
+ {
+  "i": 35,
+  "start": 98.705,
+  "end": 99.746,
+  "text": "Krishna, Godavari.",
+  "conf": -1.24
+ },
+ {
+  "i": 36,
+  "start": 100.446,
+  "end": 101.867,
+  "text": "Lakshala mandi talented youth.",
+  "conf": -1.92
+ },
+ {
+  "i": 37,
+  "start": 102.107,
+  "end": 103.188,
+  "text": "Kaani oka capital ledhu.",
+  "conf": -2.87
+ },
+ {
+  "i": 38,
+  "start": 103.508,
+  "end": 104.389,
+  "text": "Oka IT hub ledhu.",
+  "conf": -1.86
+ },
+ {
+  "i": 39,
+  "start": 104.509,
+  "end": 105.449,
+  "text": "Oka Hyderabad ledhu.",
+  "conf": -2.0
+ },
+ {
+  "i": 40,
+  "start": 105.73,
+  "end": 107.451,
+  "text": "Ippudu Chandrababu Naidu gurinchi alochinchandi.",
+  "conf": -2.06
+ },
+ {
+  "i": 41,
+  "start": 107.451,
+  "end": 112.674,
+  "text": "1995 nundi 2004 varaku united AP CM.",
+  "conf": -5.51
+ },
+ {
+  "i": 42,
+  "start": 112.854,
+  "end": 114.756,
+  "text": "Aayana time lone HITEC City vachindhi.",
+  "conf": -2.39
+ },
+ {
+  "i": 43,
+  "start": 115.136,
+  "end": 116.777,
+  "text": "Cyberabad ane peru vachindhi.",
+  "conf": -2.76
+ },
+ {
+  "i": 44,
+  "start": 117.177,
+  "end": 120.079,
+  "text": "Microsoft, IT companies Hyderabad ki vacchayi.",
+  "conf": -3.04
+ },
+ {
+  "i": 45,
+  "start": 120.399,
+  "end": 123.401,
+  "text": "Aayanaki \"IT CM\" ane brand vachindhi.",
+  "conf": -1.75
+ },
+ {
+  "i": 46,
+  "start": 123.461,
+  "end": 127.084,
+  "text": "Aa brand ki base aina city — ippudu vere state lo undhi.",
+  "conf": -2.02
+ },
+ {
+  "i": 47,
+  "start": 127.084,
+  "end": 129.805,
+  "text": "2014 lo CBN malli CM ayyaru.",
+  "conf": -1.19
+ },
+ {
+  "i": 48,
+  "start": 130.106,
+  "end": 132.007,
+  "text": "Capital ga Amaravati ni select chesaru.",
+  "conf": -1.7
+ },
+ {
+  "i": 49,
+  "start": 132.387,
+  "end": 135.569,
+  "text": "October 22, 2015 na foundation stone padindhi.",
+  "conf": -2.43
+ },
+ {
+  "i": 50,
+  "start": 135.569,
+  "end": 161.266,
+  "text": "2024 lo TDP, Janasena, BJP alliance power loki vachindhi.",
+  "conf": -2.26
+ },
+ {
+  "i": 51,
+  "start": 161.626,
+  "end": 162.907,
+  "text": "CBN malli CM ayyaaru.",
+  "conf": -1.54
+ },
+ {
+  "i": 52,
+  "start": 163.227,
+  "end": 170.472,
+  "text": "Amaravati ne capital ga continue chesthu, Vizag ki ippudu oka kotha role ichhaaru —AP ki economic engine.",
+  "conf": -2.24
+ },
+ {
+  "i": 53,
+  "start": 170.812,
+  "end": 172.994,
+  "text": "Idhi Vizag ground meedha direct ga kanipisthondhi.",
+  "conf": -2.39
+ },
+ {
+  "i": 54,
+  "start": 173.334,
+  "end": 180.799,
+  "text": "Naidu gaaru Vizag ni 'Swarna Andhra' vision ki centre ga cheppaaru; state ki financial nucleus, knowledge hub avvali annaru.",
+  "conf": -2.09
+ },
+ {
+  "i": 55,
+  "start": 181.039,
+  "end": 187.103,
+  "text": "Ante simple ga cheppalante— Amaravati administration chuskuntundhi, Vizag state kosam dabbu sampadisthundhi.",
+  "conf": -2.52
+ },
+ {
+  "i": 56,
+  "start": 187.443,
+  "end": 193.167,
+  "text": "Kaani ikkada asalu question entante—Andhra lo inni cities undaga, Vizag ne enduku select cheskunnaru?",
+  "conf": -2.41
+ },
+ {
+  "i": 57,
+  "start": 194.268,
+  "end": 195.529,
+  "text": "Chapter 2: Why",
+  "conf": -2.84
+ },
+ {
+  "i": 58,
+  "start": 195.669,
+  "end": 196.169,
+  "text": "Vizag?",
+  "conf": -2.08
+ },
+ {
+  "i": 59,
+  "start": 196.89,
+  "end": 199.451,
+  "text": "Vizag ni \"City of Destiny\" antaru.",
+  "conf": -1.92
+ },
+ {
+  "i": 60,
+  "start": 199.752,
+  "end": 203.314,
+  "text": "Aa peru oorike raaledhu bro, daani venakala solid reasons unnaayi.",
+  "conf": -3.23
+ },
+ {
+  "i": 61,
+  "start": 203.894,
+  "end": 205.635,
+  "text": "First point—samudram.",
+  "conf": -2.14
+ },
+ {
+  "i": 62,
+  "start": 206.136,
+  "end": 211.439,
+  "text": "Vizag ki natural deep harbour undhi; kondalu chuttu unna oka safe bay idhi.",
+  "conf": -2.65
+ },
+ {
+  "i": 63,
+  "start": 211.739,
+  "end": 216.583,
+  "text": "Ships ki, cargo ki, heavy industries ki idhi literal ga gold laantidhi.",
+  "conf": -1.81
+ },
+ {
+  "i": 64,
+  "start": 216.743,
+  "end": 218.484,
+  "text": "Second point—Navy.",
+  "conf": -3.28
+ },
+ {
+  "i": 65,
+  "start": 218.484,
+  "end": 225.849,
+  "text": "Indian Navy Eastern Naval Command headquarters Vizag lone undhi, ante Bay of Bengal lo India ki idhi oka strategic city.",
+  "conf": -2.33
+ },
+ {
+  "i": 66,
+  "start": 225.869,
+  "end": 229.651,
+  "text": "Third point—already unna industrial base.",
+  "conf": -2.16
+ },
+ {
+  "i": 67,
+  "start": 229.991,
+  "end": 235.655,
+  "text": "Vizag Steel Plant, refinery, port, pharma —ee city ki industrial culture kotha kaadhu.",
+  "conf": -3.31
+ },
+ {
+  "i": 68,
+  "start": 235.675,
+  "end": 240.218,
+  "text": "Sumaru 25 lakhs population tho idhi oka ready-made city.",
+  "conf": -3.18
+ },
+ {
+  "i": 69,
+  "start": 240.298,
+  "end": 243.08,
+  "text": "Fourth point—resilience.",
+  "conf": -3.15
+ },
+ {
+  "i": 70,
+  "start": 243.1,
+  "end": 251.846,
+  "text": "October 12, 2014 na Cyclone Hudhud Vizag ni gattiga kottesindhi; city antha chedipoyina, kevalam konni nelallone malli nilabadindhi.",
+  "conf": -2.8
+ },
+ {
+  "i": 71,
+  "start": 252.166,
+  "end": 255.468,
+  "text": "Pedda investors ki ee comeback story chala important.",
+  "conf": -2.93
+ },
+ {
+  "i": 72,
+  "start": 255.768,
+  "end": 258.83,
+  "text": "Kaani ivannitini minchina asalu game changer enti telusa?",
+  "conf": -2.96
+ },
+ {
+  "i": 73,
+  "start": 259.291,
+  "end": 261.552,
+  "text": "Samudram lopala unna wires.",
+  "conf": -1.55
+ },
+ {
+  "i": 74,
+  "start": 261.972,
+  "end": 263.654,
+  "text": "Avunu bro, subsea cables.",
+  "conf": -2.31
+ },
+ {
+  "i": 75,
+  "start": 263.814,
+  "end": 271.018,
+  "text": "Mana phone lo YouTube, WhatsApp, Gemini—ee data antha samudram aduguna unna cables dwara prapancham antha travel chesthundhi.",
+  "conf": -2.73
+ },
+ {
+  "i": 76,
+  "start": 271.359,
+  "end": 274.761,
+  "text": "Aa cables bayataki vache point ni landing station antaru.",
+  "conf": -2.39
+ },
+ {
+  "i": 77,
+  "start": 275.221,
+  "end": 285.908,
+  "text": "Google Cloud CEO Thomas Kurian cheppina daani prakaram, Vizag data centre ni subsea cable dwara Singapore, Malaysia, Australia tho kalipi 12 countries ki connect chesthaaru.",
+  "conf": -2.83
+ },
+ {
+  "i": 78,
+  "start": 286.208,
+  "end": 298.196,
+  "text": "Inkoka shocking number vinandi: prapancham lo generate ayye digital data lo daadapu 5 lo okati India nundi vasthondhi, kaani global data centre capacity lo India share kevalam 3 percent maathrame.",
+  "conf": -2.28
+ },
+ {
+  "i": 79,
+  "start": 298.817,
+  "end": 302.419,
+  "text": "Ante demand vipareethamga undhi, supply ledhu.",
+  "conf": -2.66
+ },
+ {
+  "i": 80,
+  "start": 302.639,
+  "end": 307.242,
+  "text": "Aa gap ni fill cheyyadaniki coast kaavali, cables kaavali, land kaavali, power kaavali.",
+  "conf": -2.02
+ },
+ {
+  "i": 81,
+  "start": 307.683,
+  "end": 310.805,
+  "text": "Andhra daggara coastline undhi, Vizag daggara cables vasthunnayi.",
+  "conf": -2.67
+ },
+ {
+  "i": 82,
+  "start": 311.125,
+  "end": 316.428,
+  "text": "Cut chesthe... prapancham lo pedda tech companies anni Vizag vaipu chudatam start chesayi.",
+  "conf": -2.55
+ },
+ {
+  "i": 83,
+  "start": 317.069,
+  "end": 318.61,
+  "text": "Chapter 3: The",
+  "conf": -4.06
+ },
+ {
+  "i": 84,
+  "start": 318.73,
+  "end": 322.853,
+  "text": "Big Bets Ippudu Vizag meedha padina pedda bets okkokkati chuddam.",
+  "conf": -1.53
+ },
+ {
+  "i": 85,
+  "start": 323.233,
+  "end": 325.614,
+  "text": "Ee numbers chusthe mee kallu thiruguthayi bro.",
+  "conf": -4.95
+ },
+ {
+  "i": 86,
+  "start": 325.694,
+  "end": 329.917,
+  "text": "Bet number 1—Google AI Hub.",
+  "conf": -3.76
+ },
+ {
+  "i": 87,
+  "start": 330.418,
+  "end": 337.402,
+  "text": "October 14, 2025 na New Delhi lo AP IT department mariyu Google madhya MoU sign ayyindhi.",
+  "conf": -2.45
+ },
+ {
+  "i": 88,
+  "start": 337.402,
+  "end": 347.769,
+  "text": "2026 nundi 2030 varaku, 5 years lo 15 billion dollars investment—Indian rupees lo daadapu 1.3 lakh kotlu.",
+  "conf": -2.1
+ },
+ {
+  "i": 89,
+  "start": 348.129,
+  "end": 352.792,
+  "text": "Idhi United States bayata Google pette athi pedda data centre.",
+  "conf": -1.88
+ },
+ {
+  "i": 90,
+  "start": 352.832,
+  "end": 361.038,
+  "text": "April 28, 2026 na CM Chandrababu Naidu, Union IT Minister Ashwini Vaishnaw kalisi foundation stone vesaaru.",
+  "conf": -2.27
+ },
+ {
+  "i": 91,
+  "start": 361.378,
+  "end": 375.747,
+  "text": "Aa roju Vaishnaw oka line annaru—\"Visakhapatnam will be born as AI- Patnam.\" 1 gigawatt capacity tho Tarluvada, Adavivaram, Rambilli—moodu campuses lo daadapu 600 acres lo deenni kaduthunnaru.",
+  "conf": -2.13
+ },
+ {
+  "i": 92,
+  "start": 376.148,
+  "end": 384.253,
+  "text": "Ee project ni Adani Group, EdgeConneX joint venture aina AdaniConneX tho kalisi build chesthunnaru; Airtel kooda indulo partner.",
+  "conf": -2.77
+ },
+ {
+  "i": 93,
+  "start": 384.313,
+  "end": 387.975,
+  "text": "Bet number 2—Data centre city.",
+  "conf": -4.09
+ },
+ {
+  "i": 94,
+  "start": 388.436,
+  "end": 398.542,
+  "text": "Google okkate kaadhu bro; Reliance, Brookfield, Digital Realty joint venture kooda Vizag lo inkoka AI data centre meedha 11 billion dollars pedthondhi.",
+  "conf": -2.78
+ },
+ {
+  "i": 95,
+  "start": 398.823,
+  "end": 407.028,
+  "text": "Motham kalipi Vizag daggara daadapu 9 gigawatts data centre capacity kosam agreements jarigaayi ani state government cheppindhi.",
+  "conf": -2.13
+ },
+ {
+  "i": 96,
+  "start": 407.208,
+  "end": 408.909,
+  "text": "Bet number 3—Steel city.",
+  "conf": -1.95
+ },
+ {
+  "i": 97,
+  "start": 409.309,
+  "end": 417.615,
+  "text": "March 23, 2026 na Anakapalli district, Nakkapalli mandal, Rajayyapeta lo ArcelorMittal Nippon Steel plant ki CBN foundation vesaaru.",
+  "conf": -2.45
+ },
+ {
+  "i": 98,
+  "start": 417.615,
+  "end": 428.102,
+  "text": "1.36 lakh kotla investment tho 5,465 acres lo rendu phases lo motham 17.8 million tonnes capacity tho idhi raabothondhi.",
+  "conf": -2.57
+ },
+ {
+  "i": 99,
+  "start": 428.462,
+  "end": 435.507,
+  "text": "Appudu CBN annaru—\"Memu steel plant kaadhu, steel city kadthunnam.\" Bet number 4—Kotha airport.",
+  "conf": -1.94
+ },
+ {
+  "i": 100,
+  "start": 435.967,
+  "end": 447.515,
+  "text": "Bhogapuram lo Alluri Sitarama Raju International Airport ni August 2026 lo PM Modi inaugurate chesaaru, August 17 nundi flights anni paatha Vizag airport nundi ikkadiki shift ayyaayi.",
+  "conf": -2.04
+ },
+ {
+  "i": 101,
+  "start": 447.895,
+  "end": 452.278,
+  "text": "Original deadline December 2026 aina, aaru nelalu munde ready ayyindhi.",
+  "conf": -2.43
+ },
+ {
+  "i": 102,
+  "start": 452.638,
+  "end": 460.623,
+  "text": "Paatha airport Navy INS Dega lo oka civilian enclave maathrame, kaani ippudu Vizag ki sontha international airport vachindhi.",
+  "conf": -1.76
+ },
+ {
+  "i": 103,
+  "start": 461.164,
+  "end": 463.225,
+  "text": "Bet number 5—The master plan.",
+  "conf": -1.62
+ },
+ {
+  "i": 104,
+  "start": 463.725,
+  "end": 466.487,
+  "text": "Visakhapatnam Economic Region, ante VER.",
+  "conf": -2.11
+ },
+ {
+  "i": 105,
+  "start": 466.827,
+  "end": 476.974,
+  "text": "Srikakulam nundi Konaseema varaku, 2032 lopu 9.3 lakh kotla investments target tho centre lo \"Bay City\" project plan chesaaru.",
+  "conf": -1.84
+ },
+ {
+  "i": 106,
+  "start": 477.895,
+  "end": 485.62,
+  "text": "Ports, airports, AI, fintech, tourism —anni kalipi North Andhra ni oka economic corridor ga marchali anedhi plan.",
+  "conf": -1.93
+ },
+ {
+  "i": 107,
+  "start": 485.64,
+  "end": 497.147,
+  "text": "Indhaka November 12, 13 na Vizag lo jarigina 31st CII Partnership Summit lo 58 countries nundi representatives vachi malli lakshala kotla MoUs sign chesaaru.",
+  "conf": -2.27
+ },
+ {
+  "i": 108,
+  "start": 497.608,
+  "end": 499.909,
+  "text": "Ikkada okka nimisham aagandi bro.",
+  "conf": -3.27
+ },
+ {
+  "i": 109,
+  "start": 500.369,
+  "end": 503.912,
+  "text": "MoUs ante promises maathrame, real investment kaadhu.",
+  "conf": -2.22
+ },
+ {
+  "i": 110,
+  "start": 504.212,
+  "end": 510.416,
+  "text": "Sign ayina prathi rupee ground meedhaki raadhu—idhi Andhra lo aina, India lo ye government ki aina common.",
+  "conf": -2.65
+ },
+ {
+  "i": 111,
+  "start": 511.117,
+  "end": 515.92,
+  "text": "So asalu question entante—ee lakshala kotla lo saamanya Andhra vaadiki enti vasthundhi?",
+  "conf": -3.87
+ },
+ {
+  "i": 112,
+  "start": 515.94,
+  "end": 523.064,
+  "text": "Chapter 4: What's",
+  "conf": -5.09
+ },
+ {
+  "i": 113,
+  "start": 523.064,
+  "end": 523.505,
+  "text": "In It For Andhra?",
+  "conf": -6.23
+ },
+ {
+  "i": 114,
+  "start": 523.545,
+  "end": 527.347,
+  "text": "Mana Ravi lanti vaallu North Andhra lo lakshallo unnaaru bro.",
+  "conf": -2.58
+ },
+ {
+  "i": 115,
+  "start": 527.347,
+  "end": 537.934,
+  "text": "Srikakulam, Vizianagaram, Vizag, Anakapalli nundi chaduvukunna pillalu, construction workers, IT engineers, nurses—andharu Hyderabad, Bangalore, Chennai, leda Gulf ki velthunnaru.",
+  "conf": -2.47
+ },
+ {
+  "i": 116,
+  "start": 538.495,
+  "end": 554.665,
+  "text": "Government pitch simple ga undhi: \"Mee pillalu inka bayataki vellakkarledhu, jobs ikkade vasthayi.\" Numbers chusthe, ArcelorMittal steel plant construction, development time lo sumaru 1 lakh direct, indirect jobs vasthayi ani company cheppindhi.",
+  "conf": -2.97
+ },
+ {
+  "i": 117,
+  "start": 555.065,
+  "end": 568.734,
+  "text": "Google cheppina daani prakaram, Vizag data centre valla prathi samvatsaram 688 million dollars local economic activity jaruguthundhi, construction time lo sumaru 4,200 jobs vasthayi.",
+  "conf": -1.92
+ },
+ {
+  "i": 118,
+  "start": 569.075,
+  "end": 580.262,
+  "text": "Bhogapuram airport lo 25,000 metric tonnes capacity unna cargo terminal valla North Andhra nundi seafood, pharma, horticulture direct ga prapanchaniki export cheyochu.",
+  "conf": -2.28
+ },
+ {
+  "i": 119,
+  "start": 580.642,
+  "end": 583.884,
+  "text": "Inkoka emotional angle—Vizag Steel Plant.",
+  "conf": -2.72
+ },
+ {
+  "i": 120,
+  "start": 584.205,
+  "end": 595.652,
+  "text": "\"Visakha Ukku, Andhrula Hakku\" slogan mana andariki telusu; kotha steel plant foundation roju central ministers RINL ki financial support ichhi capacity penchutham ani promise chesaaru.",
+  "conf": -2.06
+ },
+ {
+  "i": 121,
+  "start": 595.932,
+  "end": 603.577,
+  "text": "Ippudu political angle chusthe, Chandrababu Naidu ki ee bet enduku antha crucial ante, aayana political brand antha development meedhe nilabadindhi.",
+  "conf": -2.6
+ },
+ {
+  "i": 122,
+  "start": 603.898,
+  "end": 613.604,
+  "text": "Hyderabad lo HITEC City aayanaki first legacy ichhindhi; Vizag lo AI city nijamga nilabadithe, adhi aayanaki second legacy avuthundhi.",
+  "conf": -2.49
+ },
+ {
+  "i": 123,
+  "start": 613.984,
+  "end": 618.607,
+  "text": "Ledhante ee lakshala kotla MoUs kevalam headlines ga migilipothayi.",
+  "conf": -2.54
+ },
+ {
+  "i": 124,
+  "start": 618.907,
+  "end": 620.448,
+  "text": "Kaani ikkade pedda twist undhi.",
+  "conf": -2.39
+ },
+ {
+  "i": 125,
+  "start": 620.889,
+  "end": 633.337,
+  "text": "Google ade statement lo inkoka line rasindhi— 2028 lo operations start ayyaka vache permanent specialist jobs kevalam \"hundreds\" lo, ante vandallo maathrame untaayi.",
+  "conf": -2.25
+ },
+ {
+  "i": 126,
+  "start": 633.337,
+  "end": 637.74,
+  "text": "15 billion dollars investment ki vandala jobs?",
+  "conf": -1.58
+ },
+ {
+  "i": 127,
+  "start": 637.86,
+  "end": 640.322,
+  "text": "Critics adige first question idhe.",
+  "conf": -3.37
+ },
+ {
+  "i": 128,
+  "start": 640.762,
+  "end": 654.771,
+  "text": "Oka activist annatlu—\"Maaku mass employment, labour-intensive industries kaavali, high-capital industries kaadhu.\" Endukante data centres ki chala land kaavali, chala power kaavali, chala water kaavali, kaani chala thakkuva manushulu kaavali.",
+  "conf": -2.18
+ },
+ {
+  "i": 129,
+  "start": 655.111,
+  "end": 656.872,
+  "text": "Ikkade asalu godava start avthundhi.",
+  "conf": -1.93
+ },
+ {
+  "i": 130,
+  "start": 657.553,
+  "end": 658.854,
+  "text": "Chapter 5: The",
+  "conf": -3.49
+ },
+ {
+  "i": 131,
+  "start": 658.954,
+  "end": 662.696,
+  "text": "Backlash Ippudu coin ki rendo vaipu chuddam bro.",
+  "conf": -3.28
+ },
+ {
+  "i": 132,
+  "start": 662.696,
+  "end": 673.403,
+  "text": "September 2026 lo Tarluvada village aerial photos bayataki vachaayi—excavators tho clear chesina kondalu, okappudu pachani bhoomi ippudu matti rangu lo kanipisthondhi.",
+  "conf": -2.26
+ },
+ {
+  "i": 133,
+  "start": 673.744,
+  "end": 678.827,
+  "text": "Vizag lo chala mandhi bhayapaduthunna vishayaalu moodu: neellu, current, jobs.",
+  "conf": -2.46
+ },
+ {
+  "i": 134,
+  "start": 679.708,
+  "end": 688.633,
+  "text": "Data centre unna neellu, power laagesthundhi, environment debba thintundhi, kaani badhuluga vache jobs chala thakkuva ani vaalla aavedhana.",
+  "conf": -2.93
+ },
+ {
+  "i": 135,
+  "start": 689.214,
+  "end": 690.495,
+  "text": "First concern—Neellu.",
+  "conf": -4.35
+ },
+ {
+  "i": 136,
+  "start": 690.855,
+  "end": 698.64,
+  "text": "Adavivaram, Mudasarlova daggara project ki pedda abhyantharam vachindhi, endukante Mudasarlova Vizag city ki drinking water ichhe reservoir.",
+  "conf": -2.16
+ },
+ {
+  "i": 137,
+  "start": 699.16,
+  "end": 701.042,
+  "text": "Human Rights Forum member V.S.",
+  "conf": -2.25
+ },
+ {
+  "i": 138,
+  "start": 701.122,
+  "end": 721.275,
+  "text": "Krishna oka direct question vesaaru—\"Drinking water reservoir ki 120 meters dooram lo data centre ni evaraina imagine cheyagalara?\" May lo oka video viral ayyindhi, andulo oka mahila rendu jars pattukoni okati clean water, inkokati brown matti neellu chupisthu, data centre construction valle ila ayyindhi ani aaropinchindhi.",
+  "conf": -2.45
+ },
+ {
+  "i": 139,
+  "start": 721.355,
+  "end": 722.996,
+  "text": "Second concern—Land.",
+  "conf": -3.19
+ },
+ {
+  "i": 140,
+  "start": 723.496,
+  "end": 737.766,
+  "text": "Green Visakhapatnam sanstha honorary president Professor Khairagi Reddy, Simhachalam Devasthanam ki chendina 160 acres ni environmental impact assessment, public hearing lekunda Google, Adani data centre ki ichhaaru ani aaropinchaaru.",
+  "conf": -2.21
+ },
+ {
+  "i": 141,
+  "start": 738.486,
+  "end": 742.569,
+  "text": "Kambalakonda wildlife sanctuary ki kooda ee sites chala daggara ga unnaayi.",
+  "conf": -3.23
+ },
+ {
+  "i": 142,
+  "start": 742.689,
+  "end": 744.27,
+  "text": "Third concern—Clearances.",
+  "conf": -3.68
+ },
+ {
+  "i": 143,
+  "start": 744.65,
+  "end": 753.696,
+  "text": "June 2026 lo AP State Environment Impact Assessment Authority Adavivaram–Mudasarlova project ki Environmental Clearance ichhindhi.",
+  "conf": -1.89
+ },
+ {
+  "i": 144,
+  "start": 753.796,
+  "end": 759.82,
+  "text": "HRF deenni \"brazen injustice\" antu, clearance raakamundhe site works jarigaayi ani aaropinchindhi.",
+  "conf": -3.28
+ },
+ {
+  "i": 145,
+  "start": 760.04,
+  "end": 764.243,
+  "text": "Paiga Vizag cyclone-prone coast—Hudhud inka manam marchipoledhu.",
+  "conf": -2.04
+ },
+ {
+  "i": 146,
+  "start": 764.303,
+  "end": 766.845,
+  "text": "Fourth concern—Gonthulu nokkeyadam.",
+  "conf": -3.12
+ },
+ {
+  "i": 147,
+  "start": 767.345,
+  "end": 779.173,
+  "text": "July 27, 2026 na Tarluvada lo bhoomi kolpoyina vaallani kalavadaniki vellina Left party leaders ni police detain chesaaru; public discussion ni aapadaniki try chesthunnaru ani HRF aaropinchindhi.",
+  "conf": -2.0
+ },
+ {
+  "i": 148,
+  "start": 779.813,
+  "end": 784.416,
+  "text": "Vizag Beach Road meedha Green Visakha laanti groups awareness protests chesayi.",
+  "conf": -3.02
+ },
+ {
+  "i": 149,
+  "start": 785.057,
+  "end": 786.478,
+  "text": "Mari deeniki government emantondhi?",
+  "conf": -2.45
+ },
+ {
+  "i": 150,
+  "start": 786.998,
+  "end": 797.545,
+  "text": "IT Minister Nara Lokesh project ni gattiga defend chesaaru—\"1 GW thermal power plant, 1 GW data centre kante 7 retlu ekkuva neellu vaaduthundhi\" ani aayana argument.",
+  "conf": -2.37
+ },
+ {
+  "i": 151,
+  "start": 797.885,
+  "end": 805.51,
+  "text": "Rendu data centre parks ki ichhina clearances lo water source ga Rural Water Supply department ni mention chesaaru.",
+  "conf": -2.21
+ },
+ {
+  "i": 152,
+  "start": 805.871,
+  "end": 813.095,
+  "text": "Idi Andhra youth future kosam, prathi pedda project ki opposition untundhi anedhi government message.",
+  "conf": -3.04
+ },
+ {
+  "i": 153,
+  "start": 813.556,
+  "end": 819.92,
+  "text": "Kaani idhi kevalam Vizag problem maathrame kaadhu bro; prapancham antha AI data centres meedha ide godava nadusthondhi.",
+  "conf": -2.73
+ },
+ {
+  "i": 154,
+  "start": 820.24,
+  "end": 828.866,
+  "text": "Finland lo kooda oka authority rendu Google data centre sites meedha mandatory environmental assessment ayye varaku pani aapamani order ichhindhi.",
+  "conf": -2.67
+ },
+ {
+  "i": 155,
+  "start": 829.186,
+  "end": 835.01,
+  "text": "Ante ikkada question \"data centre kaavala, vaddha\" kaadhu—\"Ekkada, ela, evari kharchu tho?\" anedhi.",
+  "conf": -2.31
+ },
+ {
+  "i": 156,
+  "start": 835.45,
+  "end": 837.772,
+  "text": "Ippudu ee kathaloki inkoka twist vasthundhi: politics.",
+  "conf": -3.47
+ },
+ {
+  "i": 157,
+  "start": 838.332,
+  "end": 839.673,
+  "text": "Chapter 6: The",
+  "conf": -2.92
+ },
+ {
+  "i": 158,
+  "start": 839.793,
+  "end": 850.78,
+  "text": "Credit War Andhra politics telisina vaallaki idhi pedda surprise kaadhu bro—pedda project vasthe mundhu godava credit meedhe jaruguthundhi.",
+  "conf": -3.06
+ },
+ {
+  "i": 159,
+  "start": 851.02,
+  "end": 853.902,
+  "text": "First YSRCP vaadhana chuddam.",
+  "conf": -2.18
+ },
+ {
+  "i": 160,
+  "start": 854.242,
+  "end": 877.958,
+  "text": "Jagan Mohan Reddy Chandrababu ni \"credit chor\" antu konni claims chesaaru: November 2020 lo, Covid time lo, YSRCP government Adani Group ki 300 MW data centre kosam Vizag lo land allot chesindhi, May 3, 2023 na foundation stone padindhi, Singapore nundi Vizag ki 3,900 km subsea cable project kooda tama time lone start ayyindhi ani.",
+  "conf": -2.47
+ },
+ {
+  "i": 161,
+  "start": 878.198,
+  "end": 889.346,
+  "text": "\"Ippudu Google Data Centre ani chupisthunnadhi aa original Adani project expansion maathrame; Adani 87,000 kotlu invest chesthundhi, build ayyaaka Google take over chesthundhi\" ani Jagan vaadhinchaaru.",
+  "conf": -2.41
+ },
+ {
+  "i": 162,
+  "start": 889.746,
+  "end": 897.191,
+  "text": "YSRCP leader Gudivada Amarnath inko adugu mundhukesi, Google peru venaka Adani deal ni CBN daachesthunnaru ani aaropinchaaru.",
+  "conf": -1.82
+ },
+ {
+  "i": 163,
+  "start": 897.671,
+  "end": 909.279,
+  "text": "Ippudu TDP vaadhana chusthe, Adani data centre MoU January 2019 lone—ante YSRCP raakamundhe, appati TDP government sign chesindhi ani TDP chepthondhi.",
+  "conf": -1.83
+ },
+ {
+  "i": 164,
+  "start": 909.599,
+  "end": 915.062,
+  "text": "Ground-breaking ki CBN kooda attend ayyaaru, YSRCP time lo project delay ayyindhi ani vaari counter.",
+  "conf": -2.11
+ },
+ {
+  "i": 165,
+  "start": 915.403,
+  "end": 923.228,
+  "text": "Paiga Google tho 15 billion dollar deal October 2025 lo coalition government time lone vachindhi ani TDP vaadhana.",
+  "conf": -2.1
+ },
+ {
+  "i": 166,
+  "start": 923.828,
+  "end": 931.653,
+  "text": "Katha lo twist entante, YSRCP MP Maddila Gurumoorthy ee Google AI Hub meedha AP High Court lo PIL file chesaaru.",
+  "conf": -2.55
+ },
+ {
+  "i": 167,
+  "start": 931.954,
+  "end": 941.34,
+  "text": "Nara Lokesh deenni pattukoni YSRCP \"anti-development\" ani attack chesaaru; Jagan malli state budget, appulu, corruption allegations tho counter ichhaaru.",
+  "conf": -2.26
+ },
+ {
+  "i": 168,
+  "start": 941.7,
+  "end": 952.547,
+  "text": "So scene enti ante bro—oka party \"idhi maa project\" antondhi, ade party MP court lo project ni challenge chesthunnaru; inkoka party \"idhi poorthiga maa vision\" antondhi.",
+  "conf": -2.46
+ },
+ {
+  "i": 169,
+  "start": 952.707,
+  "end": 959.452,
+  "text": "Reality entante 2019 nundi 2026 varaku rendu governments ee project tho touch lo unnaayi.",
+  "conf": -2.46
+ },
+ {
+  "i": 170,
+  "start": 959.552,
+  "end": 964.715,
+  "text": "Kaani credit evaridhi aina sare, Tarluvada lo bhoomi kolpoyina raithu ki adhi pedda matter kaadhu.",
+  "conf": -2.31
+ },
+ {
+  "i": 171,
+  "start": 965.556,
+  "end": 968.177,
+  "text": "Mudasarlova neellu taage family ki kooda kaadhu.",
+  "conf": -2.66
+ },
+ {
+  "i": 172,
+  "start": 968.438,
+  "end": 970.699,
+  "text": "Hyderabad lo kurchunna mana Ravi ki kooda kaadhu.",
+  "conf": -1.95
+ },
+ {
+  "i": 173,
+  "start": 971.059,
+  "end": 975.242,
+  "text": "Vaallaki kaavalsindhi oke okati—ee project nijamga ground meedhaki vasthundha?",
+  "conf": -2.58
+ },
+ {
+  "i": 174,
+  "start": 976.003,
+  "end": 982.467,
+  "text": "Vasthe vaallaki emi isthundhi, emi theesukuntundhi?",
+  "conf": -3.25
+ },
+ {
+  "i": 175,
+  "start": 982.607,
+  "end": 984.908,
+  "text": "Ending: Ravi's Choice",
+  "conf": -3.93
+ },
+ {
+  "i": 176,
+  "start": 985.529,
+  "end": 986.389,
+  "text": "Sankranthi ayipoyindhi.",
+  "conf": -3.13
+ },
+ {
+  "i": 177,
+  "start": 986.469,
+  "end": 988.03,
+  "text": "Ravi malli Hyderabad bus ekkaadu.",
+  "conf": -1.72
+ },
+ {
+  "i": 178,
+  "start": 988.391,
+  "end": 997.056,
+  "text": "Bhogapuram daggara nundi bus velthunnappudu kitiki lonchi bayataki chusaadu—kotha airport, kotha roads, dooram lo cut chesina kondalu.",
+  "conf": -2.54
+ },
+ {
+  "i": 179,
+  "start": 997.217,
+  "end": 1006.403,
+  "text": "Amma adigina maata malli gurtukochindhi —\"Ikkade edaina job dhorakadha ra?\" Modatisaari, Ravi mind lo answer \"ledhu\" ani anipinchaledhu; \"inka theliyadhu\" ani anipinchindhi.",
+  "conf": -2.43
+ },
+ {
+  "i": 180,
+  "start": 1006.563,
+  "end": 1007.603,
+  "text": "Idhe bro asalu story.",
+  "conf": -4.71
+ },
+ {
+  "i": 181,
+  "start": 1008.024,
+  "end": 1023.514,
+  "text": "Vizag meedha Chandrababu Naidu vesindhi oka pedda bet— okka CBN ae kaadhu, 2014 nundi Andhra ni paalinchina prathi government Vizag vaipu chusindhi, endukante Hyderabad poyina tharvaatha Andhra daggara unna athi pedda, ready-made city idhi okkate.",
+  "conf": -2.03
+ },
+ {
+  "i": 182,
+  "start": 1023.554,
+  "end": 1030.939,
+  "text": "Ee bet gelisthe, Vizag Andhra ki Hyderabad 2.0 avuthundhi, Ravi lanti lakshala mandhi intiki daggaraga pani cheskuntaaru.",
+  "conf": -2.08
+ },
+ {
+  "i": 183,
+  "start": 1032.1,
+  "end": 1038.784,
+  "text": "Bet odipothe, kondalu poyayi, neellu thaggaayi, MoUs kevalam headlines lo migilipoyaayi.",
+  "conf": -1.89
+ },
+ {
+  "i": 184,
+  "start": 1038.804,
+  "end": 1041.466,
+  "text": "Ippudu meeku moodu questions vadilesthunnanu: 1.",
+  "conf": -3.53
+ },
+ {
+  "i": 185,
+  "start": 1041.466,
+  "end": 1045.288,
+  "text": "Vizag kondalni, neellani kaapaduthu, Hyderabad 2.0 avvagaladha?",
+  "conf": -1.68
+ },
+ {
+  "i": 186,
+  "start": 1045.288,
+  "end": 1046.569,
+  "text": "2.",
+  "conf": -0.69
+ },
+ {
+  "i": 187,
+  "start": 1046.569,
+  "end": 1053.674,
+  "text": "Thakkuva jobs ichhe data centres Andhra ki correct bet aa, lekapothe labour- intensive industries meedha focus pettala?",
+  "conf": -2.74
+ },
+ {
+  "i": 188,
+  "start": 1053.674,
+  "end": 1055.055,
+  "text": "3.",
+  "conf": -0.69
+ },
+ {
+  "i": 189,
+  "start": 1055.055,
+  "end": 1060.718,
+  "text": "Ee project credit CBN dha, Jagan dha—lekapothe saamanya janam ki asalu adhi matter avvadha?",
+  "conf": -2.79
+ },
+ {
+  "i": 190,
+  "start": 1061.119,
+  "end": 1062.399,
+  "text": "Mee answers comments lo cheppandi.",
+  "conf": -3.54
+ },
+ {
+  "i": 191,
+  "start": 1062.88,
+  "end": 1070.825,
+  "text": "Ee video ni mee Vizag friends ki, North Andhra family WhatsApp groups lo share cheyyandi—ee charcha prathi Andhra intlo jaragaali.",
+  "conf": -2.74
+ },
+ {
+  "i": 192,
+  "start": 1071.265,
+  "end": 1073.247,
+  "text": "Thanks for watching, Jai Hind!",
+  "conf": -3.1
+ }
+]

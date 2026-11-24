@@ -1,0 +1,4391 @@
+{
+ "fps": 30,
+ "durationInFrames": 32262,
+ "segments": [
+  {
+   "id": "s000",
+   "from": 0,
+   "dur": 166,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Ravi.",
+      "27. From Srikakulam."
+     ],
+     "serifLine": 1,
+     "at": 65,
+     "size": 110
+    },
+    {
+     "k": "tag",
+     "text": "AN ILLUSTRATIVE CHARACTER",
+     "color": "#E1E6EA",
+     "pos": "tl",
+     "at": 36
+    }
+   ],
+   "clip": "stock/1021_1.mp4",
+   "move": "pull",
+   "grade": "night"
+  },
+  {
+   "id": "s001",
+   "from": 152,
+   "dur": 98,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Hyderabad",
+     "sub": "THE IT CORRIDOR · DURGAM CHERUVU",
+     "at": 6
+    }
+   ],
+   "clip": "stock/200435_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s002",
+   "from": 237,
+   "dur": 69,
+   "kind": "stock",
+   "inT": "slit",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/264270_1.mp4",
+   "move": "rise",
+   "grade": "natural"
+  },
+  {
+   "id": "s003",
+   "from": 306,
+   "dur": 36,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/44740_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s004",
+   "from": 342,
+   "dur": 117,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/24544_1.mp4",
+   "move": "driftL",
+   "grade": "night"
+  },
+  {
+   "id": "s005",
+   "from": 444,
+   "dur": 148,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "RouteHome",
+   "props": {}
+  },
+  {
+   "id": "s006",
+   "from": 579,
+   "dur": 83,
+   "kind": "stock",
+   "inT": "fade",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/106980_1.mp4",
+   "move": "push",
+   "grade": "night"
+  },
+  {
+   "id": "s007",
+   "from": 662,
+   "dur": 79,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "caption",
+     "text": "Ravi, can't you find a job somewhere close to home?",
+     "who": "HIS MOTHER",
+     "at": 6
+    }
+   ],
+   "clip": "stock/137059_1.mp4",
+   "move": "push",
+   "grade": "warm"
+  },
+  {
+   "id": "s008",
+   "from": 741,
+   "dur": 42,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "caption",
+     "text": "What is there here, Mom?",
+     "who": "RAVI",
+     "at": 3
+    }
+   ],
+   "clip": "stock/53958_1.mp4",
+   "move": "driftR",
+   "grade": "warm"
+  },
+  {
+   "id": "s009",
+   "from": 783,
+   "dur": 95,
+   "kind": "mg",
+   "inT": "cut",
+   "inDur": 15,
+   "ov": [],
+   "name": "Triptych",
+   "props": {
+    "panels": [
+     {
+      "video": "stock/200431_1.mp4",
+      "label": "Hyderabad",
+      "at": 0
+     },
+     {
+      "video": "stock/33800_1.mp4",
+      "label": "Bengaluru",
+      "at": 0.6
+     },
+     {
+      "video": "stock/176930_1.mp4",
+      "label": "America",
+      "at": 1.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s010",
+   "from": 878,
+   "dur": 169,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/43630_1.mp4",
+   "move": "push",
+   "grade": "warm"
+  },
+  {
+   "id": "s011",
+   "from": 1034,
+   "dur": 40,
+   "kind": "stock",
+   "inT": "flash",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“Google is coming.”"
+     ],
+     "at": 2,
+     "size": 100,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/242599_1.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s012",
+   "from": 1060,
+   "dur": 48,
+   "kind": "stock",
+   "inT": "flash",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“A steel plant is coming.”"
+     ],
+     "at": 2,
+     "size": 100,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/282244_1.mp4",
+   "move": "pull",
+   "grade": "natural"
+  },
+  {
+   "id": "s013",
+   "from": 1095,
+   "dur": 74,
+   "kind": "photo",
+   "inT": "flash",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“A new airport has opened.”"
+     ],
+     "at": 2,
+     "size": 100,
+     "pos": "center"
+    }
+   ],
+   "img": "photos/v_bhogapuram_6.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s014",
+   "from": 1156,
+   "dur": 126,
+   "kind": "stock",
+   "inT": "flash",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“Vizag will be",
+      "the next Hyderabad.”"
+     ],
+     "at": 3,
+     "size": 100
+    }
+   ],
+   "clip": "stock/200434_1.mp4",
+   "move": "driftL",
+   "grade": "warm"
+  },
+  {
+   "id": "s015",
+   "from": 1268,
+   "dur": 157,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Beach Road, Visakhapatnam",
+     "sub": "PROTESTERS WITH PLACARDS",
+     "at": 18
+    }
+   ],
+   "img": "photos/v_beachroad_10.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s016",
+   "from": 1425,
+   "dur": 38,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "caption",
+     "text": "They are cutting down our hills.",
+     "who": "PROTESTERS' SLOGAN",
+     "at": 3
+    }
+   ],
+   "clip": "stock/149810_1.mp4",
+   "move": "push",
+   "grade": "warn"
+  },
+  {
+   "id": "s017",
+   "from": 1463,
+   "dur": 90,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "caption",
+     "text": "Our water could be gone.",
+     "who": "PROTESTERS' SLOGAN",
+     "at": 3
+    }
+   ],
+   "clip": "stock/143788_1.mp4",
+   "move": "driftL",
+   "grade": "warn"
+  },
+  {
+   "id": "s018",
+   "from": 1553,
+   "dur": 112,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/12333_1.mp4",
+   "move": "push",
+   "grade": "desat"
+  },
+  {
+   "id": "s019",
+   "from": 1650,
+   "dur": 170,
+   "kind": "mg",
+   "inT": "iris",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "IS THIS",
+     "title": "My future?",
+     "video": "stock/316854_1.mp4"
+    },
+    "right": {
+     "kicker": "OR A SACRIFICE",
+     "title": "for someone else's?",
+     "video": "stock/34608_1.mp4"
+    },
+    "rightAt": 35
+   }
+  },
+  {
+   "id": "s020",
+   "from": 1805,
+   "dur": 531,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "OpenVizag",
+   "props": {
+    "titleAt": 325,
+    "qs": [
+     {
+      "t": "Why bet so big on Vizag?",
+      "at": 9
+     },
+     {
+      "t": "Why lakhs of crores — here?",
+      "at": 134
+     },
+     {
+      "t": "What will Andhra gain?",
+      "at": 192
+     },
+     {
+      "t": "What will it lose?",
+      "at": 291
+     }
+    ],
+    "words": [
+     {
+      "t": "FACTS",
+      "at": 385
+     },
+     {
+      "t": "BOTH SIDES",
+      "at": 410
+     },
+     {
+      "t": "YOUR VERDICT",
+      "at": 452
+     }
+    ]
+   }
+  },
+  {
+   "id": "s021",
+   "from": 2321,
+   "dur": 172,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "ChapterCard",
+   "props": {
+    "index": "01",
+    "title": [
+     "The Hyderabad",
+     "Wound"
+    ],
+    "dek": "To understand Vizag, go back to 2014.",
+    "bgClip": "stock/200431_2.mp4"
+   }
+  },
+  {
+   "id": "s022",
+   "from": 2493,
+   "dur": 167,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Back to 2014."
+     ],
+     "at": 9,
+     "size": 120,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/74157_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s023",
+   "from": 2645,
+   "dur": 368,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "Bifurcation",
+   "props": {
+    "marks": {
+     "split": 66,
+     "hyd": 181,
+     "coast": 282,
+     "amaravati": 1000000,
+     "vizag": 1000000
+    }
+   }
+  },
+  {
+   "id": "s024",
+   "from": 3013,
+   "dur": 50,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Lakhs of talented",
+      "young people."
+     ],
+     "serifLine": 1,
+     "at": 3,
+     "size": 86
+    }
+   ],
+   "clip": "stock/3178_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s025",
+   "from": 3063,
+   "dur": 109,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "strike",
+     "items": [
+      "A capital",
+      "An IT hub",
+      "A Hyderabad"
+     ],
+     "at": [
+      0,
+      42,
+      72
+     ]
+    }
+   ],
+   "clip": "stock/177973_1.mp4",
+   "move": "push",
+   "grade": "night"
+  },
+  {
+   "id": "s026",
+   "from": 3172,
+   "dur": 227,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "lower",
+     "photo": "photos/p_naidu_1.jpg",
+     "name": "N. Chandrababu Naidu",
+     "role": "CHIEF MINISTER OF UNITED AP · 1995–2004",
+     "credit": "WIKIMEDIA COMMONS · CC BY-SA 4.0",
+     "at": 9,
+     "tag": "TDP"
+    }
+   ],
+   "img": "photos/p_naidu_1.jpg",
+   "move": "pushR",
+   "grade": "natural",
+   "pos": "50% 30%"
+  },
+  {
+   "id": "s027",
+   "from": 3386,
+   "dur": 68,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "HITEC City, Hyderabad",
+     "sub": "CYBER TOWERS · OPENED 1998",
+     "at": 6
+    }
+   ],
+   "img": "photos/h_hitec_6.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s028",
+   "from": 3454,
+   "dur": 61,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“Cyberabad”"
+     ],
+     "at": 3,
+     "size": 130,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/200435_2.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s029",
+   "from": 3515,
+   "dur": 110,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Microsoft and global",
+      "IT firms arrive."
+     ],
+     "serifLine": 1,
+     "at": 3,
+     "size": 80
+    }
+   ],
+   "clip": "stock/220941_1.mp4",
+   "move": "rise",
+   "grade": "cool"
+  },
+  {
+   "id": "s030",
+   "from": 3612,
+   "dur": 105,
+   "kind": "photo",
+   "inT": "flash",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“IT CM”"
+     ],
+     "at": 3,
+     "size": 150,
+     "pos": "center"
+    }
+   ],
+   "img": "photos/p_naidu_1.jpg",
+   "move": "pull",
+   "grade": "desat",
+   "pos": "50% 30%"
+  },
+  {
+   "id": "s031",
+   "from": 3704,
+   "dur": 122,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "The city behind the brand",
+      "now belongs to another state."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 88
+    },
+    {
+     "k": "tag",
+     "text": "HYDERABAD · TELANGANA SINCE 2 JUNE 2014",
+     "pos": "tl",
+     "at": 9
+    }
+   ],
+   "img": "photos/h_hitec_2.jpg",
+   "move": "pull",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s032",
+   "from": 3813,
+   "dur": 159,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Amaravati",
+     "sub": "CHOSEN AS CAPITAL · FOUNDATION STONE 22 OCT 2015",
+     "at": 6
+    },
+    {
+     "k": "tag",
+     "text": "2014 · TDP GOVERNMENT",
+     "pos": "tl",
+     "at": 3
+    }
+   ],
+   "img": "photos/a_amaravati_1.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s033",
+   "from": 3972,
+   "dur": 109,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "number",
+     "value": 2015,
+     "label": "Foundation stone for Amaravati",
+     "sub": "22 October 2015",
+     "status": "HISTORICAL RECORD",
+     "pos": "left",
+     "at": 3
+    }
+   ],
+   "img": "photos/a_amaravati_3.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s034",
+   "from": 4068,
+   "dur": 186,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "lower",
+     "name": "Y. S. Jagan Mohan Reddy",
+     "role": "CHIEF MINISTER · 2019–2024",
+     "photo": "photos/p_jagan_crop.jpg",
+     "credit": "WIKIMEDIA COMMONS · CC BY-SA 2.0",
+     "tag": "YSRCP",
+     "at": 9
+    },
+    {
+     "k": "tag",
+     "text": "2019 · YSRCP GOVERNMENT",
+     "pos": "tl",
+     "at": 3
+    }
+   ],
+   "img": "photos/v_kailasagiri_3.jpg",
+   "move": "pushL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s035",
+   "from": 4239,
+   "dur": 156,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "ThreeCapitals",
+   "props": {}
+  },
+  {
+   "id": "s036",
+   "from": 4380,
+   "dur": 194,
+   "kind": "mg",
+   "inT": "iris",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "TDP · 2014–2019",
+     "title": "Amaravati",
+     "img": "photos/a_amaravati_1.jpg"
+    },
+    "right": {
+     "kicker": "YSRCP · 2019–2024",
+     "title": "Visakhapatnam",
+     "img": "photos/v_beachroad_6.jpg"
+    },
+    "mid": "TWO PLANS",
+    "rightAt": 48
+   }
+  },
+  {
+   "id": "s037",
+   "from": 4560,
+   "dur": 151,
+   "kind": "photo",
+   "inT": "fade",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Different plans.",
+      "Neither ignored Vizag."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 92
+    }
+   ],
+   "img": "photos/v_beachroad_9.jpg",
+   "move": "driftL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s038",
+   "from": 4698,
+   "dur": 214,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "June 2024",
+      "TDP–Janasena–BJP alliance wins"
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 96
+    },
+    {
+     "k": "tag",
+     "text": "ELECTION RESULT",
+     "pos": "tl",
+     "at": 9
+    }
+   ],
+   "clip": "stock/56730_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s039",
+   "from": 4897,
+   "dur": 241,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "TwoRoles",
+   "props": {}
+  },
+  {
+   "id": "s040",
+   "from": 5124,
+   "dur": 76,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Visakhapatnam",
+     "sub": "BEACH ROAD",
+     "at": 6
+    }
+   ],
+   "clip": "stock/200434_2.mp4",
+   "move": "driftR",
+   "grade": "warm"
+  },
+  {
+   "id": "s041",
+   "from": 5200,
+   "dur": 246,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“Swarna Andhra”",
+      "a financial nucleus and knowledge hub"
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 96
+    },
+    {
+     "k": "tag",
+     "text": "STATE GOVERNMENT VISION",
+     "pos": "tl",
+     "at": 12
+    }
+   ],
+   "img": "photos/v_kailasagiri_0.jpg",
+   "move": "driftL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s042",
+   "from": 5431,
+   "dur": 207,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "AMARAVATI",
+     "title": "Runs the state",
+     "img": "photos/a_secretariat_2.jpg"
+    },
+    "right": {
+     "kicker": "VISAKHAPATNAM",
+     "title": "Earns for the state",
+     "img": "photos/v_dolphin_9.jpg"
+    },
+    "rightAt": 72
+   }
+  },
+  {
+   "id": "s043",
+   "from": 5623,
+   "dur": 220,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "CityChoice",
+   "props": {}
+  },
+  {
+   "id": "s044",
+   "from": 5828,
+   "dur": 165,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "ChapterCard",
+   "props": {
+    "index": "02",
+    "title": [
+     "Why Vizag?"
+    ],
+    "dek": "They call it the “City of Destiny.”",
+    "bgClip": "photos/v_dolphin_9.jpg",
+    "bgKind": "image"
+   }
+  },
+  {
+   "id": "s045",
+   "from": 5993,
+   "dur": 139,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY-SA 4.0"
+    }
+   ],
+   "img": "photos/v_dolphin_5.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s046",
+   "from": 6117,
+   "dur": 235,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "01 · THE SEA",
+     "pos": "tl",
+     "at": 3,
+     "color": "#248B91"
+    }
+   ],
+   "name": "WhyVizagMap",
+   "props": {
+    "mode": "harbour"
+   }
+  },
+  {
+   "id": "s047",
+   "from": 6352,
+   "dur": 72,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    }
+   ],
+   "clip": "stock/216315_1.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s048",
+   "from": 6424,
+   "dur": 78,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/24255_1.mp4",
+   "move": "push",
+   "grade": "night"
+  },
+  {
+   "id": "s049",
+   "from": 6502,
+   "dur": 68,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "02 · THE NAVY",
+     "pos": "tl",
+     "at": 3,
+     "color": "#248B91"
+    },
+    {
+     "k": "place",
+     "name": "INS Kursura, Visakhapatnam",
+     "sub": "SUBMARINE MUSEUM ON RK BEACH",
+     "at": 12
+    }
+   ],
+   "img": "photos/v_submarine_0.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s050",
+   "from": 6555,
+   "dur": 126,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "WhyVizagMap",
+   "props": {
+    "mode": "navy"
+   }
+  },
+  {
+   "id": "s051",
+   "from": 6681,
+   "dur": 110,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Bay of Bengal",
+     "sub": "INDIA'S EASTERN SEABOARD",
+     "at": 6
+    }
+   ],
+   "clip": "stock/183881_1.mp4",
+   "move": "pull",
+   "grade": "natural"
+  },
+  {
+   "id": "s052",
+   "from": 6776,
+   "dur": 124,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "03 · AN INDUSTRIAL BASE",
+     "pos": "tl",
+     "at": 3,
+     "color": "#248B91"
+    }
+   ],
+   "name": "WhyVizagMap",
+   "props": {
+    "mode": "industry"
+   }
+  },
+  {
+   "id": "s053",
+   "from": 6900,
+   "dur": 60,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Visakhapatnam Steel Plant",
+     "sub": "RINL · PUBLIC SECTOR",
+     "at": 6
+    }
+   ],
+   "img": "photos/v_steel_1.jpg",
+   "move": "driftL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s054",
+   "from": 6960,
+   "dur": 48,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/330501_1.mp4",
+   "move": "push",
+   "grade": "night"
+  },
+  {
+   "id": "s055",
+   "from": 7008,
+   "dur": 62,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/81241_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s056",
+   "from": 7070,
+   "dur": 152,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "number",
+     "value": 25,
+     "suffix": " lakh",
+     "label": "people, roughly — a ready-made city",
+     "status": "APPROXIMATE · AS STATED",
+     "pos": "left",
+     "at": 6
+    }
+   ],
+   "img": "photos/v_kailasagiri_3.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s057",
+   "from": 7209,
+   "dur": 84,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "04 · RESILIENCE",
+     "pos": "tl",
+     "at": 3,
+     "color": "#248B91"
+    },
+    {
+     "k": "headline",
+     "lines": [
+      "Cyclone Hudhud",
+      "12 October 2014"
+     ],
+     "serifLine": 1,
+     "at": 84,
+     "size": 100
+    }
+   ],
+   "img": "photos/v_beachroad_6.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s058",
+   "from": 7293,
+   "dur": 135,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "NASA SATELLITE IMAGE · 12 OCT 2014",
+     "pos": "tl",
+     "at": 6
+    },
+    {
+     "k": "credit",
+     "text": "IMAGE · NASA (PUBLIC DOMAIN)"
+    }
+   ],
+   "img": "photos/v_hudhud_sat_6.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 45%"
+  },
+  {
+   "id": "s059",
+   "from": 7428,
+   "dur": 150,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "credit",
+     "text": "TRACK MAP · PUBLIC DOMAIN (WIKIMEDIA COMMONS)"
+    }
+   ],
+   "img": "photos/v_hudhud_sat_8.jpg",
+   "move": "driftL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s060",
+   "from": 7565,
+   "dur": 108,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "A comeback story",
+      "investors remember."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 88
+    }
+   ],
+   "img": "photos/v_beachroad_5.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s061",
+   "from": 7673,
+   "dur": 121,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "The real game changer?"
+     ],
+     "at": 9,
+     "size": 100,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/22183_1.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s062",
+   "from": 7779,
+   "dur": 135,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Subsea cables."
+     ],
+     "at": 80,
+     "size": 120,
+     "pos": "bottom"
+    }
+   ],
+   "name": "SubseaScene",
+   "props": {
+    "a": 0,
+    "b": 300
+   }
+  },
+  {
+   "id": "s063",
+   "from": 7914,
+   "dur": 60,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/134872_1.mp4",
+   "move": "push",
+   "grade": "warm"
+  },
+  {
+   "id": "s064",
+   "from": 7974,
+   "dur": 93,
+   "kind": "mg",
+   "inT": "cut",
+   "inDur": 15,
+   "ov": [],
+   "name": "PhoneZoom",
+   "props": {}
+  },
+  {
+   "id": "s065",
+   "from": 8052,
+   "dur": 220,
+   "kind": "mg",
+   "inT": "flash",
+   "inDur": 15,
+   "ov": [],
+   "name": "SubseaScene",
+   "props": {
+    "a": 300,
+    "b": 900
+   }
+  },
+  {
+   "id": "s066",
+   "from": 8257,
+   "dur": 129,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "quote",
+     "at": 4,
+     "pos": "left",
+     "quote": "The Visakhapatnam hub will be a landing point for multiple international subsea cables, connected to Google's global network.",
+     "who": "Thomas Kurian (paraphrased)",
+     "role": "CEO, GOOGLE CLOUD · 14 OCT 2025",
+     "status": "COMPANY STATEMENT",
+     "size": 50,
+     "photo": "photos/p_kurian_0.jpg"
+    }
+   ],
+   "img": "photos/pib_mou_panel.jpg",
+   "move": "push",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s067",
+   "from": 8371,
+   "dur": 230,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "CableMap",
+   "props": {
+    "propAt": 30
+   }
+  },
+  {
+   "id": "s068",
+   "from": 8586,
+   "dur": 379,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "DataGap",
+   "props": {
+    "bg": "stock/255761_1.mp4"
+   }
+  },
+  {
+   "id": "s069",
+   "from": 8965,
+   "dur": 129,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Huge demand.",
+      "Little supply."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 100
+    }
+   ],
+   "clip": "stock/2860_1.mp4",
+   "move": "push",
+   "grade": "night"
+  },
+  {
+   "id": "s070",
+   "from": 9079,
+   "dur": 255,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "WhyVizagMap",
+   "props": {
+    "mode": "ingredients"
+   }
+  },
+  {
+   "id": "s071",
+   "from": 9334,
+   "dur": 90,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/377885_1.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s072",
+   "from": 9424,
+   "dur": 103,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Big Tech turns",
+      "towards Vizag."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 100
+    }
+   ],
+   "clip": "stock/242599_2.mp4",
+   "move": "pull",
+   "grade": "cool"
+  },
+  {
+   "id": "s073",
+   "from": 9512,
+   "dur": 200,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "ChapterCard",
+   "props": {
+    "index": "03",
+    "title": [
+     "The Big Bets"
+    ],
+    "dek": "Five bets on one coastline.",
+    "bgClip": "photos/v_dolphin_10.jpg",
+    "bgKind": "image"
+   }
+  },
+  {
+   "id": "s074",
+   "from": 9697,
+   "dur": 89,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "BetIndex",
+   "props": {
+    "items": [
+     "Google AI Hub",
+     "Data-Centre City",
+     "Steel City",
+     "Bhogapuram Airport",
+     "Economic Region"
+    ],
+    "bg": "stock/23008_1.mp4"
+   }
+  },
+  {
+   "id": "s075",
+   "from": 9771,
+   "dur": 142,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "BetCard",
+   "props": {
+    "n": "01",
+    "title": "Google AI Hub",
+    "dek": "A $15 billion bet on AI infrastructure.",
+    "bg": "stock/377880_1.mp4"
+   }
+  },
+  {
+   "id": "s076",
+   "from": 9913,
+   "dur": 73,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "New Delhi",
+     "sub": "14 OCTOBER 2025",
+     "at": 6
+    }
+   ],
+   "clip": "stock/206065_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s077",
+   "from": 9973,
+   "dur": 164,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "MoU SIGNED · 14 OCT 2025",
+     "pos": "tl",
+     "at": 6
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · PRESS INFORMATION BUREAU, GOVT. OF INDIA (GODL-INDIA)"
+    }
+   ],
+   "img": "photos/pib_mou_group.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s078",
+   "from": 10122,
+   "dur": 120,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "DocScene",
+   "props": {
+    "kicker": "GOOGLE · THE KEYWORD (INDIA)",
+    "headline": "Our first AI hub in India, powered by a $15 billion investment",
+    "body": [
+     "Approximately US$15 billion over five years, 2026–2030.",
+     "Data-centre capacity, clean energy, subsea and fibre connectivity."
+    ],
+    "highlight": 0,
+    "date": "14 OCT 2025",
+    "source": "blog.google · Google India announcement (headline quoted; body summarised)",
+    "bg": "stock/336239_1.mp4"
+   }
+  },
+  {
+   "id": "s079",
+   "from": 10242,
+   "dur": 202,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "number",
+     "value": 15,
+     "prefix": "$",
+     "suffix": " bn",
+     "label": "≈ ₹1.3 lakh crore over 2026–2030",
+     "status": "ANNOUNCED INVESTMENT",
+     "source": "Google, 14 Oct 2025",
+     "pos": "left",
+     "at": 3
+    }
+   ],
+   "clip": "stock/316736_1.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s080",
+   "from": 10444,
+   "dur": 154,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Google's largest AI hub",
+      "investment outside the US"
+     ],
+     "serifLine": 1,
+     "at": 3,
+     "size": 84
+    },
+    {
+     "k": "tag",
+     "text": "COMPANY STATEMENT",
+     "pos": "tl",
+     "at": 9
+    }
+   ],
+   "clip": "stock/14906_1.mp4",
+   "move": "driftL",
+   "grade": "cool"
+  },
+  {
+   "id": "s081",
+   "from": 10585,
+   "dur": 126,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "GROUND-BREAKING · 28 APR 2026",
+     "pos": "tl",
+     "at": 6
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · PRESS INFORMATION BUREAU, GOVT. OF INDIA (GODL-INDIA)"
+    }
+   ],
+   "img": "photos/pib_ground_shovels.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s082",
+   "from": 10711,
+   "dur": 145,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "lower",
+     "name": "Ashwini Vaishnaw",
+     "role": "UNION MINISTER, ELECTRONICS & IT",
+     "credit": "PIB (GODL-INDIA)",
+     "at": 6,
+     "side": "r"
+    }
+   ],
+   "img": "photos/pib_ground_stage.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s083",
+   "from": 10841,
+   "dur": 152,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "quote",
+     "at": 4,
+     "pos": "left",
+     "quote": "Visakhapatnam will be born as AI-Patnam.",
+     "who": "Ashwini Vaishnaw",
+     "role": "UNION IT MINISTER · 28 APR 2026",
+     "status": "STATEMENT",
+     "size": 74,
+     "photo": "photos/pib_vaishnaw_talk.jpg"
+    }
+   ],
+   "clip": "stock/14900_1.mp4",
+   "move": "push",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s084",
+   "from": 10978,
+   "dur": 106,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "GigawattCubes",
+   "props": {
+    "label": "Planned capacity of the Google AI hub",
+    "status": "ANNOUNCED"
+   }
+  },
+  {
+   "id": "s085",
+   "from": 11069,
+   "dur": 230,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "GoogleSites",
+   "props": {}
+  },
+  {
+   "id": "s086",
+   "from": 11284,
+   "dur": 260,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "BUILT WITH ADANICONNEX (ADANI × EDGECONNEX) · AIRTEL (NXTRA)",
+     "pos": "br",
+     "at": 60,
+     "color": "#E1E6EA"
+    }
+   ],
+   "name": "DataCentreCampus",
+   "props": {
+    "status": "PROPOSED · EXPLAINER, NOT THE ACTUAL DESIGN",
+    "a": 0,
+    "b": 440
+   }
+  },
+  {
+   "id": "s087",
+   "from": 11529,
+   "dur": 124,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "BetCard",
+   "props": {
+    "n": "02",
+    "title": "Data-Centre City",
+    "dek": "Google is not alone.",
+    "bg": "stock/377880_2.mp4"
+   }
+  },
+  {
+   "id": "s088",
+   "from": 11653,
+   "dur": 156,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "number",
+     "value": 11,
+     "prefix": "$",
+     "suffix": " bn",
+     "label": "Digital Connexion — Reliance · Brookfield · Digital Realty",
+     "sub": "1 GW AI data-centre campus in Visakhapatnam",
+     "status": "MoU · ANNOUNCED NOV 2025",
+     "source": "Company announcement, Nov 2025",
+     "pos": "left",
+     "at": 6
+    }
+   ],
+   "clip": "stock/316854_2.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s089",
+   "from": 11809,
+   "dur": 171,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/14907_1.mp4",
+   "move": "driftR",
+   "grade": "cool"
+  },
+  {
+   "id": "s090",
+   "from": 11965,
+   "dur": 266,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "CapacityBars",
+   "props": {
+    "bg": "photos/g_google_dc_2.jpg"
+   }
+  },
+  {
+   "id": "s091",
+   "from": 12216,
+   "dur": 78,
+   "kind": "mg",
+   "inT": "flash",
+   "inDur": 15,
+   "ov": [],
+   "name": "SteelText",
+   "props": {
+    "clip": "stock/282244_2.mp4",
+    "word": "STEEL",
+    "sub": "BET 03 · STEEL CITY"
+   }
+  },
+  {
+   "id": "s092",
+   "from": 12279,
+   "dur": 120,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "SteelSite",
+   "props": {}
+  },
+  {
+   "id": "s093",
+   "from": 12399,
+   "dur": 144,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    }
+   ],
+   "clip": "stock/120734_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s094",
+   "from": 12528,
+   "dur": 326,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "SteelCity",
+   "props": {
+    "facts": [
+     {
+      "n": "₹1.36 L cr",
+      "l": "INVESTMENT",
+      "tag": "COMPANY / STATE FIGURE",
+      "at": 18
+     },
+     {
+      "n": "17.8 MTPA",
+      "l": "TWO PHASES (PHASE 1: 8.2 MTPA)",
+      "tag": "PLANNED CAPACITY",
+      "at": 114
+     },
+     {
+      "n": "5,465 acres",
+      "l": "LAND",
+      "tag": "AS STATED",
+      "at": 186
+     }
+    ]
+   }
+  },
+  {
+   "id": "s095",
+   "from": 12854,
+   "dur": 169,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "quote",
+     "quote": "We are not building a steel plant. We are building a steel city.",
+     "who": "N. Chandrababu Naidu",
+     "role": "CHIEF MINISTER · 23 MAR 2026 (TRANSLATED)",
+     "status": "STATEMENT",
+     "at": 3,
+     "size": 58
+    }
+   ],
+   "img": "photos/p_naidu_1.jpg",
+   "move": "push",
+   "grade": "warm",
+   "pos": "50% 30%"
+  },
+  {
+   "id": "s096",
+   "from": 13008,
+   "dur": 85,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "BetCard",
+   "props": {
+    "n": "04",
+    "title": "Bhogapuram Airport",
+    "dek": "Vizag's own international airport.",
+    "bg": "photos/v_bhogapuram_9.jpg",
+    "bgKind": "image"
+   }
+  },
+  {
+   "id": "s097",
+   "from": 13079,
+   "dur": 147,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Alluri Sitarama Raju International Airport",
+     "sub": "BHOGAPURAM · AERIAL DURING CONSTRUCTION",
+     "at": 6
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY-SA 4.0"
+    }
+   ],
+   "img": "photos/v_bhogapuram_0.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s098",
+   "from": 13211,
+   "dur": 226,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "Runway3D",
+   "props": {
+    "chips": [
+     {
+      "t": "Inaugurated by PM Modi · 1 Aug 2026",
+      "at": 15,
+      "tag": "OPERATIONAL",
+      "color": "#248B91"
+     },
+     {
+      "t": "All Vizag flights moved · 17 Aug 2026",
+      "at": 96,
+      "tag": "OPERATIONAL",
+      "color": "#248B91"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s099",
+   "from": 13437,
+   "dur": 142,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "doc",
+     "kicker": "PROJECT TIMELINE",
+     "headline": "Target: December 2026. Opened: August 2026.",
+     "body": [
+      "Commercial flights began on 17 August 2026."
+     ],
+     "date": "2026",
+     "source": "PIB · airport operator announcements",
+     "at": 6
+    }
+   ],
+   "img": "photos/v_bhogapuram_10.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s100",
+   "from": 13579,
+   "dur": 135,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Old Visakhapatnam Airport",
+     "sub": "CIVIL ENCLAVE AT NAVAL AIR STATION INS DEGA",
+     "at": 6
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY-SA 4.0"
+    }
+   ],
+   "img": "photos/v_vizag_airport_4.jpg",
+   "move": "driftL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s101",
+   "from": 13714,
+   "dur": 136,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    }
+   ],
+   "clip": "stock/143853_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s102",
+   "from": 13835,
+   "dur": 92,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "BetCard",
+   "props": {
+    "n": "05",
+    "title": "The Master Plan",
+    "dek": "Visakhapatnam Economic Region (VER).",
+    "bg": "photos/v_kailasagiri_0.jpg",
+    "bgKind": "image"
+   }
+  },
+  {
+   "id": "s103",
+   "from": 13912,
+   "dur": 657,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "VERMap",
+   "props": {
+    "marks": {
+     "corridor": 93,
+     "sectors": 425,
+     "target": 183
+    }
+   }
+  },
+  {
+   "id": "s104",
+   "from": 14569,
+   "dur": 180,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "doc",
+     "kicker": "31ST CII PARTNERSHIP SUMMIT · VISAKHAPATNAM",
+     "headline": "Delegates from about 58 countries. MoUs worth lakhs of crores.",
+     "body": [
+      "Day 1: 73 MoUs and 15 government orders, ₹5.84 lakh crore proposed."
+     ],
+     "highlight": 0,
+     "date": "12–13 NOV 2026",
+     "source": "CII · state announcements as reported (proposed, not invested)",
+     "at": 9
+    }
+   ],
+   "clip": "stock/1191_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s105",
+   "from": 14749,
+   "dur": 194,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "lower",
+     "name": "Nara Lokesh",
+     "role": "AP IT MINISTER · AT THE 2025 CII SUMMIT",
+     "credit": "WIKIMEDIA COMMONS · CC BY-SA 4.0",
+     "at": 3
+    }
+   ],
+   "img": "photos/p_lokesh_0.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 30%"
+  },
+  {
+   "id": "s106",
+   "from": 14928,
+   "dur": 406,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "StatusFunnel",
+   "props": {
+    "bg": "stock/318026_1.mp4"
+   }
+  },
+  {
+   "id": "s107",
+   "from": 15334,
+   "dur": 159,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "What does an ordinary",
+      "Andhra family get?"
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 96
+    }
+   ],
+   "clip": "stock/1643_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s108",
+   "from": 15478,
+   "dur": 339,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "ChapterCard",
+   "props": {
+    "index": "04",
+    "title": [
+     "What's in it",
+     "for Andhra?"
+    ],
+    "dek": "Jobs, promises — and the fine print.",
+    "bgClip": "stock/3178_2.mp4"
+   }
+  },
+  {
+   "id": "s109",
+   "from": 15802,
+   "dur": 138,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "NorthAndhra",
+   "props": {}
+  },
+  {
+   "id": "s110",
+   "from": 15940,
+   "dur": 26,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Construction workers"
+     ],
+     "at": 3,
+     "size": 76,
+     "pos": "bottom"
+    }
+   ],
+   "clip": "stock/116763_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s111",
+   "from": 15966,
+   "dur": 42,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "IT engineers"
+     ],
+     "at": 3,
+     "size": 76,
+     "pos": "bottom"
+    }
+   ],
+   "clip": "stock/39892_1.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s112",
+   "from": 16008,
+   "dur": 63,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Nurses"
+     ],
+     "at": 3,
+     "size": 76,
+     "pos": "bottom"
+    }
+   ],
+   "clip": "stock/143376_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s113",
+   "from": 16056,
+   "dur": 113,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "Migration",
+   "props": {}
+  },
+  {
+   "id": "s114",
+   "from": 16155,
+   "dur": 236,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "quote",
+     "quote": "Your children no longer need to leave. The jobs will come here.",
+     "who": "The government's pitch",
+     "role": "AS SUMMARISED IN NARRATION",
+     "status": "GOVERNMENT CLAIM",
+     "at": 6,
+     "size": 56
+    }
+   ],
+   "clip": "stock/3175_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s115",
+   "from": 16391,
+   "dur": 261,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "number",
+     "value": 100000,
+     "label": "direct & indirect jobs during construction & development",
+     "sub": "ArcelorMittal Nippon Steel India",
+     "status": "COMPANY ESTIMATE",
+     "source": "AM/NS India, Mar 2026",
+     "pos": "left",
+     "at": 6
+    }
+   ],
+   "clip": "stock/135849_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s116",
+   "from": 16652,
+   "dur": 225,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "number",
+     "value": 688,
+     "prefix": "$",
+     "suffix": " mn / yr",
+     "label": "local economic activity, every year",
+     "status": "COMPANY ESTIMATE",
+     "source": "Google, as reported (Business Standard, AFP)",
+     "pos": "left",
+     "at": 6
+    }
+   ],
+   "clip": "stock/14900_2.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s117",
+   "from": 16862,
+   "dur": 210,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "JobsIsotype",
+   "props": {
+    "showPermanentAt": 1000000
+   }
+  },
+  {
+   "id": "s118",
+   "from": 17072,
+   "dur": 150,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "number",
+     "value": 25000,
+     "suffix": " t",
+     "label": "annual cargo-terminal capacity, Bhogapuram",
+     "status": "PLANNED",
+     "source": "Airport operator / reports, 2026",
+     "pos": "left",
+     "at": 6
+    }
+   ],
+   "clip": "stock/7517_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s119",
+   "from": 17222,
+   "dur": 78,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/57049_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s120",
+   "from": 17300,
+   "dur": 133,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/182082_1.mp4",
+   "move": "pull",
+   "grade": "natural"
+  },
+  {
+   "id": "s121",
+   "from": 17419,
+   "dur": 107,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Vizag Steel Plant",
+     "sub": "RASHTRIYA ISPAT NIGAM LTD (RINL)",
+     "at": 6
+    }
+   ],
+   "img": "photos/v_steel_3.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s122",
+   "from": 17526,
+   "dur": 165,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“Visakha Steel is",
+      "Andhra's right.”"
+     ],
+     "serifLine": 1,
+     "at": 3,
+     "size": 104
+    },
+    {
+     "k": "tag",
+     "text": "TRANSLATED · A DECADES-OLD PUBLIC SLOGAN",
+     "pos": "tl",
+     "at": 9
+    },
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    }
+   ],
+   "clip": "stock/10447_1.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s123",
+   "from": 17691,
+   "dur": 200,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "doc",
+     "kicker": "FOUNDATION DAY · AM/NS PLANT · 23 MAR 2026",
+     "headline": "Union ministers promise financial support for RINL and higher capacity.",
+     "body": [
+      "A promise — not yet delivered."
+     ],
+     "highlight": 0,
+     "source": "Statements at the event, as reported",
+     "at": 6
+    }
+   ],
+   "img": "photos/v_steel_1.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s124",
+   "from": 17878,
+   "dur": 254,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "A political brand",
+      "built on development."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 92
+    }
+   ],
+   "img": "photos/p_naidu_1.jpg",
+   "move": "pull",
+   "grade": "desat",
+   "pos": "50% 30%"
+  },
+  {
+   "id": "s125",
+   "from": 18117,
+   "dur": 303,
+   "kind": "mg",
+   "inT": "iris",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "LEGACY 1 · 1998",
+     "title": "HITEC City",
+     "img": "photos/h_hitec_2.jpg",
+     "tag": "BUILT",
+     "tagColor": "#248B91"
+    },
+    "right": {
+     "kicker": "LEGACY 2 · 2026 →",
+     "title": "An AI city?",
+     "video": "stock/182597_1.mp4",
+     "tag": "PROPOSED"
+    },
+    "rightAt": 90
+   }
+  },
+  {
+   "id": "s126",
+   "from": 18420,
+   "dur": 161,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "…or just headlines?"
+     ],
+     "at": 9,
+     "size": 110,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/152728_1.mp4",
+   "move": "push",
+   "grade": "desat"
+  },
+  {
+   "id": "s127",
+   "from": 18567,
+   "dur": 75,
+   "kind": "stock",
+   "inT": "flash",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "The twist."
+     ],
+     "at": 3,
+     "size": 130,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/14907_2.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s128",
+   "from": 18627,
+   "dur": 195,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "DocScene",
+   "props": {
+    "kicker": "GOOGLE · PROJECT ESTIMATES (AS REPORTED)",
+    "headline": "Once operational in 2028, the hub would support hundreds of specialist jobs.",
+    "body": [
+     "About 4,200 construction jobs during a typical build.",
+     "About $688 million of local economic activity a year."
+    ],
+    "highlight": -1,
+    "date": "OCT 2026",
+    "source": "Google, as reported by AFP and Business Standard · paraphrased",
+    "bg": "stock/14906_2.mp4"
+   }
+  },
+  {
+   "id": "s129",
+   "from": 18807,
+   "dur": 208,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "JobsIsotype",
+   "props": {
+    "showPermanentAt": 18
+   }
+  },
+  {
+   "id": "s130",
+   "from": 19000,
+   "dur": 136,
+   "kind": "mg",
+   "inT": "iris",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "INVESTMENT",
+     "title": "$15 billion",
+     "video": "stock/377885_2.mp4"
+    },
+    "right": {
+     "kicker": "PERMANENT JOBS",
+     "title": "“Hundreds”",
+     "video": "stock/139521_1.mp4",
+     "tag": "COMPANY ESTIMATE"
+    },
+    "rightAt": 48
+   }
+  },
+  {
+   "id": "s131",
+   "from": 19136,
+   "dur": 87,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "The critics'",
+      "first question."
+     ],
+     "serifLine": 1,
+     "at": 3,
+     "size": 96
+    }
+   ],
+   "clip": "stock/8698_1.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s132",
+   "from": 19223,
+   "dur": 210,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "quote",
+     "quote": "We need mass employment and labour-intensive industries — not high-capital ones.",
+     "who": "An activist",
+     "role": "AS QUOTED IN NARRATION",
+     "status": "CRITIC",
+     "statusColor": "#D97769",
+     "at": 6,
+     "size": 54
+    }
+   ],
+   "clip": "stock/116693_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s133",
+   "from": 19418,
+   "dur": 250,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "DataCentreCampus",
+   "props": {
+    "status": "EXPLAINER",
+    "a": 420,
+    "b": 900,
+    "caption": "Land, power, water — but few people."
+   }
+  },
+  {
+   "id": "s134",
+   "from": 19653,
+   "dur": 89,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "EnvMap",
+   "props": {
+    "mode": "question",
+    "words": []
+   }
+  },
+  {
+   "id": "s135",
+   "from": 19727,
+   "dur": 169,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "ChapterCard",
+   "props": {
+    "index": "05",
+    "title": [
+     "The Backlash"
+    ],
+    "dek": "The other side of the coin.",
+    "bgClip": "stock/364184_1.mp4"
+   }
+  },
+  {
+   "id": "s136",
+   "from": 19881,
+   "dur": 135,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "EnvMap",
+   "props": {
+    "mode": "tarluvada"
+   }
+  },
+  {
+   "id": "s137",
+   "from": 20016,
+   "dur": 93,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "headline",
+     "lines": [
+      "Green hills,",
+      "now red earth."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 92
+    }
+   ],
+   "clip": "stock/275593_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s138",
+   "from": 20109,
+   "dur": 118,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    }
+   ],
+   "clip": "stock/127958_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s139",
+   "from": 20212,
+   "dur": 179,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "FEAR 01 · 02",
+     "title": "Water & power",
+     "img": "photos/v_mudasarlova_3.jpg"
+    },
+    "right": {
+     "kicker": "FEAR 03",
+     "title": "Jobs",
+     "video": "stock/8698_2.mp4"
+    },
+    "mid": "WHAT VIZAG FEARS",
+    "rightAt": 66
+   }
+  },
+  {
+   "id": "s140",
+   "from": 20391,
+   "dur": 138,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Water and power in.",
+      "Few jobs out."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 90
+    },
+    {
+     "k": "tag",
+     "text": "RESIDENTS' CONCERN",
+     "pos": "tl",
+     "at": 12,
+     "color": "#D97769"
+    }
+   ],
+   "clip": "stock/2151_1.mp4",
+   "move": "driftL",
+   "grade": "warn"
+  },
+  {
+   "id": "s141",
+   "from": 20529,
+   "dur": 161,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/37758_1.mp4",
+   "move": "push",
+   "grade": "warn"
+  },
+  {
+   "id": "s142",
+   "from": 20676,
+   "dur": 140,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "CONCERN 01 · WATER",
+     "pos": "tl",
+     "at": 3,
+     "color": "#248B91"
+    },
+    {
+     "k": "place",
+     "name": "Mudasarlova Reservoir",
+     "sub": "SUPPLIES DRINKING WATER TO VIZAG",
+     "at": 12
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY-SA 4.0"
+    }
+   ],
+   "img": "photos/v_mudasarlova_3.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s143",
+   "from": 20801,
+   "dur": 248,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "EnvMap",
+   "props": {
+    "mode": "mudasarlova"
+   }
+  },
+  {
+   "id": "s144",
+   "from": 21034,
+   "dur": 246,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "quote",
+     "at": 4,
+     "pos": "left",
+     "quote": "Can anyone imagine a data centre just 120 metres from a drinking-water reservoir?",
+     "who": "V. S. Krishna",
+     "role": "HUMAN RIGHTS FORUM (TRANSLATED)",
+     "status": "ALLEGATION",
+     "statusColor": "#D97769",
+     "size": 60
+    }
+   ],
+   "img": "photos/v_mudasarlova_11.jpg",
+   "move": "push",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s145",
+   "from": 21265,
+   "dur": 389,
+   "kind": "mg",
+   "inT": "iris",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "JAR 1",
+     "title": "Clean water",
+     "video": "stock/109879_1.mp4"
+    },
+    "right": {
+     "kicker": "JAR 2",
+     "title": "Brown, muddy water",
+     "video": "stock/208788_1.mp4",
+     "tag": "ALLEGATION · VIRAL VIDEO, MAY 2026",
+     "tagColor": "#D97769"
+    },
+    "mid": "WHAT THE VIRAL VIDEO SHOWED · RECONSTRUCTION",
+    "rightAt": 36
+   }
+  },
+  {
+   "id": "s146",
+   "from": 21641,
+   "dur": 115,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "CONCERN 02 · LAND",
+     "pos": "tl",
+     "at": 3,
+     "color": "#F1E5A7"
+    }
+   ],
+   "img": "photos/v_simhachalam_10.jpg",
+   "move": "driftL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s147",
+   "from": 21741,
+   "dur": 429,
+   "kind": "photo",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "quote",
+     "at": 4,
+     "pos": "left",
+     "quote": "160 acres of Simhachalam Devasthanam land was given to the Google–Adani data centre without an environmental impact assessment or a public hearing.",
+     "who": "Prof. Khairagi Reddy",
+     "role": "HONORARY PRESIDENT, GREEN VISAKHAPATNAM",
+     "status": "ALLEGATION",
+     "statusColor": "#D97769",
+     "size": 46
+    }
+   ],
+   "img": "photos/v_simhachalam_6.jpg",
+   "move": "push",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s148",
+   "from": 22155,
+   "dur": 126,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "EnvMap",
+   "props": {
+    "mode": "kambalakonda"
+   }
+  },
+  {
+   "id": "s149",
+   "from": 22281,
+   "dur": 73,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "CONCERN 03 · CLEARANCES",
+     "pos": "tl",
+     "at": 3,
+     "color": "#F1E5A7"
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY-SA 4.0"
+    }
+   ],
+   "img": "photos/v_kambalakonda_10.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s150",
+   "from": 22340,
+   "dur": 289,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "DocScene",
+   "props": {
+    "kicker": "STATE ENVIRONMENT IMPACT ASSESSMENT AUTHORITY, AP",
+    "headline": "Environmental Clearance granted to the Adavivaram–Mudasarlova data-centre park.",
+    "body": [
+     "June 2026 · appraised as a Category B2 building project.",
+     "Challenged before the National Green Tribunal."
+    ],
+    "highlight": 0,
+    "date": "JUNE 2026",
+    "source": "As reported from HRF statement (13 Jun 2026) and NGT proceedings",
+    "bg": "photos/v_kambalakonda_11.jpg"
+   }
+  },
+  {
+   "id": "s151",
+   "from": 22614,
+   "dur": 187,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "quote",
+     "at": 4,
+     "pos": "left",
+     "quote": "Brazen injustice — site works began before the clearance was granted.",
+     "who": "Human Rights Forum",
+     "role": "STATEMENT, 13 JUNE 2026",
+     "status": "ALLEGATION",
+     "statusColor": "#D97769",
+     "size": 60
+    }
+   ],
+   "clip": "stock/3741_1.mp4",
+   "move": "push",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s152",
+   "from": 22801,
+   "dur": 142,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "CYCLONE HUDHUD · NASA · 11 OCT 2014",
+     "pos": "tl",
+     "at": 3
+    },
+    {
+     "k": "credit",
+     "text": "IMAGE · NASA (PUBLIC DOMAIN)"
+    }
+   ],
+   "img": "photos/v_hudhud_sat_3.jpg",
+   "move": "pull",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s153",
+   "from": 22929,
+   "dur": 106,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "tag",
+     "text": "CONCERN 04 · VOICES",
+     "pos": "tl",
+     "at": 3,
+     "color": "#D97769"
+    }
+   ],
+   "clip": "stock/230083_1.mp4",
+   "move": "push",
+   "grade": "desat"
+  },
+  {
+   "id": "s154",
+   "from": 23020,
+   "dur": 374,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "DocScene",
+   "props": {
+    "kicker": "TARLUVADA · ANANDAPURAM MANDAL",
+    "headline": "Police detain Left party leaders on their way to meet farmers who lost land.",
+    "body": [
+     "HRF alleges an attempt to stop public discussion."
+    ],
+    "highlight": 0,
+    "date": "27 JUL 2026",
+    "source": "As reported (The Hindu, Prajasakti) · HRF allegation",
+    "bg": "stock/214619_1.mp4"
+   }
+  },
+  {
+   "id": "s155",
+   "from": 23394,
+   "dur": 173,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Beach Road, Visakhapatnam",
+     "sub": "AWARENESS PROTESTS BY GREEN VISAKHA & OTHERS",
+     "at": 6
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY 4.0"
+    }
+   ],
+   "img": "photos/v_beachroad_2.jpg",
+   "move": "driftR",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s156",
+   "from": 23552,
+   "dur": 58,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "BetCard",
+   "props": {
+    "n": "?",
+    "title": "The government's answer",
+    "dek": "",
+    "bg": "photos/pib_mou_panel.jpg",
+    "bgKind": "image"
+   }
+  },
+  {
+   "id": "s157",
+   "from": 23610,
+   "dur": 327,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "quote",
+     "quote": "A 1 GW thermal power plant uses many times more water than a 1 GW data centre.",
+     "who": "Nara Lokesh",
+     "role": "AP IT MINISTER (TRANSLATED · NARRATION SAYS 7×; ASSEMBLY REPORTS SAY ~10×)",
+     "status": "GOVERNMENT RESPONSE",
+     "statusColor": "#E1E6EA",
+     "at": 6,
+     "size": 52
+    }
+   ],
+   "img": "photos/p_lokesh_0.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 30%"
+  },
+  {
+   "id": "s158",
+   "from": 23937,
+   "dur": 239,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "doc",
+     "kicker": "ENVIRONMENTAL CLEARANCES · TWO DATA-CENTRE PARKS",
+     "headline": "Water source cited: Rural Water Supply department.",
+     "body": [
+      "Government says city drinking water will not be diverted."
+     ],
+     "highlight": 0,
+     "source": "As stated by the government",
+     "at": 6
+    }
+   ],
+   "clip": "stock/208788_2.mp4",
+   "move": "pull",
+   "grade": "natural"
+  },
+  {
+   "id": "s159",
+   "from": 24176,
+   "dur": 231,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“For Andhra's youth.”",
+      "Every big project faces opposition."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 84
+    },
+    {
+     "k": "tag",
+     "text": "GOVERNMENT MESSAGE",
+     "pos": "tl",
+     "at": 9
+    }
+   ],
+   "clip": "stock/39892_2.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s160",
+   "from": 24407,
+   "dur": 200,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Not just a Vizag fight."
+     ],
+     "at": 3,
+     "size": 100,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/37758_2.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s161",
+   "from": 24607,
+   "dur": 138,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "place",
+     "name": "Finland · Muhos & Kajaani",
+     "sub": "OCT 2026 · WORK ORDERED TO PAUSE UNTIL ASSESSMENTS ARE DONE",
+     "at": 6
+    },
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    }
+   ],
+   "clip": "stock/335040_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s162",
+   "from": 24745,
+   "dur": 146,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [],
+   "clip": "stock/22378_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s163",
+   "from": 24876,
+   "dur": 188,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "EnvMap",
+   "props": {
+    "mode": "question",
+    "words": [
+     {
+      "t": "Where?",
+      "at": 48
+     },
+     {
+      "t": "How?",
+      "at": 78
+     },
+     {
+      "t": "At whose cost?",
+      "at": 108
+     }
+    ]
+   }
+  },
+  {
+   "id": "s164",
+   "from": 25064,
+   "dur": 101,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Enter: politics."
+     ],
+     "at": 3,
+     "size": 120,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/152728_2.mp4",
+   "move": "push",
+   "grade": "desat"
+  },
+  {
+   "id": "s165",
+   "from": 25150,
+   "dur": 168,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "ChapterCard",
+   "props": {
+    "index": "06",
+    "title": [
+     "The Credit War"
+    ],
+    "dek": "A big project — and a bigger fight over who gets credit.",
+    "bgClip": "stock/87146_1.mp4"
+   }
+  },
+  {
+   "id": "s166",
+   "from": 25318,
+   "dur": 213,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "The first fight",
+      "is always over credit."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 92
+    }
+   ],
+   "clip": "stock/199297_1.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s167",
+   "from": 25531,
+   "dur": 111,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "YSRCP'S ARGUMENT",
+     "pos": "tl",
+     "at": 3
+    }
+   ],
+   "clip": "stock/154195_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s168",
+   "from": 25627,
+   "dur": 246,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "CreditTimeline",
+   "props": {
+    "top": {
+     "name": "YSRCP",
+     "photo": "photos/p_jagan_crop.jpg",
+     "events": [
+      {
+       "date": "NOV 2020",
+       "text": "Land allotted to Adani for a 300 MW data centre, says YSRCP",
+       "tag": "YSRCP CLAIM",
+       "x": 2020.85,
+       "at": 30
+      },
+      {
+       "date": "3 MAY 2023",
+       "text": "Jagan lays foundation stone for Adani data centres",
+       "tag": "VERIFIED",
+       "x": 2023.33,
+       "at": 90
+      },
+      {
+       "date": "2020–24",
+       "text": "Singapore–Vizag 3,900 km cable project begun, says YSRCP",
+       "tag": "YSRCP CLAIM",
+       "x": 2022.0,
+       "at": 150
+      }
+     ]
+    },
+    "bottom": {
+     "name": "TDP",
+     "photo": "photos/p_naidu_1.jpg",
+     "events": [
+      {
+       "date": "FEB 2019",
+       "text": "Naidu lays foundation for Adani data centre (TDP govt)",
+       "tag": "VERIFIED",
+       "x": 2019.12,
+       "at": 2970
+      },
+      {
+       "date": "2019–24",
+       "text": "Project delayed under YSRCP, says TDP",
+       "tag": "TDP CLAIM",
+       "x": 2021.6,
+       "at": 2970
+      },
+      {
+       "date": "14 OCT 2025",
+       "text": "US$15 bn Google AI hub MoU under coalition govt",
+       "tag": "VERIFIED",
+       "x": 2025.78,
+       "at": 2970
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "s169",
+   "from": 25873,
+   "dur": 240,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "doc",
+     "kicker": "VISAKHAPATNAM · 3 MAY 2023",
+     "headline": "Jagan lays the foundation for Adani data centres: 200 MW at Madhurawada, 100 MW at Kapuluppada.",
+     "body": [
+      "Reported investment: ₹21,844 crore."
+     ],
+     "highlight": 0,
+     "source": "Deccan Herald, Siasat, Yo Vizag (May 2023)",
+     "at": 6
+    },
+    {
+     "k": "tag",
+     "text": "VERIFIED",
+     "pos": "tr",
+     "at": 9,
+     "color": "#248B91"
+    }
+   ],
+   "clip": "stock/206694_1.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s170",
+   "from": 26113,
+   "dur": 233,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Singapore → Vizag cable",
+      "“started in our time”"
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 84
+    },
+    {
+     "k": "tag",
+     "text": "YSRCP CLAIM · NOT VERIFIED",
+     "pos": "tl",
+     "at": 9
+    }
+   ],
+   "clip": "stock/336240_1.mp4",
+   "move": "push",
+   "grade": "cool"
+  },
+  {
+   "id": "s171",
+   "from": 26346,
+   "dur": 180,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "quote",
+     "photo": "photos/p_jagan_crop.jpg",
+     "quote": "What is being shown as the Google data centre is only an expansion of the original Adani project. Adani invests ₹87,000 crore — Google takes over once it is built.",
+     "who": "Y. S. Jagan Mohan Reddy",
+     "role": "YSRCP PRESIDENT (TRANSLATED)",
+     "status": "YSRCP CLAIM",
+     "at": 6,
+     "size": 44
+    }
+   ],
+   "clip": "stock/2860_2.mp4",
+   "move": "push",
+   "grade": "desat"
+  },
+  {
+   "id": "s172",
+   "from": 26526,
+   "dur": 181,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "“Google takes over",
+      "once it is built.”"
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 92
+    },
+    {
+     "k": "tag",
+     "text": "YSRCP CLAIM · PHOTO: A GOOGLE DATA CENTRE IN IOWA, USA",
+     "pos": "tl",
+     "at": 9
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY 2.0"
+    }
+   ],
+   "img": "photos/g_google_dc_1.jpg",
+   "move": "driftL",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s173",
+   "from": 26692,
+   "dur": 253,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "quote",
+     "at": 4,
+     "pos": "left",
+     "quote": "Chandrababu Naidu is hiding the Adani deal behind Google's name.",
+     "who": "Gudivada Amarnath",
+     "role": "YSRCP LEADER (TRANSLATED)",
+     "status": "YSRCP CLAIM",
+     "size": 60
+    }
+   ],
+   "clip": "stock/154195_2.mp4",
+   "move": "push",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s174",
+   "from": 26930,
+   "dur": 168,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "CreditTimeline",
+   "props": {
+    "top": {
+     "name": "YSRCP",
+     "photo": "photos/p_jagan_crop.jpg",
+     "events": [
+      {
+       "date": "NOV 2020",
+       "text": "Land allotted to Adani for a 300 MW data centre, says YSRCP",
+       "tag": "YSRCP CLAIM",
+       "x": 2020.85,
+       "at": 0
+      },
+      {
+       "date": "3 MAY 2023",
+       "text": "Jagan lays foundation stone for Adani data centres",
+       "tag": "VERIFIED",
+       "x": 2023.33,
+       "at": 0
+      },
+      {
+       "date": "2020–24",
+       "text": "Singapore–Vizag 3,900 km cable project begun, says YSRCP",
+       "tag": "YSRCP CLAIM",
+       "x": 2022.0,
+       "at": 0
+      }
+     ]
+    },
+    "bottom": {
+     "name": "TDP",
+     "photo": "photos/p_naidu_1.jpg",
+     "events": [
+      {
+       "date": "FEB 2019",
+       "text": "Naidu lays foundation for Adani data centre (TDP govt)",
+       "tag": "VERIFIED",
+       "x": 2019.12,
+       "at": 24
+      },
+      {
+       "date": "2019–24",
+       "text": "Project delayed under YSRCP, says TDP",
+       "tag": "TDP CLAIM",
+       "x": 2021.6,
+       "at": 2970
+      },
+      {
+       "date": "14 OCT 2025",
+       "text": "US$15 bn Google AI hub MoU under coalition govt",
+       "tag": "VERIFIED",
+       "x": 2025.78,
+       "at": 2970
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "s175",
+   "from": 27098,
+   "dur": 190,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "doc",
+     "kicker": "VISAKHAPATNAM · 14 FEB 2019",
+     "headline": "Then-CM Naidu lays the foundation for the Adani data centre.",
+     "body": [
+      "TDP says an MoU came in January 2019; the foundation event is documented."
+     ],
+     "highlight": 0,
+     "source": "IANS / Business Standard (Feb 2019)",
+     "at": 6
+    },
+    {
+     "k": "tag",
+     "text": "VERIFIED (FOUNDATION)",
+     "pos": "tr",
+     "at": 9,
+     "color": "#248B91"
+    }
+   ],
+   "clip": "stock/87146_2.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s176",
+   "from": 27288,
+   "dur": 264,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "headline",
+     "lines": [
+      "“Delayed under YSRCP.”"
+     ],
+     "at": 6,
+     "size": 96
+    },
+    {
+     "k": "tag",
+     "text": "TDP CLAIM",
+     "pos": "tl",
+     "at": 9
+    }
+   ],
+   "clip": "stock/206692_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s177",
+   "from": 27552,
+   "dur": 176,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "TDP CLAIM: “OUR DEAL” · MoU 14 OCT 2025",
+     "pos": "tl",
+     "at": 6
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · PIB, GOVT. OF INDIA (GODL-INDIA)"
+    }
+   ],
+   "img": "photos/pib_mou_group.jpg",
+   "move": "pull",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s178",
+   "from": 27715,
+   "dur": 259,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "doc",
+     "kicker": "ANDHRA PRADESH HIGH COURT · PUBLIC INTEREST LITIGATION",
+     "headline": "YSRCP MP Maddila Gurumoorthy challenges land allotments for the Google AI hub.",
+     "body": [
+      "He says the PIL does not seek to cancel the project."
+     ],
+     "highlight": 0,
+     "date": "MAR 2026",
+     "source": "As reported (The News Minute, The Hans India)",
+     "at": 9
+    }
+   ],
+   "clip": "stock/198901_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s179",
+   "from": 27959,
+   "dur": 307,
+   "kind": "mg",
+   "inT": "iris",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "NARA LOKESH · TDP",
+     "title": "“Anti-development”",
+     "img": "photos/p_lokesh_0.jpg",
+     "tag": "TDP CLAIM"
+    },
+    "right": {
+     "kicker": "JAGAN · YSRCP",
+     "title": "Budget, debt, corruption",
+     "img": "photos/p_jagan_half.jpg",
+     "tag": "YSRCP CLAIM"
+    },
+    "rightAt": 120
+   }
+  },
+  {
+   "id": "s180",
+   "from": 28251,
+   "dur": 345,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "ONE PARTY",
+     "title": "“Our project.”",
+     "body": "…while its MP challenges it in court.",
+     "video": "stock/198901_2.mp4"
+    },
+    "right": {
+     "kicker": "THE OTHER PARTY",
+     "title": "“Entirely our vision.”",
+     "video": "stock/318026_2.mp4"
+    },
+    "rightAt": 150
+   }
+  },
+  {
+   "id": "s181",
+   "from": 28581,
+   "dur": 206,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "CreditTimeline",
+   "props": {
+    "top": {
+     "name": "YSRCP",
+     "photo": "photos/p_jagan_crop.jpg",
+     "events": [
+      {
+       "date": "NOV 2020",
+       "text": "Land allotted to Adani for a 300 MW data centre, says YSRCP",
+       "tag": "YSRCP CLAIM",
+       "x": 2020.85,
+       "at": 0
+      },
+      {
+       "date": "3 MAY 2023",
+       "text": "Jagan lays foundation stone for Adani data centres",
+       "tag": "VERIFIED",
+       "x": 2023.33,
+       "at": 0
+      },
+      {
+       "date": "2020–24",
+       "text": "Singapore–Vizag 3,900 km cable project begun, says YSRCP",
+       "tag": "YSRCP CLAIM",
+       "x": 2022.0,
+       "at": 0
+      }
+     ]
+    },
+    "bottom": {
+     "name": "TDP",
+     "photo": "photos/p_naidu_1.jpg",
+     "events": [
+      {
+       "date": "FEB 2019",
+       "text": "Naidu lays foundation for Adani data centre (TDP govt)",
+       "tag": "VERIFIED",
+       "x": 2019.12,
+       "at": 0
+      },
+      {
+       "date": "2019–24",
+       "text": "Project delayed under YSRCP, says TDP",
+       "tag": "TDP CLAIM",
+       "x": 2021.6,
+       "at": 0
+      },
+      {
+       "date": "14 OCT 2025",
+       "text": "US$15 bn Google AI hub MoU under coalition govt",
+       "tag": "VERIFIED",
+       "x": 2025.78,
+       "at": 0
+      }
+     ]
+    },
+    "mergeAt": 30
+   }
+  },
+  {
+   "id": "s182",
+   "from": 28787,
+   "dur": 180,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    },
+    {
+     "k": "headline",
+     "lines": [
+      "To the farmer who lost his land,",
+      "credit doesn't matter."
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 78
+    }
+   ],
+   "clip": "stock/139178_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s183",
+   "from": 28967,
+   "dur": 86,
+   "kind": "photo",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Nor to the families",
+      "who drink this water."
+     ],
+     "serifLine": 1,
+     "at": 3,
+     "size": 80
+    },
+    {
+     "k": "credit",
+     "text": "PHOTO · WIKIMEDIA COMMONS · CC BY-SA 3.0"
+    }
+   ],
+   "img": "photos/v_mudasarlova_6.jpg",
+   "move": "push",
+   "grade": "natural",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s184",
+   "from": 29053,
+   "dur": 94,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Nor to Ravi."
+     ],
+     "at": 3,
+     "size": 110
+    }
+   ],
+   "clip": "stock/1021_2.mp4",
+   "move": "push",
+   "grade": "night"
+  },
+  {
+   "id": "s185",
+   "from": 29132,
+   "dur": 148,
+   "kind": "stock",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [
+    {
+     "k": "quote",
+     "at": 4,
+     "pos": "left",
+     "quote": "Will this project actually happen?",
+     "who": "The only question that matters",
+     "role": "TARLUVADA · MUDASARLOVA · HYDERABAD",
+     "size": 62
+    }
+   ],
+   "clip": "stock/92373_1.mp4",
+   "move": "push",
+   "grade": "desat",
+   "pos": "50% 50%"
+  },
+  {
+   "id": "s186",
+   "from": 29280,
+   "dur": 213,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "What will it give?",
+      "What will it take?"
+     ],
+     "serifLine": 1,
+     "at": 6,
+     "size": 100
+    }
+   ],
+   "clip": "stock/139232_1.mp4",
+   "move": "driftR",
+   "grade": "natural"
+  },
+  {
+   "id": "s187",
+   "from": 29478,
+   "dur": 116,
+   "kind": "mg",
+   "inT": "scan",
+   "inDur": 15,
+   "ov": [],
+   "name": "ChapterCard",
+   "props": {
+    "index": "—",
+    "title": [
+     "Ravi's Choice"
+    ],
+    "dek": "Sankranti is over.",
+    "bgClip": "stock/106980_2.mp4"
+   }
+  },
+  {
+   "id": "s188",
+   "from": 29594,
+   "dur": 73,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "tag",
+     "text": "ILLUSTRATIVE FOOTAGE",
+     "color": "#E1E6EA",
+     "pos": "tr"
+    }
+   ],
+   "clip": "stock/120678_1.mp4",
+   "move": "driftL",
+   "grade": "natural"
+  },
+  {
+   "id": "s189",
+   "from": 29652,
+   "dur": 265,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "WindowScene",
+   "props": {
+    "shots": [
+     {
+      "src": "photos/v_bhogapuram_1.jpg",
+      "kind": "image",
+      "from": 0,
+      "dur": 90
+     },
+     {
+      "src": "stock/57993_1.mp4",
+      "from": 78,
+      "dur": 96
+     },
+     {
+      "src": "stock/205589_1.mp4",
+      "from": 162,
+      "dur": 102
+     }
+    ]
+   }
+  },
+  {
+   "id": "s190",
+   "from": 29917,
+   "dur": 120,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "caption",
+     "text": "Can't you find a job here?",
+     "who": "HIS MOTHER'S QUESTION",
+     "at": 6
+    }
+   ],
+   "clip": "stock/137059_2.mp4",
+   "move": "pull",
+   "grade": "warm"
+  },
+  {
+   "id": "s191",
+   "from": 30037,
+   "dur": 160,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "strike",
+     "items": [
+      "No."
+     ],
+     "at": [
+      6
+     ]
+    },
+    {
+     "k": "headline",
+     "lines": [
+      "Not yet known."
+     ],
+     "at": 66,
+     "size": 110,
+     "pos": "bottom"
+    }
+   ],
+   "clip": "stock/47831_1.mp4",
+   "move": "push",
+   "grade": "warm"
+  },
+  {
+   "id": "s192",
+   "from": 30197,
+   "dur": 59,
+   "kind": "stock",
+   "inT": "cut",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "This is the real story."
+     ],
+     "at": 3,
+     "size": 96,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/1917_1.mp4",
+   "move": "push",
+   "grade": "natural"
+  },
+  {
+   "id": "s193",
+   "from": 30241,
+   "dur": 481,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "Finale",
+   "props": {}
+  },
+  {
+   "id": "s194",
+   "from": 30707,
+   "dur": 271,
+   "kind": "mg",
+   "inT": "iris",
+   "inDur": 15,
+   "ov": [],
+   "name": "SplitCompare",
+   "props": {
+    "left": {
+     "kicker": "IF THE BET WINS",
+     "title": "Hyderabad 2.0",
+     "body": "Lakhs work close to home.",
+     "img": "photos/v_kailasagiri_0.jpg"
+    },
+    "right": {
+     "kicker": "THE QUESTIONS",
+     "title": "Hills · water · land",
+     "img": "photos/v_kambalakonda_7.jpg"
+    },
+    "rightAt": 90
+   }
+  },
+  {
+   "id": "s195",
+   "from": 30963,
+   "dur": 216,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "Finale",
+   "props": {
+    "warn": true
+   }
+  },
+  {
+   "id": "s196",
+   "from": 31164,
+   "dur": 685,
+   "kind": "mg",
+   "inT": "wipe",
+   "inDur": 15,
+   "ov": [],
+   "name": "Questions",
+   "props": {
+    "qs": [
+     {
+      "q": "Can Vizag become Hyderabad 2.0 while protecting its hills and water?",
+      "at": 80
+     },
+     {
+      "q": "Are data centres with few jobs the right bet — or should Andhra focus on labour-intensive industry?",
+      "at": 233
+     },
+     {
+      "q": "Is it CBN's credit, Jagan's — or does it even matter to ordinary people?",
+      "at": 488
+     }
+    ],
+    "bg": "stock/214582_1.mp4"
+   }
+  },
+  {
+   "id": "s197",
+   "from": 31834,
+   "dur": 317,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "EndCard",
+   "props": {
+    "bg": "stock/1917_2.mp4"
+   }
+  },
+  {
+   "id": "s198",
+   "from": 32138,
+   "dur": 97,
+   "kind": "stock",
+   "inT": "fade",
+   "inDur": 14,
+   "ov": [
+    {
+     "k": "headline",
+     "lines": [
+      "Thank you for watching."
+     ],
+     "at": 9,
+     "size": 90,
+     "pos": "center"
+    }
+   ],
+   "clip": "stock/200479_1.mp4",
+   "move": "pull",
+   "grade": "natural"
+  },
+  {
+   "id": "s199",
+   "from": 32220,
+   "dur": 42,
+   "kind": "mg",
+   "inT": "fade",
+   "inDur": 15,
+   "ov": [],
+   "name": "SourcesRoll",
+   "props": {
+    "lines": [
+     "Narration: original Telugu voice-over (unaltered)",
+     "Stock video: Pixabay (Pixabay Content License) — contributors listed in asset_manifest.csv",
+     "Photographs: Wikimedia Commons contributors (CC BY / CC BY-SA / CC0 / Public domain) — see source_references.csv",
+     "Official photographs: Press Information Bureau, Government of India (GODL-India)",
+     "Satellite imagery: Sentinel-2 cloudless 2016 by EOX IT Services GmbH (contains modified Copernicus Sentinel data 2016), CC BY 4.0",
+     "Terrain & bathymetry: Mapzen/Tilezen terrain tiles on AWS (SRTM, ETOPO1, GMTED and others)",
+     "Boundaries & rivers: Natural Earth (public domain) · OpenStreetMap contributors (ODbL)",
+     "Submarine cable routes: TeleGeography Submarine Cable Map (CC BY-SA 4.0)",
+     "3D scenes, motion graphics and sound design: original, created for this film",
+     "Fact-check notes: see fact_check_report.txt"
+    ]
+   }
+  }
+ ]
+}

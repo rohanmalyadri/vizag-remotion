@@ -1,0 +1,338 @@
+time_s,sound,gain_db,note
+1.35,tick,-27,tag
+4.71,whoosh_1,-27,wipe into s001
+5.07,amb_city (bed),-35,diegetic 200435 until 8.33
+5.37,click_soft,-26,place
+7.93,swish,-27,slit into s002
+10.20,amb_ocean (bed),-33,diegetic 44740 until 11.40
+11.40,amb_city (bed),-35,diegetic 24544 until 15.30
+14.64,whoosh_3,-27,wipe into s005
+13.96,whoosh_deep,-31,map camera move RouteHome
+19.30,amb_storm (bed),-32,diegetic 106980 until 22.07
+22.27,click_soft,-31,dialogue caption
+24.70,amb_city (bed),-35,diegetic 53958 until 26.10
+24.80,click_soft,-31,dialogue caption
+26.19,swish,-28,panel reveal
+29.27,amb_wind (bed),-36,diegetic 43630 until 34.90
+34.47,hit_soft,-24,flash cut s011
+34.47,amb_server (bed),-34,diegetic 242599 until 35.80
+35.33,hit_soft,-24,flash cut s012
+35.33,amb_industrial (bed),-31,diegetic 282244 until 36.93
+36.50,hit_soft,-24,flash cut s013
+38.53,hit_soft,-24,flash cut s014
+38.53,amb_ocean (bed),-33,diegetic 200434 until 42.73
+41.33,whoosh_4,-27,wipe into s015
+42.97,click_soft,-26,place
+47.50,amb_construction (bed),-32,diegetic 149810 until 48.77
+47.65,tick,-27,tag
+47.60,click_soft,-31,dialogue caption
+48.77,amb_water (bed),-35,diegetic 143788 until 51.77
+48.92,tick,-27,tag
+48.87,click_soft,-31,dialogue caption
+54.65,whoosh_5,-27,iris into s019
+55.09,swish,-28,panel reveal
+67.80,riser_long,-27,title riser
+71.20,hit_main,-18,TITLE
+58.82,whoosh_deep,-28,fly over the sea
+77.41,swish,-29,scan into s021
+75.37,swell_reverse,-26,into chapter
+77.42,hit_main,-19,chapter hit
+83.10,amb_city (bed),-35,diegetic 74157 until 88.67
+87.32,whoosh_deep,-31,map camera move Bifurcation
+89.07,riser_short,-27,
+90.97,hit_main,-20,2 June 2014 split
+100.43,amb_ocean (bed),-33,diegetic 3178 until 102.10
+102.10,amb_city (bed),-35,diegetic 177973 until 105.73
+102.50,tick,-25,strike
+103.90,tick,-25,strike
+104.90,tick,-25,strike
+106.07,swish,-29,lower third
+112.36,whoosh_2,-27,wipe into s027
+113.17,click_soft,-26,place
+115.13,amb_city (bed),-35,diegetic 200435 until 117.17
+117.17,amb_construction (bed),-32,diegetic 220941 until 120.83
+120.40,hit_soft,-24,flash cut s030
+123.30,whoosh_3,-27,wipe into s031
+123.92,tick,-27,tag
+126.16,whoosh_4,-27,wipe into s032
+127.40,click_soft,-26,place
+127.35,tick,-27,tag
+131.30,riser_short,-29,
+133.70,blip,-24,number lands
+135.23,whoosh_5,-27,wipe into s034
+135.94,swish,-29,lower third
+135.85,tick,-27,tag
+140.46,whoosh_deep,-31,map camera move ThreeCapitals
+145.66,whoosh_1,-27,iris into s036
+146.09,swish,-28,panel reveal
+156.09,whoosh_2,-27,wipe into s038
+157.05,tick,-27,tag
+162.39,whoosh_deep,-31,map camera move TwoRoles
+170.63,whoosh_3,-27,wipe into s040
+170.80,amb_ocean (bed),-33,diegetic 200434 until 173.33
+171.10,click_soft,-26,place
+173.88,tick,-27,tag
+180.11,whoosh_4,-27,wipe into s042
+181.12,swish,-28,panel reveal
+186.59,whoosh_deep,-31,map camera move CityChoice
+194.31,swish,-29,scan into s044
+192.27,swell_reverse,-26,into chapter
+194.32,hit_main,-19,chapter hit
+203.06,whoosh_deep,-31,map camera move WhyVizagMap
+204.15,tick,-27,tag
+211.73,amb_ocean (bed),-33,diegetic 216315 until 214.13
+211.88,tick,-27,tag
+214.13,amb_ocean (bed),-33,diegetic 24255 until 216.73
+216.98,tick,-27,tag
+217.23,click_soft,-26,place
+217.66,whoosh_deep,-31,map camera move WhyVizagMap
+222.70,amb_ocean (bed),-33,diegetic 183881 until 226.37
+223.00,click_soft,-26,place
+225.91,swish,-29,scan into s052
+225.02,whoosh_deep,-31,map camera move WhyVizagMap
+226.12,tick,-27,tag
+230.30,click_soft,-26,place
+232.00,amb_ocean (bed),-33,diegetic 330501 until 233.60
+233.60,amb_ocean (bed),-33,diegetic 81241 until 235.67
+234.67,riser_short,-29,
+237.07,blip,-24,number lands
+239.79,whoosh_2,-27,wipe into s057
+240.55,tick,-27,tag
+243.45,tick,-27,tag
+252.00,whoosh_3,-27,wipe into s060
+255.77,amb_ocean (bed),-33,diegetic 22183 until 259.80
+257.86,whoosh_deep,-27,dive
+259.30,amb_ocean (bed),-30,under water until 263.80
+263.80,amb_city (bed),-35,diegetic 134872 until 265.80
+267.50,riser_short,-26,
+268.90,hit_soft,-23,zoom through
+268.40,hit_soft,-24,flash cut s065
+266.96,whoosh_deep,-27,dive
+268.40,amb_ocean (bed),-30,under water until 275.73
+274.31,whoosh_4,-27,wipe into s066
+275.37,paper_place,-28,quote
+278.19,whoosh_deep,-31,map camera move CableMap
+285.85,whoosh_5,-27,wipe into s068
+298.83,amb_city (bed),-35,diegetic 2860 until 303.13
+302.67,swish,-29,scan into s070
+301.79,whoosh_deep,-31,map camera move WhyVizagMap
+311.13,amb_server (bed),-34,diegetic 377885 until 314.13
+314.13,amb_server (bed),-34,diegetic 242599 until 317.57
+317.11,swish,-29,scan into s073
+315.07,swell_reverse,-26,into chapter
+317.12,hit_main,-19,chapter hit
+323.08,whoosh_3,-27,wipe into s074
+324.78,whoosh_4,-27,wipe into s075
+324.30,riser_short,-27,bet riser
+325.70,hit_soft,-22,bet card
+330.73,click_soft,-26,place
+332.07,whoosh_5,-27,wipe into s077
+332.78,tick,-27,tag
+337.06,whoosh_1,-27,wipe into s078
+341.40,amb_ocean (bed),-33,diegetic 316736 until 348.13
+340.30,riser_short,-29,
+342.70,blip,-24,number lands
+348.13,amb_server (bed),-34,diegetic 14906 until 353.27
+348.58,tick,-27,tag
+352.32,whoosh_2,-27,wipe into s081
+353.18,tick,-27,tag
+357.27,swish,-29,lower third
+361.21,whoosh_3,-27,wipe into s083
+361.37,amb_server (bed),-34,diegetic 14900 until 366.43
+361.50,paper_place,-28,quote
+365.33,riser_short,-28,
+367.53,data_pulse,-25,1 GW reveal
+368.12,whoosh_deep,-31,map camera move GoogleSites
+376.13,amb_server (bed),-31,data centre until 384.80
+375.29,whoosh_deep,-30,
+378.28,tick,-27,tag
+383.38,whoosh_4,-27,wipe into s087
+382.90,riser_short,-27,bet riser
+384.30,hit_soft,-22,bet card
+388.43,amb_ocean (bed),-33,diegetic 316854 until 393.63
+387.43,riser_short,-29,
+389.83,blip,-24,number lands
+393.63,amb_server (bed),-34,diegetic 14907 until 399.33
+398.48,whoosh_5,-27,wipe into s090
+407.20,hit_soft,-24,flash cut s091
+407.30,steel_hit,-19,steel typography
+408.46,whoosh_deep,-31,map camera move SteelSite
+413.30,amb_industrial (bed),-31,diegetic 120734 until 418.10
+413.45,tick,-27,tag
+417.60,amb_industrial (bed),-30,steel city until 428.47
+428.57,paper_place,-28,quote
+433.26,whoosh_1,-27,wipe into s096
+432.20,riser_short,-27,bet riser
+433.60,hit_soft,-22,bet card
+435.46,whoosh_2,-27,wipe into s097
+436.27,click_soft,-26,place
+443.00,aircraft_pass,-24,take-off
+448.10,paper_slide,-24,document
+449.00,paper_place,-27,
+452.93,click_soft,-26,place
+457.13,amb_ocean (bed),-33,diegetic 143853 until 461.67
+457.28,tick,-27,tag
+461.01,whoosh_3,-27,wipe into s102
+459.77,riser_short,-27,bet riser
+461.17,hit_soft,-22,bet card
+462.89,whoosh_deep,-31,map camera move VERMap
+485.63,amb_server (bed),-34,diegetic 1191 until 491.63
+485.78,tick,-27,tag
+485.93,paper_slide,-24,document
+486.83,paper_place,-27,
+491.77,swish,-29,lower third
+497.64,swish,-29,scan into s106
+511.13,amb_city (bed),-35,diegetic 1643 until 516.43
+515.97,swish,-29,scan into s108
+513.93,swell_reverse,-26,into chapter
+515.98,hit_main,-19,chapter hit
+525.89,whoosh_deep,-31,map camera move NorthAndhra
+531.33,amb_construction (bed),-32,diegetic 116763 until 532.20
+532.20,amb_city (bed),-35,diegetic 39892 until 533.60
+533.60,amb_ocean (bed),-33,diegetic 143376 until 535.70
+534.36,whoosh_deep,-31,map camera move Migration
+538.15,whoosh_1,-27,wipe into s114
+538.50,amb_city (bed),-35,diegetic 3175 until 546.37
+538.70,paper_place,-28,quote
+546.37,amb_industrial (bed),-31,diegetic 135849 until 555.07
+545.37,riser_short,-29,
+547.77,blip,-24,number lands
+555.07,amb_server (bed),-34,diegetic 14900 until 562.57
+554.07,riser_short,-29,
+556.47,blip,-24,number lands
+561.57,whoosh_2,-27,wipe into s117
+569.07,amb_ocean (bed),-33,diegetic 7517 until 574.07
+569.22,tick,-27,tag
+568.07,riser_short,-29,
+570.47,blip,-24,number lands
+574.07,amb_water (bed),-35,diegetic 57049 until 576.67
+576.67,amb_ocean (bed),-33,diegetic 182082 until 581.10
+580.46,whoosh_3,-27,wipe into s121
+580.93,click_soft,-26,place
+584.65,tick,-27,tag
+589.90,paper_slide,-24,document
+590.80,paper_place,-27,
+595.00,whoosh_4,-27,wipe into s124
+603.55,whoosh_5,-27,iris into s125
+603.99,swish,-28,panel reveal
+618.90,hit_soft,-24,flash cut s127
+618.90,amb_server (bed),-34,diegetic 14907 until 621.40
+620.56,whoosh_1,-27,wipe into s128
+626.40,whoosh_2,-27,wipe into s129
+633.18,whoosh_3,-27,iris into s130
+633.42,swish,-28,panel reveal
+637.87,amb_ocean (bed),-33,diegetic 8698 until 640.77
+640.77,amb_construction (bed),-32,diegetic 116693 until 647.77
+640.97,paper_place,-28,quote
+647.27,amb_server (bed),-31,data centre until 655.60
+646.42,whoosh_deep,-30,
+654.26,whoosh_deep,-31,map camera move EnvMap
+657.61,swish,-29,scan into s135
+655.57,swell_reverse,-26,into chapter
+657.62,hit_main,-19,chapter hit
+661.86,whoosh_deep,-31,map camera move EnvMap
+667.20,amb_server (bed),-34,diegetic 275593 until 670.30
+667.35,tick,-27,tag
+670.30,amb_construction (bed),-32,diegetic 127958 until 674.23
+670.45,tick,-27,tag
+673.38,whoosh_5,-27,wipe into s139
+673.82,swish,-28,panel reveal
+679.70,amb_city (bed),-35,diegetic 2151 until 684.30
+680.25,tick,-27,tag
+684.30,amb_city (bed),-35,diegetic 37758 until 689.67
+688.85,whoosh_1,-27,wipe into s142
+689.45,tick,-27,tag
+689.70,click_soft,-26,place
+692.52,whoosh_deep,-31,map camera move EnvMap
+700.64,whoosh_2,-27,wipe into s144
+701.27,paper_place,-28,quote
+708.68,whoosh_3,-27,iris into s145
+708.92,swish,-28,panel reveal
+720.43,whoosh_4,-27,wipe into s146
+721.62,tick,-27,tag
+724.35,whoosh_5,-27,wipe into s147
+724.83,paper_place,-28,quote
+737.66,whoosh_deep,-31,map camera move EnvMap
+742.95,tick,-27,tag
+744.33,whoosh_1,-27,wipe into s150
+753.30,whoosh_2,-27,wipe into s151
+753.80,amb_construction (bed),-32,diegetic 3741 until 760.03
+753.93,paper_place,-28,quote
+760.28,tick,-27,tag
+764.13,whoosh_3,-27,wipe into s153
+764.45,tick,-27,tag
+764.55,tick,-27,tag
+766.41,whoosh_4,-27,wipe into s154
+780.10,click_soft,-26,place
+784.71,whoosh_5,-27,wipe into s156
+783.67,riser_short,-27,bet riser
+785.07,hit_soft,-22,bet card
+787.20,paper_place,-28,quote
+797.90,amb_water (bed),-35,diegetic 208788 until 805.87
+798.05,tick,-27,tag
+798.10,paper_slide,-24,document
+799.00,paper_place,-27,
+805.87,amb_city (bed),-35,diegetic 39892 until 813.57
+806.32,tick,-27,tag
+813.57,amb_city (bed),-35,diegetic 37758 until 820.23
+820.23,amb_wind (bed),-36,diegetic 335040 until 824.83
+820.53,click_soft,-26,place
+820.38,tick,-27,tag
+824.83,amb_water (bed),-35,diegetic 22378 until 829.70
+828.36,whoosh_deep,-31,map camera move EnvMap
+838.37,swish,-29,scan into s165
+836.33,swell_reverse,-26,into chapter
+838.38,hit_main,-19,chapter hit
+843.93,amb_city (bed),-35,diegetic 199297 until 851.03
+851.03,amb_ocean (bed),-33,diegetic 154195 until 854.73
+851.28,tick,-27,tag
+853.74,whoosh_2,-27,wipe into s168
+862.43,amb_construction (bed),-32,diegetic 206694 until 870.43
+862.58,tick,-27,tag
+862.63,paper_slide,-24,document
+863.53,paper_place,-27,
+862.88,tick,-27,tag
+870.43,amb_ocean (bed),-33,diegetic 336240 until 878.20
+870.88,tick,-27,tag
+878.40,paper_place,-28,quote
+889.58,whoosh_3,-27,wipe into s172
+889.73,amb_ocean (bed),-33,diegetic 154195 until 898.17
+889.87,paper_place,-28,quote
+903.47,paper_slide,-24,document
+904.37,paper_place,-27,
+903.72,tick,-27,tag
+909.60,amb_construction (bed),-32,diegetic 206692 until 918.40
+909.75,tick,-27,tag
+910.05,tick,-27,tag
+918.75,tick,-27,tag
+922.90,whoosh_4,-27,wipe into s177
+923.83,amb_city (bed),-35,diegetic 198901 until 932.47
+923.98,tick,-27,tag
+924.13,paper_slide,-24,document
+925.03,paper_place,-27,
+931.61,whoosh_5,-27,iris into s178
+932.06,swish,-28,panel reveal
+941.36,whoosh_1,-27,wipe into s179
+941.79,swish,-28,panel reveal
+959.57,amb_wind (bed),-36,diegetic 139178 until 965.57
+959.72,tick,-27,tag
+970.57,whoosh_2,-27,wipe into s184
+971.07,amb_city (bed),-35,diegetic 92373 until 976.00
+971.20,paper_place,-28,quote
+982.64,swish,-29,scan into s186
+980.60,swell_reverse,-26,into chapter
+982.65,hit_main,-19,chapter hit
+986.47,amb_city (bed),-35,diegetic 120678 until 988.90
+986.62,tick,-27,tag
+988.40,amb_bus (bed),-30,bus window until 997.23
+997.43,click_soft,-31,dialogue caption
+1001.23,amb_ocean (bed),-33,diegetic 47831 until 1006.57
+1001.83,tick,-25,strike
+1006.57,amb_ocean (bed),-33,diegetic 1917 until 1008.53
+1007.19,whoosh_deep,-31,map camera move Finale
+1022.64,whoosh_4,-27,iris into s193
+1023.66,swish,-28,panel reveal
+1031.26,whoosh_deep,-31,map camera move Finale
+1032.30,boom_low,-22,warning
+1038.45,whoosh_5,-27,wipe into s195
+1071.27,amb_ocean (bed),-33,diegetic 200479 until 1074.50

@@ -1,0 +1,288 @@
+{
+ "Tarluvada": {
+  "lat": 17.9055782,
+  "lon": 83.329021,
+  "display": "Tarluvada, Anandapuram Mandal, Visakhapatnam District, Andhra Pradesh, 530052, India",
+  "bbox": [
+   "17.8855782",
+   "17.9255782",
+   "83.3090210",
+   "83.3490210"
+  ]
+ },
+ "Adavivaram": {
+  "lat": 17.7821934,
+  "lon": 83.2659484,
+  "display": "Adavivaram, Srikrishnapuram, Visakhapatnam Rural Mandal, Visakhapatnam District, Andhra Pradesh, 530028, India",
+  "bbox": [
+   "17.7621934",
+   "17.8021934",
+   "83.2459484",
+   "83.2859484"
+  ]
+ },
+ "Mudasarlova": {
+  "lat": 17.7646609,
+  "lon": 83.2953633,
+  "display": "Mudasarlova Reservoir, Mudasarlova, Ramakrishnapuram, Visakhapatnam Rural Mandal, Visakhapatnam District, Andhra Pradesh",
+  "bbox": [
+   "17.7619260",
+   "17.7673202",
+   "83.2887380",
+   "83.2995045"
+  ]
+ },
+ "Rambilli": {
+  "lat": 17.4654942,
+  "lon": 82.9285851,
+  "display": "Rambilli, Rambilli Mandal, Anakapalli District, Andhra Pradesh, 531061, India",
+  "bbox": [
+   "17.4454942",
+   "17.4854942",
+   "82.9085851",
+   "82.9485851"
+  ]
+ },
+ "Bhogapuram Airport": {
+  "lat": 17.9763449,
+  "lon": 83.4954891,
+  "display": "Alluri Sitarama Raju International Airport, Alluri Seetharamraju International Airport Road, Gudepuvalasa, Bhogapuram Ma",
+  "bbox": [
+   "17.9633899",
+   "17.9892194",
+   "83.4747963",
+   "83.5383071"
+  ]
+ },
+ "Bhogapuram": {
+  "lat": 18.0321195,
+  "lon": 83.4978188,
+  "display": "Bhogapuram, Bhogapuram Mandal, Vizianagaram District, Andhra Pradesh, 535216, India",
+  "bbox": [
+   "18.0121195",
+   "18.0521195",
+   "83.4778188",
+   "83.5178188"
+  ]
+ },
+ "Nakkapalli": {
+  "lat": 17.4106254,
+  "lon": 82.7162611,
+  "display": "Nakkapalli, Nakkapalle Mandal, Anakapalli District, Andhra Pradesh, 531081, India",
+  "bbox": [
+   "17.3906254",
+   "17.4306254",
+   "82.6962611",
+   "82.7362611"
+  ]
+ },
+ "Simhachalam": {
+  "lat": 17.7663167,
+  "lon": 83.2505245,
+  "display": "Sri Varaha Lakshmi Narasimha temple, Simhachalam Trail/Road, Simhachalam, Simhachalam Hill, Visakhapatnam Rural Mandal, ",
+  "bbox": [
+   "17.7659252",
+   "17.7667337",
+   "83.2501203",
+   "83.2509123"
+  ]
+ },
+ "Vizag Steel Plant": {
+  "lat": 17.6173825,
+  "lon": 83.1956392,
+  "display": "Visakhapatnam Steel Plant, Visakhapatnam, Pedagantyada Mandal, Visakhapatnam District, Andhra Pradesh, 530031, India",
+  "bbox": [
+   "17.5756199",
+   "17.6620412",
+   "83.1572771",
+   "83.2304867"
+  ]
+ },
+ "Visakhapatnam Port": {
+  "lat": 17.6365833,
+  "lon": 83.2240233,
+  "display": "Gangavaram port, Gangavaram, Gajuwaka Mandal, Visakhapatnam District, Andhra Pradesh, India",
+  "bbox": [
+   "17.6124465",
+   "17.6607998",
+   "83.1973498",
+   "83.2478344"
+  ]
+ },
+ "Kailasagiri": {
+  "lat": 17.7499572,
+  "lon": 83.3396922,
+  "display": "Kailasagiri, MVP Colony, Visakhapatnam, Visakhapatnam Urban Mandal, Visakhapatnam District, Andhra Pradesh, 530043, Indi",
+  "bbox": [
+   "17.7399572",
+   "17.7599572",
+   "83.3296922",
+   "83.3496922"
+  ]
+ },
+ "Dolphin's Nose": {
+  "lat": 17.6575695,
+  "lon": 83.2436782,
+  "display": "Dolphin's Nose, Gangavaram, Gajuwaka Mandal, Visakhapatnam District, Andhra Pradesh, India",
+  "bbox": [
+   "17.6490125",
+   "17.6706244",
+   "83.2303657",
+   "83.2658824"
+  ]
+ },
+ "Visakhapatnam Airport": {
+  "lat": 17.73227,
+  "lon": 83.2238286,
+  "display": "Airport, Visakhapatnam International Airport Road, Gopalapatnam, Visakhapatnam Rural Mandal, Visakhapatnam District, And",
+  "bbox": [
+   "17.7322200",
+   "17.7323200",
+   "83.2237786",
+   "83.2238786"
+  ]
+ },
+ "RK Beach": {
+  "lat": 17.7121,
+  "lon": 83.3200988,
+  "display": "Ramakrishna Beach, A.U. Outgate, Siripuram Junction, Maharani Peta, Visakhapatnam Urban Mandal, Visakhapatnam District, ",
+  "bbox": [
+   "17.7053129",
+   "17.7188931",
+   "83.3105251",
+   "83.3338657"
+  ]
+ },
+ "Srikakulam": {
+  "lat": 18.2949307,
+  "lon": 83.8938844,
+  "display": "Srikakulam, Srikakulam Mandal, Srikakulam  District, Andhra Pradesh, 532001, India",
+  "bbox": [
+   "18.1349307",
+   "18.4549307",
+   "83.7338844",
+   "84.0538844"
+  ]
+ },
+ "Vizianagaram": {
+  "lat": 18.1141255,
+  "lon": 83.4114389,
+  "display": "Vizianagaram, Vizianagaram Mandal, Vizianagaram District, Andhra Pradesh, 535001, India",
+  "bbox": [
+   "17.9541255",
+   "18.2741255",
+   "83.2514389",
+   "83.5714389"
+  ]
+ },
+ "Anakapalli": {
+  "lat": 18.7805543,
+  "lon": 84.5171276,
+  "display": "Anakapalli, Vajrapukothuru Mandal, Srikakulam  District, Andhra Pradesh, 532219, India",
+  "bbox": [
+   "18.7605543",
+   "18.8005543",
+   "84.4971276",
+   "84.5371276"
+  ]
+ },
+ "Kakinada": {
+  "lat": 16.9437385,
+  "lon": 82.2350607,
+  "display": "Kakinada, Kakinada Urban Mandal, Kakinada District, Andhra Pradesh, 533001, India",
+  "bbox": [
+   "16.7837385",
+   "17.1037385",
+   "82.0750607",
+   "82.3950607"
+  ]
+ },
+ "Amalapuram": {
+  "lat": 16.5777179,
+  "lon": 82.0032621,
+  "display": "Amalapuram, Amalapuram Mandal, Dr. B.R. Ambedkar Konaseema District, Andhra Pradesh, 533201, India",
+  "bbox": [
+   "16.5377179",
+   "16.6177179",
+   "81.9632621",
+   "82.0432621"
+  ]
+ },
+ "Gachibowli": {
+  "lat": 17.4436222,
+  "lon": 78.3519638,
+  "display": "Gachibowli, Ward 105 Gachibowli, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Serilingampalle mandal, R",
+  "bbox": [
+   "17.4236222",
+   "17.4636222",
+   "78.3319638",
+   "78.3719638"
+  ]
+ },
+ "HITEC City": {
+  "lat": 17.4490055,
+  "lon": 78.3831376,
+  "display": "HITEC City, Cyber Towers - Madhapur Main Road, Vittal Rao Nagar, Madhapur, Ward 104 Kondapur, Greater Hyderabad Municipa",
+  "bbox": [
+   "17.4440055",
+   "17.4540055",
+   "78.3781376",
+   "78.3881376"
+  ]
+ },
+ "Amaravati": {
+  "lat": 16.5262754,
+  "lon": 80.511699,
+  "display": "Velagapudi, Amaravati, Andhra Pradesh Capital Region Development Authority, Thullur Mandal, Guntur District, Andhra Prad",
+  "bbox": [
+   "16.5062754",
+   "16.5462754",
+   "80.4916990",
+   "80.5316990"
+  ]
+ },
+ "Madhurawada": {
+  "lat": 17.8102465,
+  "lon": 83.3540167,
+  "display": "Madhurawada, Visakhapatnam Rural Mandal, Visakhapatnam District, Andhra Pradesh, 530048, India",
+  "bbox": [
+   "17.7702465",
+   "17.8502465",
+   "83.3140167",
+   "83.3940167"
+  ]
+ },
+ "Kapuluppada": {
+  "lat": 17.8536175,
+  "lon": 83.3855601,
+  "display": "Kapula Uppada, Bheemunipatnam Mandal, Visakhapatnam District, Andhra Pradesh, 535240, India",
+  "bbox": [
+   "17.8336175",
+   "17.8736175",
+   "83.3655601",
+   "83.4055601"
+  ]
+ },
+ "Anandapuram": {
+  "lat": 17.9038926,
+  "lon": 83.3704973,
+  "display": "Anandapuram, Anandapuram Mandal, Visakhapatnam District, Andhra Pradesh, 535280, India",
+  "bbox": [
+   "17.8838926",
+   "17.9238926",
+   "83.3504973",
+   "83.3904973"
+  ]
+ },
+ "Rushikonda": {
+  "lat": 17.7817203,
+  "lon": 83.3851591,
+  "display": "Rushikonda Beach, Rushikonda, Vadapalem, Visakhapatnam Rural Mandal, Visakhapatnam District, Andhra Pradesh, India",
+  "bbox": [
+   "17.7768866",
+   "17.7866444",
+   "83.3844843",
+   "83.3868447"
+  ]
+ }
+}

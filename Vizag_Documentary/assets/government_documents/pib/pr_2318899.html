@@ -1,0 +1,1163 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+        .innner-page-main-about-us-content-right-part ul > li, .content-area ul > li {
+  /*list-style: none !important;*/
+}
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+$(function () {
+    $("[id*=printPDF]").click(function () {
+        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+    });
+});
+$(function () {
+    $("[id*=printPDFEvent]").click(function () {
+        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+    });
+});
+</script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project" /><meta property="og:url" content="https://pib.gov.in/PressReleasePage.aspx?PRID=2318899" /><meta property="og:description" content="Guntur (Andhra Pradesh)/New Delhi | October 4, 2026 | Union Minister for Agriculture and Farmers’ Welfare and Rural Development Shri Shivraj Singh Chouhan on Sunday handed over the first instalment of" /><meta property="og:image" content="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9780_20260902_18024501.png" /><meta property="og:type" content="article" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9780_20260902_18024501.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ubhwvaaxibyjq2yemk4q-f-0abfe28d6-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":21,"ak.ipv":4,"ak.proto":"h2","ak.rid":"34896c1","ak.r":41993,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":4096,"ak.gh":"23.52.43.152","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1795449529","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==GUO6IHdc3DlSvFbFAAJTFVM4rxj6tLFTWpIq7H1TwnYcvAuOIu9vO5oyK/C4vmb4uOMK4IA4BSEB/yRcULZfBwZpjNRYiho39F83Vw2bx1k/6HfMC2unSim7+nr5kJn5zYgS1A1XR4GUCks9bGwGyX6riXeEA2wKzt2ZL+ZQeachhADSZ1Uke0VyLnZHrlUWd5Sq7ovhj/k/qEISfWYIo73hlNP4AZEvbc4ttjK0Iw5+jPhR+MTu/bQdgjb+Ya3IPf4X1Oog6VNV34PxEvaZ7TT89wJOwLY/1cy9bcsH/vzJzE33XGklu6IIrxW/zNFrtsPE06iDojZo4vZACegDyqD6TIN4oiwb2E2okSXdHXRg+ELO5snOmTr56VIqqfg/34DWX46pnDxntgR9o0iXQBGt1bSBduKCbmM8DOzwl3Q=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2318899&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246315009809930" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="zJ03YYZfbYNnitcqEP2QiZYOqEXjN9BM0Ssw/1UITSj6pLVkvu1JR0BoqLLoO0zm4fqZXvnoDDwlCpxkNnHp+z5q5XCeAIOJ52qsNOHDzEGVVJWfjqk0LN9tdqpLjCb+6NSuFHq6hagvn/6FkK8oVN+gcrQlo6IkBbn3izqx54Kk+hnQEYHj+kted2BOAySYTrldyb7Hd5mI8bp0+FkufPXSKrvybiyYgrMlkANj3tq21cP5wVPy5AwwkHNWbkQ/91Dc96z4hzI1ooVddzaLUYgqPrU=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2318899" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Rural Development
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"><br/>Modi Government Sanctions 3 Lakh Houses Worth ₹3,600 Crore for Andhra Pradesh; Shivraj Singh Chouhan, Chandrababu Naidu Lead Development Push<br/><br/>“Modi-Naidu Partnership Is a Force Multiplier”: Shivraj Singh Chouhan Assures Permanent Homes for Every Poor Family in Andhra Pradesh<br/><br/>India’s First 3D Concrete-Printed Housing Project Launched in Andhra Pradesh; Chouhan, Naidu Lay Foundation in Guntur<br/><br/>“If I Am MP’s Mama, I Am AP’s Mama Too”: Shivraj Singh Chouhan Wins Hearts with Telugu Address in Guntur<br/><br/>Andhra Pradesh Set to Become India’s No. 1 State Under Modi’s Vision and Naidu’s Leadership: Shivraj Singh Chouhan<br/><br/>From ‘Annadata Sukhibhava’ to ‘Lakhpati Didi’: Modi-Naidu Governments Empower Farmers and Women, Says Shivraj Singh Chouhan</span>
+                    </h3>
+                    
+                    
+                </div>
+
+                
+                
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              04 OCT 2026 5:11PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Guntur (Andhra Pradesh)/New Delhi | October 4, 2026 | Union Minister for Agriculture and Farmers&rsquo; Welfare and Rural Development Shri Shivraj Singh Chouhan on Sunday handed over the first instalment of 3 lakh houses worth ₹3,600 crore to Andhra Pradesh under the Pradhan Mantri Awas Yojana-Gramin 2.0 at an event in Burripalem village of Guntur district. In the presence of Andhra Pradesh Chief Minister N. Chandrababu Naidu, Chouhan also laid the foundation stone for the country&rsquo;s first pilot housing project using 3D concrete printing technology, comprising 177 houses at a cost of ₹14 crore. Addressing thousands of people at the gathering, Chouhan said the Centre and the Andhra Pradesh government, under the leadership of Prime Minister Narendra Modi and Chief Minister Chandrababu Naidu, are working together to accelerate the state&rsquo;s development across all sectors and make it the number one state in the country. The event was attended by Union Minister of State for Rural Development and Communications Dr. Chandra Sekhar Pemmasani, Andhra Pradesh Minister for Civil Supplies Nadendla Manohar, Minister for Housing and Information Kolusu Parthasarathy, Minister for Tourism Kandula Durgesh, BJP state president P.V.N. Madhav, Rajya Sabha MP Bhashyam Ramakrishna, MP Lingamneni Ramesh, MLC Alapati Rajendra Prasad, Housing Corporation Chairman Bathula Tataiah Babu, senior officials from the Central and state governments, and thousands of farmers, rural residents and women.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Centre increases housing allocation from 76,000 to 3 lakh houses</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting the Centre&rsquo;s commitment to meeting the housing needs of Andhra Pradesh, Shri Chouhan said the initial allocation proposed by officials was only 76,000 houses. However, following Chief Minister Chandrababu Naidu&rsquo;s request to ensure that every poor family in the state had a permanent home, the allocation was increased to 3 lakh houses. &ldquo;Our ministry officials had informed me that Andhra Pradesh was eligible for only 76,000 houses. But Chief Minister Chandrababu Naidu insisted that every poor family in the state should have a permanent home and requested more houses. With the blessings of Prime Minister Narendra Modi, we have sanctioned 3 lakh houses instead of 76,000,&rdquo; he said. Chouhan added that Naidu had also sought another 6 lakh houses. Assuring the Chief Minister of the Centre&rsquo;s continued support, he said, &ldquo;I told Babu that the entire Government of India is with you, and I am also with you. Complete the construction of these 3 lakh houses, and we will sanction another 3 lakh, followed by a further 3 lakh. Every poor family in Andhra Pradesh will have a permanent house.&rdquo;</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">3D concrete printing to deliver durable houses in six months</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Describing the 3D concrete printing housing project at Burripalem and Obulnayudupalem as a major step towards modernising rural housing, Chouhan said the ₹14-crore pilot project would significantly reduce construction time, costs and labour requirements. The project will use advanced machinery and 3D concrete printing technology to construct 177 houses, with construction expected to be completed within six months. The houses are designed to offer greater durability and a longer lifespan compared to conventional construction methods.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Centre supports Amaravati, Polavaram and infrastructure development</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Referring to the state&rsquo;s political and developmental history, Chouhan said Andhra Pradesh had been left without a capital following the division of the state in 2014. He said the Modi government had passed legislation in Parliament recognising Amaravati as the sole permanent capital of Andhra Pradesh and had extended special financial assistance of ₹15,000 crore for its development. Chouhan also highlighted the Polavaram irrigation project, describing it as a lifeline for the state. He said the project, which had faced delays under the previous government, was now progressing with 100% grant assistance from the Centre. He added that the proposed Alluri Sitarama Raju International Airport would further strengthen connectivity and support the state&rsquo;s economic growth.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&lsquo;Annadata Sukhibhava&rsquo; strengthens farmers&rsquo; income; 60 lakh Lakhpati Didis targeted</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting the state&rsquo;s efforts to improve farmers&rsquo; incomes, Chouhan said the Centre&rsquo;s annual assistance of ₹6,000 under the PM-KISAN scheme, combined with the Andhra Pradesh government&rsquo;s ₹14,000 assistance under the &lsquo;Annadata Sukhibhava&rsquo; scheme, would provide farmers with ₹20,000 annually. He said Andhra Pradesh had the potential to emerge as the country&rsquo;s leading horticulture hub, with a focus on fruits, flowers, vegetables and medicinal crops. On women&rsquo;s economic empowerment, Chouhan said 23 lakh women in Andhra Pradesh had already become Lakhpati Didis through self-help groups. The NDA government aims to increase this number to 60 lakh, expanding livelihood opportunities and strengthening women&rsquo;s financial independence. He also announced that the national Saras Mela would be organised in Andhra Pradesh on October 15, marking the first time the event would be held outside Delhi. President Droupadi Murmu will inaugurate the event, which will provide a platform for women-led self-help groups to showcase their products and expand market access.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&lsquo;If I am MP&rsquo;s Mama, I am also AP&rsquo;s Mama&rsquo;: Chouhan greets people in Telugu</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Beginning his address with chants of &lsquo;Bharat Mata Ki Jai&rsquo; and &lsquo;Sri Venkateswara Bhagwan Ki Jai&rsquo;, Chouhan greeted the gathering in Telugu and praised Andhra Pradesh for its rich heritage, knowledge, scientific achievements and talent. Paying tribute to the land of Tenali Ramakrishna, he said the Telugu language was sweeter than honey and was gaining recognition across the country. &ldquo;If I am the Mama of Madhya Pradesh, I am also the Mama of Andhra Pradesh. Serving the people is a form of worship for me. Seeing the enthusiasm, honesty and passion of the people here, I can only say that I truly wish to meet you again,&rdquo; he said, drawing an enthusiastic response from the gathering.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chouhan praises Pemmasani&rsquo;s grassroots connect and Naidu&rsquo;s leadership</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chouhan expressed particular happiness at visiting Burripalem, the ancestral village of Union Minister of State Dr. Chandra Sekhar Pemmasani. Praising Pemmasani&rsquo;s commitment to public service and his connection with people at the grassroots, he said he had initially wondered whether someone who had returned from the United States would understand rural life and development. &ldquo;However, seeing his close connect with the people, his spirit of service and his clarity of purpose, I was truly impressed. Babu has a remarkable ability to identify talent and bring capable people into public service,&rdquo; he said. Describing Chief Minister Chandrababu Naidu as a dynamic, dedicated and decisive leader, Chouhan credited him with establishing Andhra Pradesh as a major IT hub. He said Naidu&rsquo;s vision was now driving the development of Amaravati as a centre for artificial intelligence, quantum technology, data centres and advanced manufacturing.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chandrababu Naidu thanks Centre for housing support</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chief Minister Chandrababu Naidu thanked Chouhan for his support and described him as a beloved &lsquo;Mama&rsquo; not only for the people of Madhya Pradesh but also for the people of Andhra Pradesh. &ldquo;Shivraj Singh Chouhan is a people&rsquo;s leader who has set an exceptional record through good governance and public service in Madhya Pradesh. When we raised the issue of providing permanent homes to the poor in Andhra Pradesh, he immediately increased the allocation from around 75,000 houses to 3 lakh, winning the hearts of the people of the state,&rdquo; Naidu said. He added that the NDA government was committed to ensuring a permanent roof over every poor family and that the state required a total of 9 lakh houses. Referring to Chouhan&rsquo;s assurance, Naidu said the remaining 6 lakh houses would also be sanctioned by the Centre as soon as the first phase was completed. Expressing confidence in the state&rsquo;s development trajectory, Naidu said that under the guidance of Prime Minister Narendra Modi and with the continued support of Chouhan, Andhra Pradesh would emerge as the country&rsquo;s number one state in infrastructure, agriculture, advanced technology and rural development.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+
+<p><strong><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">PU</span></span></strong></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2318899)</span>
+                <span id="lblViews">Visitor Counter : 2172</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2319166' target="_blank">
+                            Tamil </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2318937' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2318980' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2318912' target="_blank">
+                            Gujarati </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2318935' target="_blank">
+                            Telugu_Vw </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2318925' target="_blank">
+                            Telugu </a>
+                    
+                </div>
+
+                
+                
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2318899"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2318899"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2318899"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2318899"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2318899"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Rural Development
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            <div style='height:30px;width:100%;'></div>Modi Government Sanctions 3 Lakh Houses Worth ₹3,600 Crore for Andhra Pradesh; Shivraj Singh Chouhan, Chandrababu Naidu Lead Development Push<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>“Modi-Naidu Partnership Is a Force Multiplier”: Shivraj Singh Chouhan Assures Permanent Homes for Every Poor Family in Andhra Pradesh<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>India’s First 3D Concrete-Printed Housing Project Launched in Andhra Pradesh; Chouhan, Naidu Lay Foundation in Guntur<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>“If I Am MP’s Mama, I Am AP’s Mama Too”: Shivraj Singh Chouhan Wins Hearts with Telugu Address in Guntur<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Andhra Pradesh Set to Become India’s No. 1 State Under Modi’s Vision and Naidu’s Leadership: Shivraj Singh Chouhan<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>From ‘Annadata Sukhibhava’ to ‘Lakhpati Didi’: Modi-Naidu Governments Empower Farmers and Women, Says Shivraj Singh Chouhan
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          04 OCT 2026 5:11PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Guntur (Andhra Pradesh)/New Delhi | October 4, 2026 | Union Minister for Agriculture and Farmers&rsquo; Welfare and Rural Development Shri Shivraj Singh Chouhan on Sunday handed over the first instalment of 3 lakh houses worth ₹3,600 crore to Andhra Pradesh under the Pradhan Mantri Awas Yojana-Gramin 2.0 at an event in Burripalem village of Guntur district. In the presence of Andhra Pradesh Chief Minister N. Chandrababu Naidu, Chouhan also laid the foundation stone for the country&rsquo;s first pilot housing project using 3D concrete printing technology, comprising 177 houses at a cost of ₹14 crore. Addressing thousands of people at the gathering, Chouhan said the Centre and the Andhra Pradesh government, under the leadership of Prime Minister Narendra Modi and Chief Minister Chandrababu Naidu, are working together to accelerate the state&rsquo;s development across all sectors and make it the number one state in the country. The event was attended by Union Minister of State for Rural Development and Communications Dr. Chandra Sekhar Pemmasani, Andhra Pradesh Minister for Civil Supplies Nadendla Manohar, Minister for Housing and Information Kolusu Parthasarathy, Minister for Tourism Kandula Durgesh, BJP state president P.V.N. Madhav, Rajya Sabha MP Bhashyam Ramakrishna, MP Lingamneni Ramesh, MLC Alapati Rajendra Prasad, Housing Corporation Chairman Bathula Tataiah Babu, senior officials from the Central and state governments, and thousands of farmers, rural residents and women.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Centre increases housing allocation from 76,000 to 3 lakh houses</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting the Centre&rsquo;s commitment to meeting the housing needs of Andhra Pradesh, Shri Chouhan said the initial allocation proposed by officials was only 76,000 houses. However, following Chief Minister Chandrababu Naidu&rsquo;s request to ensure that every poor family in the state had a permanent home, the allocation was increased to 3 lakh houses. &ldquo;Our ministry officials had informed me that Andhra Pradesh was eligible for only 76,000 houses. But Chief Minister Chandrababu Naidu insisted that every poor family in the state should have a permanent home and requested more houses. With the blessings of Prime Minister Narendra Modi, we have sanctioned 3 lakh houses instead of 76,000,&rdquo; he said. Chouhan added that Naidu had also sought another 6 lakh houses. Assuring the Chief Minister of the Centre&rsquo;s continued support, he said, &ldquo;I told Babu that the entire Government of India is with you, and I am also with you. Complete the construction of these 3 lakh houses, and we will sanction another 3 lakh, followed by a further 3 lakh. Every poor family in Andhra Pradesh will have a permanent house.&rdquo;</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">3D concrete printing to deliver durable houses in six months</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Describing the 3D concrete printing housing project at Burripalem and Obulnayudupalem as a major step towards modernising rural housing, Chouhan said the ₹14-crore pilot project would significantly reduce construction time, costs and labour requirements. The project will use advanced machinery and 3D concrete printing technology to construct 177 houses, with construction expected to be completed within six months. The houses are designed to offer greater durability and a longer lifespan compared to conventional construction methods.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Centre supports Amaravati, Polavaram and infrastructure development</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Referring to the state&rsquo;s political and developmental history, Chouhan said Andhra Pradesh had been left without a capital following the division of the state in 2014. He said the Modi government had passed legislation in Parliament recognising Amaravati as the sole permanent capital of Andhra Pradesh and had extended special financial assistance of ₹15,000 crore for its development. Chouhan also highlighted the Polavaram irrigation project, describing it as a lifeline for the state. He said the project, which had faced delays under the previous government, was now progressing with 100% grant assistance from the Centre. He added that the proposed Alluri Sitarama Raju International Airport would further strengthen connectivity and support the state&rsquo;s economic growth.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&lsquo;Annadata Sukhibhava&rsquo; strengthens farmers&rsquo; income; 60 lakh Lakhpati Didis targeted</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Highlighting the state&rsquo;s efforts to improve farmers&rsquo; incomes, Chouhan said the Centre&rsquo;s annual assistance of ₹6,000 under the PM-KISAN scheme, combined with the Andhra Pradesh government&rsquo;s ₹14,000 assistance under the &lsquo;Annadata Sukhibhava&rsquo; scheme, would provide farmers with ₹20,000 annually. He said Andhra Pradesh had the potential to emerge as the country&rsquo;s leading horticulture hub, with a focus on fruits, flowers, vegetables and medicinal crops. On women&rsquo;s economic empowerment, Chouhan said 23 lakh women in Andhra Pradesh had already become Lakhpati Didis through self-help groups. The NDA government aims to increase this number to 60 lakh, expanding livelihood opportunities and strengthening women&rsquo;s financial independence. He also announced that the national Saras Mela would be organised in Andhra Pradesh on October 15, marking the first time the event would be held outside Delhi. President Droupadi Murmu will inaugurate the event, which will provide a platform for women-led self-help groups to showcase their products and expand market access.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&lsquo;If I am MP&rsquo;s Mama, I am also AP&rsquo;s Mama&rsquo;: Chouhan greets people in Telugu</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Beginning his address with chants of &lsquo;Bharat Mata Ki Jai&rsquo; and &lsquo;Sri Venkateswara Bhagwan Ki Jai&rsquo;, Chouhan greeted the gathering in Telugu and praised Andhra Pradesh for its rich heritage, knowledge, scientific achievements and talent. Paying tribute to the land of Tenali Ramakrishna, he said the Telugu language was sweeter than honey and was gaining recognition across the country. &ldquo;If I am the Mama of Madhya Pradesh, I am also the Mama of Andhra Pradesh. Serving the people is a form of worship for me. Seeing the enthusiasm, honesty and passion of the people here, I can only say that I truly wish to meet you again,&rdquo; he said, drawing an enthusiastic response from the gathering.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chouhan praises Pemmasani&rsquo;s grassroots connect and Naidu&rsquo;s leadership</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chouhan expressed particular happiness at visiting Burripalem, the ancestral village of Union Minister of State Dr. Chandra Sekhar Pemmasani. Praising Pemmasani&rsquo;s commitment to public service and his connection with people at the grassroots, he said he had initially wondered whether someone who had returned from the United States would understand rural life and development. &ldquo;However, seeing his close connect with the people, his spirit of service and his clarity of purpose, I was truly impressed. Babu has a remarkable ability to identify talent and bring capable people into public service,&rdquo; he said. Describing Chief Minister Chandrababu Naidu as a dynamic, dedicated and decisive leader, Chouhan credited him with establishing Andhra Pradesh as a major IT hub. He said Naidu&rsquo;s vision was now driving the development of Amaravati as a centre for artificial intelligence, quantum technology, data centres and advanced manufacturing.</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chandrababu Naidu thanks Centre for housing support</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chief Minister Chandrababu Naidu thanked Chouhan for his support and described him as a beloved &lsquo;Mama&rsquo; not only for the people of Madhya Pradesh but also for the people of Andhra Pradesh. &ldquo;Shivraj Singh Chouhan is a people&rsquo;s leader who has set an exceptional record through good governance and public service in Madhya Pradesh. When we raised the issue of providing permanent homes to the poor in Andhra Pradesh, he immediately increased the allocation from around 75,000 houses to 3 lakh, winning the hearts of the people of the state,&rdquo; Naidu said. He added that the NDA government was committed to ensuring a permanent roof over every poor family and that the state required a total of 9 lakh houses. Referring to Chouhan&rsquo;s assurance, Naidu said the remaining 6 lakh houses would also be sanctioned by the Centre as soon as the first phase was completed. Expressing confidence in the state&rsquo;s development trajectory, Naidu said that under the guidance of Prime Minister Narendra Modi and with the continued support of Chouhan, Andhra Pradesh would emerge as the country&rsquo;s number one state in infrastructure, agriculture, advanced technology and rural development.</span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+
+<p><strong><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">PU</span></span></strong></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2318899)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899&text=Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899&title=Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899&text=Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2318899&title=Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Shivraj Singh Chouhan Hands Over 3 Lakh Houses Worth ₹3,600 Crore to Andhra Pradesh, Lays Foundation for India’s First 3D Concrete-Printed Housing Project" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>Modi Government Sanctions 3 Lakh Houses Worth ₹3,600 Crore for Andhra Pradesh; Shivraj Singh Chouhan, Chandrababu Naidu Lead Development Push&lt;br/>&lt;br/>“Modi-Naidu Partnership Is a Force Multiplier”: Shivraj Singh Chouhan Assures Permanent Homes for Every Poor Family in Andhra Pradesh&lt;br/>&lt;br/>India’s First 3D Concrete-Printed Housing Project Launched in Andhra Pradesh; Chouhan, Naidu Lay Foundation in Guntur&lt;br/>&lt;br/>“If I Am MP’s Mama, I Am AP’s Mama Too”: Shivraj Singh Chouhan Wins Hearts with Telugu Address in Guntur&lt;br/>&lt;br/>Andhra Pradesh Set to Become India’s No. 1 State Under Modi’s Vision and Naidu’s Leadership: Shivraj Singh Chouhan&lt;br/>&lt;br/>From ‘Annadata Sukhibhava’ to ‘Lakhpati Didi’: Modi-Naidu Governments Empower Farmers and Women, Says Shivraj Singh Chouhan" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Guntur (Andhra Pradesh)/New Delhi | October 4, 2026 | Union Minister for Agriculture and Farmers&amp;rsquo; Welfare and Rural Development Shri Shivraj Singh Chouhan on Sunday handed over the first instalment of 3 lakh houses worth ₹3,600 crore to Andhra Pradesh under the Pradhan Mantri Awas Yojana-Gramin 2.0 at an event in Burripalem village of Guntur district. In the presence of Andhra Pradesh Chief Minister N. Chandrababu Naidu, Chouhan also laid the foundation stone for the country&amp;rsquo;s first pilot housing project using 3D concrete printing technology, comprising 177 houses at a cost of ₹14 crore. Addressing thousands of people at the gathering, Chouhan said the Centre and the Andhra Pradesh government, under the leadership of Prime Minister Narendra Modi and Chief Minister Chandrababu Naidu, are working together to accelerate the state&amp;rsquo;s development across all sectors and make it the number one state in the country. The event was attended by Union Minister of State for Rural Development and Communications Dr. Chandra Sekhar Pemmasani, Andhra Pradesh Minister for Civil Supplies Nadendla Manohar, Minister for Housing and Information Kolusu Parthasarathy, Minister for Tourism Kandula Durgesh, BJP state president P.V.N. Madhav, Rajya Sabha MP Bhashyam Ramakrishna, MP Lingamneni Ramesh, MLC Alapati Rajendra Prasad, Housing Corporation Chairman Bathula Tataiah Babu, senior officials from the Central and state governments, and thousands of farmers, rural residents and women.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Centre increases housing allocation from 76,000 to 3 lakh houses&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Highlighting the Centre&amp;rsquo;s commitment to meeting the housing needs of Andhra Pradesh, Shri Chouhan said the initial allocation proposed by officials was only 76,000 houses. However, following Chief Minister Chandrababu Naidu&amp;rsquo;s request to ensure that every poor family in the state had a permanent home, the allocation was increased to 3 lakh houses. &amp;ldquo;Our ministry officials had informed me that Andhra Pradesh was eligible for only 76,000 houses. But Chief Minister Chandrababu Naidu insisted that every poor family in the state should have a permanent home and requested more houses. With the blessings of Prime Minister Narendra Modi, we have sanctioned 3 lakh houses instead of 76,000,&amp;rdquo; he said. Chouhan added that Naidu had also sought another 6 lakh houses. Assuring the Chief Minister of the Centre&amp;rsquo;s continued support, he said, &amp;ldquo;I told Babu that the entire Government of India is with you, and I am also with you. Complete the construction of these 3 lakh houses, and we will sanction another 3 lakh, followed by a further 3 lakh. Every poor family in Andhra Pradesh will have a permanent house.&amp;rdquo;&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>3D concrete printing to deliver durable houses in six months&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Describing the 3D concrete printing housing project at Burripalem and Obulnayudupalem as a major step towards modernising rural housing, Chouhan said the ₹14-crore pilot project would significantly reduce construction time, costs and labour requirements. The project will use advanced machinery and 3D concrete printing technology to construct 177 houses, with construction expected to be completed within six months. The houses are designed to offer greater durability and a longer lifespan compared to conventional construction methods.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Centre supports Amaravati, Polavaram and infrastructure development&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Referring to the state&amp;rsquo;s political and developmental history, Chouhan said Andhra Pradesh had been left without a capital following the division of the state in 2014. He said the Modi government had passed legislation in Parliament recognising Amaravati as the sole permanent capital of Andhra Pradesh and had extended special financial assistance of ₹15,000 crore for its development. Chouhan also highlighted the Polavaram irrigation project, describing it as a lifeline for the state. He said the project, which had faced delays under the previous government, was now progressing with 100% grant assistance from the Centre. He added that the proposed Alluri Sitarama Raju International Airport would further strengthen connectivity and support the state&amp;rsquo;s economic growth.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&amp;lsquo;Annadata Sukhibhava&amp;rsquo; strengthens farmers&amp;rsquo; income; 60 lakh Lakhpati Didis targeted&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Highlighting the state&amp;rsquo;s efforts to improve farmers&amp;rsquo; incomes, Chouhan said the Centre&amp;rsquo;s annual assistance of ₹6,000 under the PM-KISAN scheme, combined with the Andhra Pradesh government&amp;rsquo;s ₹14,000 assistance under the &amp;lsquo;Annadata Sukhibhava&amp;rsquo; scheme, would provide farmers with ₹20,000 annually. He said Andhra Pradesh had the potential to emerge as the country&amp;rsquo;s leading horticulture hub, with a focus on fruits, flowers, vegetables and medicinal crops. On women&amp;rsquo;s economic empowerment, Chouhan said 23 lakh women in Andhra Pradesh had already become Lakhpati Didis through self-help groups. The NDA government aims to increase this number to 60 lakh, expanding livelihood opportunities and strengthening women&amp;rsquo;s financial independence. He also announced that the national Saras Mela would be organised in Andhra Pradesh on October 15, marking the first time the event would be held outside Delhi. President Droupadi Murmu will inaugurate the event, which will provide a platform for women-led self-help groups to showcase their products and expand market access.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&amp;lsquo;If I am MP&amp;rsquo;s Mama, I am also AP&amp;rsquo;s Mama&amp;rsquo;: Chouhan greets people in Telugu&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Beginning his address with chants of &amp;lsquo;Bharat Mata Ki Jai&amp;rsquo; and &amp;lsquo;Sri Venkateswara Bhagwan Ki Jai&amp;rsquo;, Chouhan greeted the gathering in Telugu and praised Andhra Pradesh for its rich heritage, knowledge, scientific achievements and talent. Paying tribute to the land of Tenali Ramakrishna, he said the Telugu language was sweeter than honey and was gaining recognition across the country. &amp;ldquo;If I am the Mama of Madhya Pradesh, I am also the Mama of Andhra Pradesh. Serving the people is a form of worship for me. Seeing the enthusiasm, honesty and passion of the people here, I can only say that I truly wish to meet you again,&amp;rdquo; he said, drawing an enthusiastic response from the gathering.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Chouhan praises Pemmasani&amp;rsquo;s grassroots connect and Naidu&amp;rsquo;s leadership&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Chouhan expressed particular happiness at visiting Burripalem, the ancestral village of Union Minister of State Dr. Chandra Sekhar Pemmasani. Praising Pemmasani&amp;rsquo;s commitment to public service and his connection with people at the grassroots, he said he had initially wondered whether someone who had returned from the United States would understand rural life and development. &amp;ldquo;However, seeing his close connect with the people, his spirit of service and his clarity of purpose, I was truly impressed. Babu has a remarkable ability to identify talent and bring capable people into public service,&amp;rdquo; he said. Describing Chief Minister Chandrababu Naidu as a dynamic, dedicated and decisive leader, Chouhan credited him with establishing Andhra Pradesh as a major IT hub. He said Naidu&amp;rsquo;s vision was now driving the development of Amaravati as a centre for artificial intelligence, quantum technology, data centres and advanced manufacturing.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Chandrababu Naidu thanks Centre for housing support&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Chief Minister Chandrababu Naidu thanked Chouhan for his support and described him as a beloved &amp;lsquo;Mama&amp;rsquo; not only for the people of Madhya Pradesh but also for the people of Andhra Pradesh. &amp;ldquo;Shivraj Singh Chouhan is a people&amp;rsquo;s leader who has set an exceptional record through good governance and public service in Madhya Pradesh. When we raised the issue of providing permanent homes to the poor in Andhra Pradesh, he immediately increased the allocation from around 75,000 houses to 3 lakh, winning the hearts of the people of the state,&amp;rdquo; Naidu said. He added that the NDA government was committed to ensuring a permanent roof over every poor family and that the state required a total of 9 lakh houses. Referring to Chouhan&amp;rsquo;s assurance, Naidu said the remaining 6 lakh houses would also be sanctioned by the Centre as soon as the first phase was completed. Expressing confidence in the state&amp;rsquo;s development trajectory, Naidu said that under the guidance of Prime Minister Narendra Modi and with the continued support of Chouhan, Andhra Pradesh would emerge as the country&amp;rsquo;s number one state in infrastructure, agriculture, advanced technology and rural development.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>*****&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p>&lt;strong>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>PU&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="vveBlBVe1Yyhx1_5kyAdp076XMqn0SDFoJyvcV3IMuAGwVFKRsv6Qs2aUX2pNpB46njOWgZE-fXZtLHY91IUHU1u1iiEst8wXrThtxZ3UXs0FSqh7NDMhA=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+(function () {
+    try {
+        if (window.self === window.top) { return; }
+    } catch (e) { return; }
+    var s = document.createElement("style");
+    s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+    (document.head || document.documentElement).appendChild(s);
+}());
+    </script>
+</body>
+</html>

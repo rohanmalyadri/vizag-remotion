@@ -1,0 +1,1232 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+        .innner-page-main-about-us-content-right-part ul > li, .content-area ul > li {
+  /*list-style: none !important;*/
+}
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+$(function () {
+    $("[id*=printPDF]").click(function () {
+        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+    });
+});
+$(function () {
+    $("[id*=printPDFEvent]").click(function () {
+        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+    });
+});
+</script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics &amp; Information Technology Shri Ashwini Vaishnaw" /><meta property="og:url" content="https://pib.gov.in/PressReleasePage.aspx?PRID=2256187" /><meta property="og:description" content="Visakhapatnam
+
+Date: 28.04.2026
+
+ 
+
+Union Minister for Electronics &amp; Information Technology, Railways and Information &amp; Broadcasting, Shri Ashwini Vaishnaw, said that India is poised to emerge a" /><meta property="og:image" content="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at13.51.14VWPO.jpeg" /><meta property="og:type" content="article" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at13.51.14VWPO.jpeg" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ubhwvaax2unm22yemk3a-f-c09fc9cd1-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":23,"ak.ipv":4,"ak.proto":"h2","ak.rid":"e1d7b8","ak.r":44638,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":2048,"ak.gh":"23.211.179.17","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1795449526","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==vPFczVN85L1Z0uqKxbX7LKOLXcZMkipOxvhIoTQyr0s0z87jehWEFI9neHhYJ0xE2x0Cb1j1yXgvGMbDGv+rC4w/6obBmUMT7JA3jveYtthjqg6DfeqU24n2jKUyobBKcXiHsV9R2xNUSHO1AWSX9Y9HIiao3DJJVWVtZjBLdKnt1qr9azq8EzTrLM/YprwoKFCXCQ2e/lzvQ3lQejWNQh5ObdTHj3iilNHCeRXoyKtpJz7MctnVhmx+oyShYVdH/yoEc0z64Pe4U1pM+G0DCj5VNYVgeMFRADF/pNgGahlPVMSzo1n7Jm+RLvvjOMRO3eMGEOPyRTH0cHjKNWH/bZrKsJrMrL3qCdOMC3xSPRkZx6SOzQoWWleFRV859aIpWtvsRkiQxXXAxYM2cU5J1lK3bN+yRIuuevXULFgLxsI=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2256187&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639246315009809930" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="dTYDdP+n6Ic9G4ZicrtyeknLbg4tKe+koy1v9kHQItG9UKUGseWEWWbY2x/7fAprYJPFopc6kk97EzA3Lva7LgxesRjq9ceOxvUrgd1e0L8h4EJFz8koMW7TH0X2XQjBWj8xP5Rjshs23vAwJRZIgEXqnFiNJQbuGdAx+yMZeD95GlU1d0hhfdFY0VK3Pr1IqI4FS9OcENKetkumvApjUTsN170QcgxLG+DbtfQehQ/TrEY3rJj7rHYrMOkeJYNA4JTeQ1a3xLz353eTOdCBuEtMdWo=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2256187" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Ministry of Electronics & IT
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle">Union Minister Participates in Ground Breaking Ceremony of Google Cloud India AI Hub in Visakhapatnam<br/><br/>Visakhapatnam Set to Become “AI Patnam”, Driving India’s AI and Data Revolution<br/><br/></span>
+                    </h3>
+                    
+                    
+                </div>
+
+                
+                
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              28 APR 2026 1:55PM by PIB Vijayawada
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:right"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Visakhapatnam</span></span></p>
+
+<p style="text-align:right"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Date: 28.04.2026</span></span></p>
+
+<p style="text-align:right">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Union Minister for Electronics &amp; Information Technology, Railways and Information &amp; Broadcasting, Shri Ashwini Vaishnaw, said that India is poised to emerge as major trusted value chain and supply chain partner to the world in electronic manufacturing, driven by strong policy support and visionary leadership.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">He was addressing the gathering after the Ground Breaking Ceremony of Google Cloud India AI Hub in Visakhapatnam in the presence of Chief Minister of Andhra Pradesh, Shri N. Chandrababu Naidu, along with several Union Ministers, State Ministers, and industry leaders.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The project, with an estimated investment of USD 15 billion, is being developed in partnership with Adani ConneX and Airtel Nxtra, and will include a 1 GW hyperscale AI data centre in Visakhapatnam. The Government of Andhra Pradesh has allocated around 600 acres of land in Turluvada, Rambilli and Adavivaram areas for the project.</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at13.51.14VWPO.jpeg" style="height:420px; width:680px" /></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><strong><span style="font-size:16.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">India&rsquo;s Rise in Electronics &amp; Manufacturing:</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Shri Ashwini Vaishnaw highlighted that India has already emerged as a leader in IT services and is now rapidly advancing in electronics manufacturing.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The Minister lauded the vision of the Hon&rsquo;ble Prime Minister, emphasizing the need for the country to emerge as a global hub in key technology sectors such as Semiconductors, Quantum, Space, and Artificial intelligence.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">He noted that India has made significant strides in mobile manufacturing, with mobile phones becoming one of the country&rsquo;s top export items. Nearly 50% of domestic electronic demand is now being met through local production. Under the Semiconductor Mission, commercial production has already begun in India.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The Minister emphasized that India is becoming a trusted partner in semiconductor and electronics production and called upon global technology companies, including Google, to manufacture their servers, GPUs and chips within the country.</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at12.38.21(1)PFFK.jpeg" style="height:320px; width:680px" /></p>
+
+<p style="text-align:justify"><strong><span style="font-size:16.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Visakhapatnam emerging as AI Hub:</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Describing the project as transformative, the Minister said that Visakhapatnam will evolve into AI Patnam(AI City), driven by cutting-edge infrastructure and global investments.<br />
+<br />
+He appreciated the vision of Chief Minister Shri Chandrababu Naidu in developing IT ecosystems and said the new AI data centre will bring revolutionary changes across sectors such as education, healthcare, aerospace, logistics and agriculture.<br />
+<br />
+He also thanked Google for laying three subsea cables from Visakhapatnam, connecting global digital routes via Australia, the Middle East, Europe, Africa and the United States.<br />
+<br />
+<strong>Industry Leaders Highlight Strategic Importance Google Cloud Global Infrastructure</strong> Vice President Bikash Koley said that the AI Hub will serve as a foundation for Viksit Bharat 2047 and play a critical role in India&rsquo;s digital transformation and global AI economy.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Adani Group Chairman Jeet Adani said that the 1 GW hyperscale AI data centre marks a major milestone in India&rsquo;s AI journey and will position Visakhapatnam as a new digital gateway for India.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The event was attended by Union Ministers, senior State Ministers, Members of Parliament, industry leaders, and representatives from Google, Adani Group, Airtel Nxtra and other organizations.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">****</span></span></span></span></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2256187)</span>
+                <span id="lblViews">Visitor Counter : 4735</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256290' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256788' target="_blank">
+                            Marathi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256257' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256589' target="_blank">
+                            Bengali </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256243' target="_blank">
+                            Gujarati </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256402' target="_blank">
+                            Odia </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256333' target="_blank">
+                            Telugu_Vw </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256304' target="_blank">
+                            Telugu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2256242' target="_blank">
+                            Kannada </a>
+                    
+                </div>
+
+                
+                
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2256187"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2256187"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2256187"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2256187"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2256187"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Ministry of Electronics & IT
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Union Minister Participates in Ground Breaking Ceremony of Google Cloud India AI Hub in Visakhapatnam<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Visakhapatnam Set to Become “AI Patnam”, Driving India’s AI and Data Revolution<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          28 APR 2026 1:55PM by PIB Vijayawada
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:right"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Visakhapatnam</span></span></p>
+
+<p style="text-align:right"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Date: 28.04.2026</span></span></p>
+
+<p style="text-align:right">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Union Minister for Electronics &amp; Information Technology, Railways and Information &amp; Broadcasting, Shri Ashwini Vaishnaw, said that India is poised to emerge as major trusted value chain and supply chain partner to the world in electronic manufacturing, driven by strong policy support and visionary leadership.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">He was addressing the gathering after the Ground Breaking Ceremony of Google Cloud India AI Hub in Visakhapatnam in the presence of Chief Minister of Andhra Pradesh, Shri N. Chandrababu Naidu, along with several Union Ministers, State Ministers, and industry leaders.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The project, with an estimated investment of USD 15 billion, is being developed in partnership with Adani ConneX and Airtel Nxtra, and will include a 1 GW hyperscale AI data centre in Visakhapatnam. The Government of Andhra Pradesh has allocated around 600 acres of land in Turluvada, Rambilli and Adavivaram areas for the project.</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at13.51.14VWPO.jpeg" style="height:420px; width:680px" /></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><strong><span style="font-size:16.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">India&rsquo;s Rise in Electronics &amp; Manufacturing:</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Shri Ashwini Vaishnaw highlighted that India has already emerged as a leader in IT services and is now rapidly advancing in electronics manufacturing.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The Minister lauded the vision of the Hon&rsquo;ble Prime Minister, emphasizing the need for the country to emerge as a global hub in key technology sectors such as Semiconductors, Quantum, Space, and Artificial intelligence.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">He noted that India has made significant strides in mobile manufacturing, with mobile phones becoming one of the country&rsquo;s top export items. Nearly 50% of domestic electronic demand is now being met through local production. Under the Semiconductor Mission, commercial production has already begun in India.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The Minister emphasized that India is becoming a trusted partner in semiconductor and electronics production and called upon global technology companies, including Google, to manufacture their servers, GPUs and chips within the country.</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><img alt="" src="https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at12.38.21(1)PFFK.jpeg" style="height:320px; width:680px" /></p>
+
+<p style="text-align:justify"><strong><span style="font-size:16.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Visakhapatnam emerging as AI Hub:</span></span></strong></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Describing the project as transformative, the Minister said that Visakhapatnam will evolve into AI Patnam(AI City), driven by cutting-edge infrastructure and global investments.<br />
+<br />
+He appreciated the vision of Chief Minister Shri Chandrababu Naidu in developing IT ecosystems and said the new AI data centre will bring revolutionary changes across sectors such as education, healthcare, aerospace, logistics and agriculture.<br />
+<br />
+He also thanked Google for laying three subsea cables from Visakhapatnam, connecting global digital routes via Australia, the Middle East, Europe, Africa and the United States.<br />
+<br />
+<strong>Industry Leaders Highlight Strategic Importance Google Cloud Global Infrastructure</strong> Vice President Bikash Koley said that the AI Hub will serve as a foundation for Viksit Bharat 2047 and play a critical role in India&rsquo;s digital transformation and global AI economy.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">Adani Group Chairman Jeet Adani said that the 1 GW hyperscale AI data centre marks a major milestone in India&rsquo;s AI journey and will position Visakhapatnam as a new digital gateway for India.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">The event was attended by Union Ministers, senior State Ministers, Members of Parliament, industry leaders, and representatives from Google, Adani Group, Airtel Nxtra and other organizations.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><span style="font-size:11.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif"><span style="font-size:14.0pt"><span style="font-family:&quot;Bookman Old Style&quot;,serif">****</span></span></span></span></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2256187)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187&text=India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187&title=India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187&text=India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2256187&title=India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics & Information Technology Shri Ashwini Vaishnaw&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="India will emerge as a major trusted Value Chain and Supply Chain Partner to the world in Electronic Manufacturing: Union Minister for Electronics &amp; Information Technology Shri Ashwini Vaishnaw" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="Union Minister Participates in Ground Breaking Ceremony of Google Cloud India AI Hub in Visakhapatnam&lt;br/>&lt;br/>Visakhapatnam Set to Become “AI Patnam”, Driving India’s AI and Data Revolution&lt;br/>&lt;br/>" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:right&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>Visakhapatnam&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:right&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>Date: 28.04.2026&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:right&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>Union Minister for Electronics &amp;amp; Information Technology, Railways and Information &amp;amp; Broadcasting, Shri Ashwini Vaishnaw, said that India is poised to emerge as major trusted value chain and supply chain partner to the world in electronic manufacturing, driven by strong policy support and visionary leadership.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>He was addressing the gathering after the Ground Breaking Ceremony of Google Cloud India AI Hub in Visakhapatnam in the presence of Chief Minister of Andhra Pradesh, Shri N. Chandrababu Naidu, along with several Union Ministers, State Ministers, and industry leaders.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>The project, with an estimated investment of USD 15 billion, is being developed in partnership with Adani ConneX and Airtel Nxtra, and will include a 1 GW hyperscale AI data centre in Visakhapatnam. The Government of Andhra Pradesh has allocated around 600 acres of land in Turluvada, Rambilli and Adavivaram areas for the project.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;img alt=&quot;&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at13.51.14VWPO.jpeg&quot; style=&quot;height:420px; width:680px&quot; />&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-size:16.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>India&amp;rsquo;s Rise in Electronics &amp;amp; Manufacturing:&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>Shri Ashwini Vaishnaw highlighted that India has already emerged as a leader in IT services and is now rapidly advancing in electronics manufacturing.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>The Minister lauded the vision of the Hon&amp;rsquo;ble Prime Minister, emphasizing the need for the country to emerge as a global hub in key technology sectors such as Semiconductors, Quantum, Space, and Artificial intelligence.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>He noted that India has made significant strides in mobile manufacturing, with mobile phones becoming one of the country&amp;rsquo;s top export items. Nearly 50% of domestic electronic demand is now being met through local production. Under the Semiconductor Mission, commercial production has already begun in India.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>The Minister emphasized that India is becoming a trusted partner in semiconductor and electronics production and called upon global technology companies, including Google, to manufacture their servers, GPUs and chips within the country.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;img alt=&quot;&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/WhatsAppImage2026-04-28at12.38.21(1)PFFK.jpeg&quot; style=&quot;height:320px; width:680px&quot; />&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-size:16.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>Visakhapatnam emerging as AI Hub:&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>Describing the project as transformative, the Minister said that Visakhapatnam will evolve into AI Patnam(AI City), driven by cutting-edge infrastructure and global investments.&lt;br />
+&lt;br />
+He appreciated the vision of Chief Minister Shri Chandrababu Naidu in developing IT ecosystems and said the new AI data centre will bring revolutionary changes across sectors such as education, healthcare, aerospace, logistics and agriculture.&lt;br />
+&lt;br />
+He also thanked Google for laying three subsea cables from Visakhapatnam, connecting global digital routes via Australia, the Middle East, Europe, Africa and the United States.&lt;br />
+&lt;br />
+&lt;strong>Industry Leaders Highlight Strategic Importance Google Cloud Global Infrastructure&lt;/strong> Vice President Bikash Koley said that the AI Hub will serve as a foundation for Viksit Bharat 2047 and play a critical role in India&amp;rsquo;s digital transformation and global AI economy.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>Adani Group Chairman Jeet Adani said that the 1 GW hyperscale AI data centre marks a major milestone in India&amp;rsquo;s AI journey and will position Visakhapatnam as a new digital gateway for India.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>The event was attended by Union Ministers, senior State Ministers, Members of Parliament, industry leaders, and representatives from Google, Adani Group, Airtel Nxtra and other organizations.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-size:11.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>&lt;span style=&quot;font-size:14.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Bookman Old Style&amp;quot;,serif&quot;>****&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="FYFvRVN2T1hueDN1SXDcWmYkwuPHgT_g2-hPnaJL2D3S_ZFXZq2k1z2WURCQUliofrvnCMuLPRAp8DmtdQCpafwFhaTU-ALXbyJ2XaqLMkQNTfDTGBpXOQ=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+(function () {
+    try {
+        if (window.self === window.top) { return; }
+    } catch (e) { return; }
+    var s = document.createElement("style");
+    s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+    (document.head || document.documentElement).appendChild(s);
+}());
+    </script>
+</body>
+</html>
